@@ -32,9 +32,10 @@ function render(d) {
   $("collector-v").textContent = d.collector_version || "—";
 
   const p = d.power || {};
+  const bc = d.battery_condition || {};
   renderCard(st.details.power, "power-stat", "power-sub",
     p.source === "AC Power" ? "AC ⚡" : "Battery " + (p.charge_pct ?? "?") + "%",
-    (p.charge_pct ?? "—") + "% · " + (p.battery_condition ? p.battery_condition.max_capacity_pct + "% health · " : "") + (p.temperature_c ? p.temperature_c + "°C" : "—"));
+    (p.charge_pct ?? "—") + "% · " + (bc.max_capacity_pct ? bc.max_capacity_pct + "% health" : "") + (p.temperature_c ? " · " + p.temperature_c + "°C" : ""));
 
   const m = d.memory || {};
   renderCard(st.details.memory, "memory-stat", "memory-sub",
