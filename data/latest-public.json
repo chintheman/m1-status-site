@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-12T02:44:35+08:00",
+  "ts": "2026-08-12T02:59:44+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2645,
+    "duration_ms": 6384,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 46.0,
+    "free_pct": 44.0,
     "pressure_level": "warn",
     "swap_used_mb": 1802.1,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2814.5,
-    "wired_mb": 1258.0
+    "compressed_mb": 2916.9,
+    "wired_mb": 1277.0
   },
   "cpu": {
-    "load1": 2.86,
-    "load5": 2.58,
-    "load15": 2.26,
+    "load1": 4.66,
+    "load5": 2.74,
+    "load15": 2.36,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 30.9,
-        "mem": 1.8,
-        "name": "python"
+        "cpu": 35.2,
+        "mem": 0.2,
+        "name": "IntelligencePlatformComputeService"
       },
       {
-        "cpu": 13.8,
+        "cpu": 35.2,
+        "mem": 0.2,
+        "name": "biomesyncd"
+      },
+      {
+        "cpu": 16.8,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.6,
+        "cpu": 15.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.9,
+        "cpu": 8.0,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 3.1,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.653,
+    "latency_ms": 8.622,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
+    "down_mbps": 0.03,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
-      "noise_dbm": -88,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 269563,
+    "uptime_s": 270475,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 63,
-    "active_claude_sessions": 4,
+    "running_apps": 66,
+    "active_claude_sessions": 3,
     "hermes_sessions_count": 184
   },
   "battery_condition": {
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "yellow",
-      "cpu_thermal": "green",
+      "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
       "services": "green",
