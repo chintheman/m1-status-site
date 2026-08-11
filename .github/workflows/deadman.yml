@@ -1,0 +1,49 @@
+name: deadman
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: heartbeat check
+        env:
+          DATA_URL: https://chintheman.github.io/m1-status-site/data/latest-public.json
+          MAX_AGE_S: "1800"
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          TG_THREAD_ID: ${{ secrets.TG_THREAD_ID }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, urllib.request, time, datetime
+
+          def send(text):
+              url = f"https://api.telegram.org/bot{os.environ['TG_BOT_TOKEN']}/sendMessage"
+              body = {"chat_id": os.environ["TG_CHAT_ID"], "text": text, "parse_mode": "HTML"}
+              if os.environ.get("TG_THREAD_ID"):
+                  body["message_thread_id"] = int(os.environ["TG_THREAD_ID"])
+              req = urllib.request.Request(url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
+              try:
+                  urllib.request.urlopen(req, timeout=20)
+              except Exception as e:
+                  print("telegram send failed:", e)
+
+          max_age = int(os.environ["MAX_AGE_S"])
+          try:
+              req = urllib.request.Request(os.environ["DATA_URL"], headers={"User-Agent": "m1-deadman"})
+              d = json.load(urllib.request.urlopen(req, timeout=20))
+              ts = datetime.datetime.fromisoformat(d["ts"]).timestamp()
+              age = time.time() - ts
+              print(f"heartbeat age={int(age)}s")
+              if age > max_age:
+                  send(f"🔴 M1 unreachable — heartbeat stale {int(age/60)}m. Check ssh.0xsteamboat.me or ask parents.")
+                  print("ALERTED stale")
+          except Exception as e:
+              # GitHub fetch failure is GitHub's problem, not necessarily M1's — do NOT alert.
+              print(f"fetch failed (no alert): {e}")
+          PYEOF
