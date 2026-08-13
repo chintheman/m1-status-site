@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-14T06:13:04+08:00",
+  "ts": "2026-08-14T06:28:11+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2281,
+    "duration_ms": 2291,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 56.0,
+    "free_pct": 53.0,
     "pressure_level": "warn",
     "swap_used_mb": 1465.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 1986.9,
-    "wired_mb": 1313.1
+    "compressed_mb": 2220.7,
+    "wired_mb": 1354.3
   },
   "cpu": {
-    "load1": 2.52,
-    "load5": 2.27,
-    "load15": 1.96,
+    "load1": 1.68,
+    "load5": 1.66,
+    "load15": 1.74,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.6,
+        "cpu": 17.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 15.6,
-        "mem": 0.4,
+        "cpu": 16.2,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 8.7,
+        "cpu": 8.5,
         "mem": 0.3,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.5,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "cpu": 6.3,
+        "mem": 2.1,
+        "name": "claude"
       },
       {
-        "cpu": 3.2,
-        "mem": 3.8,
-        "name": "claude"
+        "cpu": 5.9,
+        "mem": 2.0,
+        "name": "Claude"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.899,
+    "latency_ms": 22.957,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "down_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -93,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 454871,
+    "uptime_s": 455778,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
