@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-13T14:53:03+08:00",
+  "ts": "2026-08-13T15:08:15+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6545,
+    "duration_ms": 37898,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 50.0,
     "pressure_level": "warn",
     "swap_used_mb": 1529.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2441.4,
-    "wired_mb": 1375.6
+    "compressed_mb": 2382.1,
+    "wired_mb": 1386.8
   },
   "cpu": {
-    "load1": 1.43,
-    "load5": 1.76,
-    "load15": 1.9,
+    "load1": 1.8,
+    "load5": 1.68,
+    "load15": 1.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 15.0,
+        "cpu": 16.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.8,
+        "cpu": 14.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 7.3,
+        "cpu": 11.1,
         "mem": 0.3,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 5.4,
-        "mem": 1.9,
-        "name": "Claude Helper (Renderer)"
-      },
-      {
-        "cpu": 3.4,
+        "cpu": 3.6,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
+      },
+      {
+        "cpu": 2.6,
+        "mem": 0.2,
+        "name": "bluetoothd"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.358,
+    "latency_ms": 17.253,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 399674,
+    "uptime_s": 400582,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 63,
+    "running_apps": 64,
     "active_claude_sessions": 3,
     "hermes_sessions_count": 184
   },
@@ -130,11 +130,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 18,
-      "input_tokens_24h": 17188,
-      "output_tokens_24h": 1609751,
-      "cache_read_24h": 237680895,
-      "cache_creation_24h": 6728779
+      "active_files_24h": 36,
+      "input_tokens_24h": 27526,
+      "output_tokens_24h": 4809611,
+      "cache_read_24h": 826410518,
+      "cache_creation_24h": 31905428
     }
   },
   "storage": {
@@ -142,14 +142,14 @@
     "downloads": null,
     "containers": "8.7M",
     "hermes": "14G",
-    "wiki": "235M"
+    "wiki": "237M"
   },
   "security": {
-    "ssh_failures_24h": 6
+    "ssh_failures_24h": 3
   },
   "versions": {
     "claude_code": "2.1.228 (Claude Code)",
-    "claude_code_latest": "2.1.228",
+    "claude_code_latest": "2.1.229",
     "hermes": "",
     "hermes_latest": "2026.8.3"
   },
