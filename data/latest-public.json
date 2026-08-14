@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-14T08:14:18+08:00",
+  "ts": "2026-08-14T08:29:25+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2209,
+    "duration_ms": 2182,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 50.0,
+    "free_pct": 56.0,
     "pressure_level": "warn",
     "swap_used_mb": 1465.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2444.4,
-    "wired_mb": 1326.1
+    "compressed_mb": 2013.1,
+    "wired_mb": 1325.3
   },
   "cpu": {
-    "load1": 1.72,
-    "load5": 1.68,
-    "load15": 1.68,
+    "load1": 1.99,
+    "load5": 1.94,
+    "load15": 1.86,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.6,
-        "mem": 0.2,
-        "name": "launchd"
-      },
-      {
-        "cpu": 14.9,
-        "mem": 0.3,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 10.3,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 8.8,
+        "cpu": 18.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.6,
-        "mem": 3.1,
-        "name": "python"
+        "cpu": 14.0,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 11.6,
+        "mem": 0.3,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 2.9,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
+      },
+      {
+        "cpu": 2.8,
+        "mem": 2.4,
+        "name": "claude"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.285,
+    "latency_ms": 10.706,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.09,
-    "up_mbps": 0.1,
+    "down_mbps": 0.02,
+    "up_mbps": 0.06,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 462145,
+    "uptime_s": 463052,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
