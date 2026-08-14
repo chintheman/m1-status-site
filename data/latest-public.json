@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-14T15:14:25+08:00",
+  "ts": "2026-08-14T15:29:32+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2294,
+    "duration_ms": 2162,
     "errors": []
   },
   "power": {
@@ -24,40 +24,40 @@
     "pressure_level": "warn",
     "swap_used_mb": 1468.1,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2392.4,
-    "wired_mb": 1427.2
+    "compressed_mb": 2418.0,
+    "wired_mb": 1421.9
   },
   "cpu": {
-    "load1": 2.1,
-    "load5": 1.98,
-    "load15": 2.0,
+    "load1": 1.65,
+    "load5": 1.78,
+    "load15": 1.82,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.2,
+        "cpu": 19.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 14.5,
+        "cpu": 14.4,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 11.6,
-        "mem": 0.3,
+        "cpu": 13.1,
+        "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.3,
+        "cpu": 3.4,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 2.0,
-        "mem": 3.2,
-        "name": "claude"
+        "cpu": 1.7,
+        "mem": 0.5,
+        "name": "Finder"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.381,
+    "latency_ms": 15.313,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.23,
-    "up_mbps": 0.03,
+    "down_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 487352,
+    "uptime_s": 488259,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 66,
+    "running_apps": 67,
     "active_claude_sessions": 3,
     "hermes_sessions_count": 158
   },
