@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-15T20:38:18+08:00",
+  "ts": "2026-08-15T20:53:26+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2304,
+    "duration_ms": 2409,
     "errors": []
   },
   "power": {
@@ -22,40 +22,40 @@
     "total_gb": 8.0,
     "free_pct": 51.0,
     "pressure_level": "warn",
-    "swap_used_mb": 1200.6,
+    "swap_used_mb": 1515.2,
     "swap_total_mb": 2048.0,
-    "compressed_mb": 2251.6,
-    "wired_mb": 1456.1
+    "compressed_mb": 2298.2,
+    "wired_mb": 1380.1
   },
   "cpu": {
-    "load1": 3.28,
-    "load5": 3.14,
-    "load15": 2.86,
+    "load1": 2.84,
+    "load5": 3.23,
+    "load15": 3.14,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 32.2,
-        "mem": 0.5,
-        "name": "Terminal"
-      },
-      {
-        "cpu": 28.2,
-        "mem": 5.1,
+        "cpu": 31.3,
+        "mem": 4.7,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 20.5,
-        "mem": 5.4,
-        "name": "claude"
-      },
-      {
-        "cpu": 18.5,
+        "cpu": 21.2,
         "mem": 4.7,
         "name": "claude"
       },
       {
-        "cpu": 16.6,
+        "cpu": 20.3,
+        "mem": 0.5,
+        "name": "Terminal"
+      },
+      {
+        "cpu": 15.8,
+        "mem": 4.7,
+        "name": "claude"
+      },
+      {
+        "cpu": 15.2,
         "mem": 0.3,
         "name": "WindowServer"
       }
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.734,
+    "latency_ms": 9.985,
     "packet_loss_pct": 0.0,
-    "down_mbps": 8.78,
-    "up_mbps": 4.17,
+    "down_mbps": 0.31,
+    "up_mbps": 6.7,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 593185,
+    "uptime_s": 594093,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 78,
-    "active_claude_sessions": 6,
+    "running_apps": 79,
+    "active_claude_sessions": 12,
     "hermes_sessions_count": 154
   },
   "battery_condition": {
