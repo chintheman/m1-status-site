@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-16T02:57:20+08:00",
+  "ts": "2026-08-16T03:12:31+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2373,
+    "duration_ms": 2344,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 48.0,
     "pressure_level": "critical",
-    "swap_used_mb": 2400.6,
+    "swap_used_mb": 2392.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2491.7,
-    "wired_mb": 1377.9
+    "compressed_mb": 2532.2,
+    "wired_mb": 1389.8
   },
   "cpu": {
-    "load1": 2.88,
-    "load5": 2.56,
-    "load15": 2.41,
+    "load1": 2.25,
+    "load5": 2.39,
+    "load15": 2.39,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.9,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 14.2,
-        "mem": 0.3,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 10.4,
-        "mem": 2.7,
-        "name": "Google Chrome for Testing Helper (Renderer)"
-      },
-      {
-        "cpu": 7.9,
+        "cpu": 20.6,
         "mem": 0.5,
         "name": "Google Chrome for Testing Helper"
       },
       {
-        "cpu": 7.9,
+        "cpu": 17.5,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 14.9,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 9.7,
+        "mem": 2.7,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 8.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.6,
+    "latency_ms": 10.896,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "up_mbps": 0.05,
     "wifi": {
       "signal_dbm": -37,
-      "noise_dbm": -92,
+      "noise_dbm": -93,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 615927,
+    "uptime_s": 616839,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
