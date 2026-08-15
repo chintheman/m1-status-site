@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-16T06:14:25+08:00",
+  "ts": "2026-08-16T06:29:32+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2390,
+    "duration_ms": 2261,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 53.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 2821.4,
+    "swap_used_mb": 2813.4,
     "swap_total_mb": 4096.0,
-    "compressed_mb": 2128.4,
-    "wired_mb": 1399.1
+    "compressed_mb": 2211.8,
+    "wired_mb": 1399.0
   },
   "cpu": {
     "load1": 2.1,
-    "load5": 2.3,
-    "load15": 2.4,
+    "load5": 2.21,
+    "load15": 2.24,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.0,
+        "cpu": 14.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 15.4,
+        "cpu": 14.6,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 10.8,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 7.9,
+        "cpu": 13.7,
         "mem": 2.6,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 3.5,
-        "mem": 2.2,
+        "cpu": 9.8,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 6.5,
+        "mem": 1.8,
         "name": "claude"
       }
     ]
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.81,
+    "latency_ms": 17.644,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.02,
     "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -37,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 627752,
+    "uptime_s": 628660,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
