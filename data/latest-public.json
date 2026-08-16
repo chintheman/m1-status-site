@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-16T11:42:54+08:00",
+  "ts": "2026-08-16T11:58:02+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2337,
+    "duration_ms": 2876,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 47.0,
+    "free_pct": 45.0,
     "pressure_level": "critical",
-    "swap_used_mb": 2692.9,
+    "swap_used_mb": 2684.9,
     "swap_total_mb": 4096.0,
-    "compressed_mb": 2643.5,
-    "wired_mb": 1330.3
+    "compressed_mb": 2740.6,
+    "wired_mb": 1386.6
   },
   "cpu": {
-    "load1": 2.72,
-    "load5": 2.46,
-    "load15": 2.17,
+    "load1": 2.78,
+    "load5": 2.62,
+    "load15": 2.39,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.0,
+        "cpu": 62.5,
         "mem": 0.2,
-        "name": "Python"
+        "name": "triald"
       },
       {
-        "cpu": 15.3,
+        "cpu": 55.3,
         "mem": 0.3,
-        "name": "WindowServer"
+        "name": "duetexpertd"
       },
       {
-        "cpu": 11.9,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 3.5,
+        "cpu": 30.2,
         "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "name": "AuthenticationServicesAgent"
       },
       {
-        "cpu": 2.3,
-        "mem": 2.1,
-        "name": "claude"
+        "cpu": 25.0,
+        "mem": 0.3,
+        "name": "replicatord"
+      },
+      {
+        "cpu": 23.1,
+        "mem": 0.4,
+        "name": "com.apple.Safari.SafeBrowsing.Service"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.633,
+    "latency_ms": 16.197,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "down_mbps": 0.1,
+    "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 647462,
+    "uptime_s": 648370,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 74,
+    "running_apps": 76,
     "active_claude_sessions": 6,
     "hermes_sessions_count": 154
   },
