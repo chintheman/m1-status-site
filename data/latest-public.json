@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-18T17:06:27+08:00",
+  "ts": "2026-08-18T17:21:39+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2445,
+    "duration_ms": 2484,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 48.0,
+    "free_pct": 45.0,
     "pressure_level": "critical",
     "swap_used_mb": 3873.7,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 2385.7,
-    "wired_mb": 1513.5
+    "compressed_mb": 2659.5,
+    "wired_mb": 1510.2
   },
   "cpu": {
-    "load1": 2.09,
-    "load5": 2.16,
-    "load15": 2.06,
+    "load1": 2.97,
+    "load5": 2.82,
+    "load15": 2.33,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.0,
+        "cpu": 17.6,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.8,
+        "cpu": 16.6,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 10.5,
+        "cpu": 15.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.8,
+        "cpu": 9.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.5,
-        "mem": 1.6,
+        "cpu": 3.8,
+        "mem": 1.5,
         "name": "claude"
       }
     ]
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.7,
+    "latency_ms": 15.287,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.03,
+    "down_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 839674,
+    "uptime_s": 840586,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 77,
+    "running_apps": 76,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 161
   },
