@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-18T12:02:26+08:00",
+  "ts": "2026-08-18T12:17:38+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2349,
+    "duration_ms": 2364,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 44.0,
     "pressure_level": "critical",
-    "swap_used_mb": 3782.4,
+    "swap_used_mb": 3766.4,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 2348.8,
-    "wired_mb": 1471.3
+    "compressed_mb": 2720.9,
+    "wired_mb": 1491.4
   },
   "cpu": {
-    "load1": 2.47,
-    "load5": 2.54,
-    "load15": 2.42,
+    "load1": 2.3,
+    "load5": 2.17,
+    "load15": 2.23,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.1,
+        "cpu": 16.9,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 11.3,
+        "cpu": 16.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.9,
+        "cpu": 13.0,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 10.4,
-        "mem": 0.2,
+        "cpu": 12.2,
+        "mem": 0.3,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.0,
-        "mem": 0.6,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 11.1,
+        "mem": 0.2,
+        "name": "launchd"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.081,
+    "latency_ms": 12.674,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.1,
-    "up_mbps": 0.02,
+    "down_mbps": 0.03,
+    "up_mbps": 0.06,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 821433,
+    "uptime_s": 822345,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 77,
-    "active_claude_sessions": 6,
+    "running_apps": 79,
+    "active_claude_sessions": 5,
     "hermes_sessions_count": 161
   },
   "battery_condition": {
