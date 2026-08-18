@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-18T15:04:24+08:00",
+  "ts": "2026-08-18T15:20:18+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2436,
+    "duration_ms": 2415,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 52.0,
+    "free_pct": 46.0,
     "pressure_level": "critical",
     "swap_used_mb": 3913.7,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 2209.6,
-    "wired_mb": 1390.2
+    "compressed_mb": 2526.2,
+    "wired_mb": 1545.2
   },
   "cpu": {
-    "load1": 1.93,
-    "load5": 1.93,
-    "load15": 2.12,
+    "load1": 1.6,
+    "load5": 1.86,
+    "load15": 2.03,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.8,
+        "cpu": 17.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 17.3,
-        "mem": 0.3,
+        "cpu": 17.0,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.4,
-        "mem": 0.5,
-        "name": "bun"
-      },
-      {
-        "cpu": 13.2,
+        "cpu": 13.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.7,
-        "mem": 0.3,
+        "cpu": 12.2,
+        "mem": 0.5,
+        "name": "bun"
+      },
+      {
+        "cpu": 3.5,
+        "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
     ]
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.937,
+    "latency_ms": 9.057,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "down_mbps": 0.32,
+    "up_mbps": 0.13,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 832351,
+    "uptime_s": 833305,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 74,
+    "running_apps": 78,
     "active_claude_sessions": 4,
     "hermes_sessions_count": 161
   },
@@ -113,9 +113,9 @@
       "count": 1,
       "items": [
         {
-          "title": "macOS Tahoe 26.6.1",
-          "version": "26.6.1",
-          "size": "3834998KiB,"
+          "title": "macOS Tahoe 26.6.2",
+          "version": "26.6.2",
+          "size": "3833693KiB,"
         }
       ]
     }
@@ -130,28 +130,28 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 115,
-      "input_tokens_24h": 9375,
-      "output_tokens_24h": 5218055,
-      "cache_read_24h": 1428655211,
-      "cache_creation_24h": 40698687
+      "active_files_24h": 113,
+      "input_tokens_24h": 3925,
+      "output_tokens_24h": 2322044,
+      "cache_read_24h": 638321534,
+      "cache_creation_24h": 12335262
     }
   },
   "storage": {
-    "caches": "3.6G",
+    "caches": "4.4G",
     "downloads": null,
     "containers": "8.7M",
     "hermes": "18G",
-    "wiki": "255M"
+    "wiki": "259M"
   },
   "security": {
-    "ssh_failures_24h": 3
+    "ssh_failures_24h": 0
   },
   "versions": {
     "claude_code": "2.1.233 (Claude Code)",
-    "claude_code_latest": "2.1.233",
+    "claude_code_latest": "2.1.234",
     "hermes": "",
-    "hermes_latest": "2026.8.16"
+    "hermes_latest": "2026.8.16.2"
   },
   "recent_events": [],
   "status": {
