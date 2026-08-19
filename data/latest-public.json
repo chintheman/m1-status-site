@@ -1,63 +1,63 @@
 {
-  "ts": "2026-08-19T07:56:05+08:00",
+  "ts": "2026-08-19T08:11:17+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 7095,
+    "duration_ms": 2520,
     "errors": []
   },
   "power": {
     "source": "AC Power",
     "charge_pct": 100,
-    "state": "charged",
+    "state": "finishing",
     "cycle_count": 1440.0,
     "temperature_c": 30.7,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
-    "is_charging": false,
+    "is_charging": true,
     "drain_pct_per_hr": null
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 46.0,
+    "free_pct": 48.0,
     "pressure_level": "critical",
-    "swap_used_mb": 2234.4,
+    "swap_used_mb": 2273.9,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2620.8,
-    "wired_mb": 1437.3
+    "compressed_mb": 2470.0,
+    "wired_mb": 1417.9
   },
   "cpu": {
-    "load1": 2.12,
-    "load5": 2.19,
-    "load15": 2.14,
+    "load1": 2.46,
+    "load5": 2.58,
+    "load15": 2.34,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.4,
-        "mem": 0.3,
+        "cpu": 16.7,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 9.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 9.4,
-        "mem": 0.5,
-        "name": "bun"
-      },
-      {
-        "cpu": 8.4,
+        "cpu": 7.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
         "cpu": 4.6,
-        "mem": 2.4,
-        "name": "claude"
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 4.3,
+        "mem": 2.0,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 3.5,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.284,
+    "latency_ms": 18.586,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.01,
+    "up_mbps": 0.05,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 893056,
+    "uptime_s": 893965,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
