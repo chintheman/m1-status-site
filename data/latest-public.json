@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-19T20:16:03+08:00",
+  "ts": "2026-08-19T20:31:14+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2439,
+    "duration_ms": 2475,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 46.0,
+    "free_pct": 49.0,
     "pressure_level": "critical",
     "swap_used_mb": 2284.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 2603.3,
-    "wired_mb": 1491.8
+    "compressed_mb": 2418.6,
+    "wired_mb": 1417.2
   },
   "cpu": {
-    "load1": 1.75,
-    "load5": 1.9,
-    "load15": 1.98,
+    "load1": 2.24,
+    "load5": 2.5,
+    "load15": 2.28,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.2,
-        "mem": 0.3,
+        "cpu": 16.6,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.0,
+        "cpu": 16.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.3,
-        "mem": 0.2,
+        "cpu": 10.8,
+        "mem": 0.3,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.7,
+        "cpu": 3.4,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 3.6,
-        "mem": 2.6,
+        "cpu": 1.6,
+        "mem": 2.3,
         "name": "claude"
       }
     ]
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 15.21,
+    "latency_ms": 10.365,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
+    "down_mbps": 0.03,
     "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -39,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 937450,
+    "uptime_s": 938361,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 80,
+    "running_apps": 78,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 147
   },
