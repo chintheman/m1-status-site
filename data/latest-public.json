@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-21T02:19:42+08:00",
+  "ts": "2026-08-21T02:34:51+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3205,
+    "duration_ms": 2715,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 29.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9680.4,
+    "swap_used_mb": 9681.1,
     "swap_total_mb": 11264.0,
-    "compressed_mb": 3001.4,
-    "wired_mb": 2352.5
+    "compressed_mb": 2771.1,
+    "wired_mb": 2337.1
   },
   "cpu": {
-    "load1": 2.27,
-    "load5": 2.77,
-    "load15": 2.9,
+    "load1": 3.14,
+    "load5": 3.25,
+    "load15": 3.13,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 19.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 17.7,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.9,
+        "cpu": 18.7,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 7.0,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.8,
-        "mem": 0.5,
-        "name": "bun"
+        "cpu": 3.7,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 6.2,
-        "mem": 1.4,
-        "name": "claude"
+        "cpu": 3.3,
+        "mem": 0.5,
+        "name": "bun"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.738,
+    "latency_ms": 16.473,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1045670,
+    "uptime_s": 1046579,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 107,
+    "running_apps": 105,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 142
   },
