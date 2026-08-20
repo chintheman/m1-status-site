@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-21T03:05:13+08:00",
+  "ts": "2026-08-21T03:20:27+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3090,
+    "duration_ms": 2704,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 30.0,
+    "free_pct": 29.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9646.1,
+    "swap_used_mb": 9773.1,
     "swap_total_mb": 11264.0,
-    "compressed_mb": 2952.7,
-    "wired_mb": 2343.0
+    "compressed_mb": 2965.8,
+    "wired_mb": 2374.2
   },
   "cpu": {
-    "load1": 2.4,
-    "load5": 2.5,
-    "load15": 2.72,
+    "load1": 2.8,
+    "load5": 3.03,
+    "load15": 2.89,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 39.6,
-        "mem": 0.2,
-        "name": "xpcproxy_sim"
-      },
-      {
-        "cpu": 19.8,
-        "mem": 0.1,
-        "name": "pairedsyncd"
-      },
-      {
-        "cpu": 16.3,
+        "cpu": 16.9,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.9,
+        "cpu": 14.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.5,
+        "cpu": 9.7,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 7.7,
+        "mem": 0.5,
+        "name": "bun"
+      },
+      {
+        "cpu": 3.3,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.334,
+    "latency_ms": 9.205,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1048401,
+    "uptime_s": 1049314,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
