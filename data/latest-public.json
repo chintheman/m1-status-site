@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-21T20:47:49+08:00",
+  "ts": "2026-08-21T21:02:59+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2931,
+    "duration_ms": 2719,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 40.0,
+    "free_pct": 43.0,
     "pressure_level": "critical",
     "swap_used_mb": 3087.4,
     "swap_total_mb": 4096.0,
-    "compressed_mb": 2867.3,
-    "wired_mb": 1630.5
+    "compressed_mb": 2710.9,
+    "wired_mb": 1568.2
   },
   "cpu": {
-    "load1": 3.26,
-    "load5": 2.76,
-    "load15": 2.47,
+    "load1": 2.35,
+    "load5": 2.42,
+    "load15": 2.49,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 21.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 17.1,
+        "cpu": 18.5,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 11.5,
+        "cpu": 15.1,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 11.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 10.0,
-        "mem": 1.1,
+        "cpu": 11.1,
+        "mem": 3.0,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 5.7,
+        "cpu": 9.2,
         "mem": 0.5,
         "name": "bun"
       }
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.543,
+    "latency_ms": 19.692,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.02,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -38,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1112157,
+    "uptime_s": 1113066,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 93,
+    "running_apps": 91,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 142
   },
