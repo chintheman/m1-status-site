@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-22T04:34:18+08:00",
+  "ts": "2026-08-22T04:49:26+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2708,
+    "duration_ms": 6386,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 58.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 3872.3,
+    "swap_used_mb": 3848.3,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 1471.8,
-    "wired_mb": 1666.2
+    "compressed_mb": 1948.1,
+    "wired_mb": 1643.5
   },
   "cpu": {
-    "load1": 1.71,
-    "load5": 1.82,
-    "load15": 1.97,
+    "load1": 3.33,
+    "load5": 2.49,
+    "load15": 2.15,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.7,
+        "cpu": 17.9,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.4,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 12.3,
+        "cpu": 15.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 3.4,
-        "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "cpu": 9.6,
+        "mem": 2.7,
+        "name": "claude"
       },
       {
-        "cpu": 2.6,
-        "mem": 1.2,
+        "cpu": 7.4,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 6.5,
+        "mem": 0.5,
         "name": "bun"
       }
     ]
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.183,
+    "latency_ms": 15.982,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.08,
+    "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -37,
-      "noise_dbm": -95,
+      "signal_dbm": -38,
+      "noise_dbm": -94,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1140146,
+    "uptime_s": 1141057,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 97,
+    "running_apps": 98,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 142
   },
