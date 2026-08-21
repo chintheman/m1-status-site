@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-21T12:04:37+08:00",
+  "ts": "2026-08-21T12:25:28+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 85175,
+    "duration_ms": 52351,
     "errors": []
   },
   "power": {
@@ -20,59 +20,59 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 12.0,
+    "free_pct": 15.0,
     "pressure_level": "critical",
-    "swap_used_mb": 11671.4,
-    "swap_total_mb": 12288.0,
-    "compressed_mb": 1453.1,
-    "wired_mb": 5205.7
+    "swap_used_mb": 12533.5,
+    "swap_total_mb": 13312.0,
+    "compressed_mb": 1795.8,
+    "wired_mb": 4624.2
   },
   "cpu": {
-    "load1": 5.6,
-    "load5": 5.73,
-    "load15": 7.16,
+    "load1": 4.92,
+    "load5": 8.79,
+    "load15": 8.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 30.1,
-        "mem": 0.2,
-        "name": "replicatord"
-      },
-      {
-        "cpu": 19.8,
-        "mem": 0.1,
-        "name": "identityservicesd"
-      },
-      {
-        "cpu": 15.1,
-        "mem": 1.3,
-        "name": "claude"
-      },
-      {
-        "cpu": 14.8,
-        "mem": 0.2,
+        "cpu": 16.5,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.7,
-        "mem": 0.2,
-        "name": "ShortcutsViewService"
+        "cpu": 13.2,
+        "mem": 0.0,
+        "name": "(ps)"
+      },
+      {
+        "cpu": 10.2,
+        "mem": 0.1,
+        "name": "python"
+      },
+      {
+        "cpu": 7.6,
+        "mem": 0.1,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 5.7,
+        "mem": 1.3,
+        "name": "claude"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 169.0,
-    "free_gb": 23.0,
+    "free_gb": 22.0,
     "pct_used": 89.0,
     "smart_status": ""
   },
   "network": {
-    "latency_ms": 10.941,
+    "latency_ms": 14.01,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.08,
-    "up_mbps": 0.02,
+    "down_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": null,
       "noise_dbm": null,
@@ -87,15 +87,15 @@
     "tailscaled": false
   },
   "system": {
-    "macos_version": "",
+    "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1080814,
+    "uptime_s": 1082049,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 0,
+    "running_apps": 103,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 142
   },
@@ -153,7 +153,13 @@
     "hermes": "",
     "hermes_latest": "2026.8.18"
   },
-  "recent_events": [],
+  "recent_events": [
+    {
+      "ts": "2026-08-21T12:25:30+08:00",
+      "type": "ac_restored",
+      "detail": "back on AC (100%)"
+    }
+  ],
   "status": {
     "overall": "red",
     "details": {
