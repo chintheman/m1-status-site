@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-22T10:08:03+08:00",
+  "ts": "2026-08-22T10:23:12+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2687,
+    "duration_ms": 6610,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 53.0,
+    "free_pct": 50.0,
     "pressure_level": "critical",
-    "swap_used_mb": 3763.4,
+    "swap_used_mb": 3739.4,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 1953.3,
-    "wired_mb": 1584.4
+    "compressed_mb": 2153.9,
+    "wired_mb": 1619.1
   },
   "cpu": {
-    "load1": 2.27,
-    "load5": 2.09,
-    "load15": 2.04,
+    "load1": 1.37,
+    "load5": 1.78,
+    "load15": 1.96,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 87.0,
+        "cpu": 18.0,
         "mem": 0.2,
-        "name": "XProtectRemediatorAdload"
+        "name": "Python"
       },
       {
-        "cpu": 18.0,
+        "cpu": 17.7,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.3,
+        "cpu": 11.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 9.0,
-        "mem": 1.5,
-        "name": "claude"
+        "cpu": 3.0,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 6.3,
-        "mem": 0.2,
-        "name": "Python"
+        "cpu": 3.0,
+        "mem": 2.8,
+        "name": "claude"
       }
     ]
   },
@@ -69,12 +69,12 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.163,
+    "latency_ms": 19.012,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
+    "down_mbps": 0.03,
     "up_mbps": 0.01,
     "wifi": {
-      "signal_dbm": -39,
+      "signal_dbm": -37,
       "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1160171,
+    "uptime_s": 1161083,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 98,
+    "running_apps": 101,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 143
   },
