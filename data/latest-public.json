@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-23T02:40:28+08:00",
+  "ts": "2026-08-23T02:55:36+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2509,
+    "duration_ms": 2612,
     "errors": []
   },
   "power": {
@@ -20,32 +20,32 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 50.0,
+    "free_pct": 47.0,
     "pressure_level": "critical",
     "swap_used_mb": 5638.8,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 2136.2,
-    "wired_mb": 1643.2
+    "compressed_mb": 2300.4,
+    "wired_mb": 1656.0
   },
   "cpu": {
-    "load1": 1.93,
-    "load5": 2.23,
-    "load15": 2.33,
+    "load1": 2.98,
+    "load5": 2.61,
+    "load15": 2.43,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.5,
+        "cpu": 16.6,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.9,
+        "cpu": 15.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.1,
+        "cpu": 10.7,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
@@ -55,9 +55,9 @@
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 7.1,
-        "mem": 0.4,
-        "name": "python"
+        "cpu": 3.8,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.456,
+    "latency_ms": 9.117,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.01,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1219715,
+    "uptime_s": 1220623,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 131,
+    "running_apps": 132,
     "active_claude_sessions": 1,
     "hermes_sessions_count": 143
   },
