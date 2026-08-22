@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-22T18:09:47+08:00",
+  "ts": "2026-08-22T18:24:55+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2433,
+    "duration_ms": 2564,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 100,
     "state": "charged",
     "cycle_count": 1440.0,
-    "temperature_c": 30.9,
+    "temperature_c": 30.8,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 54.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5582.7,
+    "swap_used_mb": 5558.7,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 1934.0,
-    "wired_mb": 1561.1
+    "compressed_mb": 2018.0,
+    "wired_mb": 1552.8
   },
   "cpu": {
-    "load1": 1.74,
-    "load5": 1.58,
-    "load15": 1.77,
+    "load1": 1.5,
+    "load5": 1.96,
+    "load15": 1.95,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.1,
+        "cpu": 16.4,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.6,
+        "cpu": 10.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.6,
+        "cpu": 8.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 2.9,
+        "cpu": 3.8,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 2.2,
-        "mem": 0.5,
-        "name": "bun"
+        "cpu": 2.1,
+        "mem": 1.6,
+        "name": "claude"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.268,
+    "latency_ms": 17.505,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.02,
+    "down_mbps": 0.03,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -39,
       "noise_dbm": -92,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1189074,
+    "uptime_s": 1189982,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
