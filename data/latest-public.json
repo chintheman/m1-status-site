@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T06:20:18+08:00",
+  "ts": "2026-08-24T06:35:31+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2817,
+    "duration_ms": 2622,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7782.4,
+    "swap_used_mb": 7933.1,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3407.5,
-    "wired_mb": 1634.6
+    "compressed_mb": 3445.0,
+    "wired_mb": 1608.5
   },
   "cpu": {
-    "load1": 3.48,
-    "load5": 2.97,
-    "load15": 2.71,
+    "load1": 2.57,
+    "load5": 2.46,
+    "load15": 2.44,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.4,
-        "mem": 0.4,
+        "cpu": 84.0,
+        "mem": 1.4,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 19.9,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.2,
+        "cpu": 14.6,
+        "mem": 0.5,
+        "name": "bun"
+      },
+      {
+        "cpu": 12.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 14.4,
-        "mem": 2.4,
-        "name": "claude"
-      },
-      {
-        "cpu": 9.7,
+        "cpu": 11.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 5.7,
-        "mem": 0.5,
-        "name": "bun"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.701,
+    "latency_ms": 14.009,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -38,
-      "noise_dbm": -93,
+      "signal_dbm": -39,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1319306,
+    "uptime_s": 1320218,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 124,
+    "running_apps": 123,
     "active_claude_sessions": 1,
     "hermes_sessions_count": 143
   },
