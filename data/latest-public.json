@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T01:37:02+08:00",
+  "ts": "2026-08-24T01:52:10+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2825,
+    "duration_ms": 6700,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 33.0,
+    "free_pct": 34.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7721.1,
+    "swap_used_mb": 7748.3,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 3448.3,
-    "wired_mb": 1612.9
+    "compressed_mb": 3338.8,
+    "wired_mb": 1618.0
   },
   "cpu": {
-    "load1": 2.34,
-    "load5": 2.5,
-    "load15": 2.43,
+    "load1": 2.0,
+    "load5": 2.29,
+    "load15": 2.33,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.3,
+        "cpu": 20.0,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.1,
+        "cpu": 15.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.2,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 6.7,
+        "cpu": 11.9,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 4.3,
-        "mem": 1.4,
+        "cpu": 11.6,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 4.7,
+        "mem": 1.1,
         "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 22.743,
+    "latency_ms": 16.597,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1302310,
+    "uptime_s": 1303222,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
