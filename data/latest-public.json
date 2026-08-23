@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T06:05:09+08:00",
+  "ts": "2026-08-24T06:20:18+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2720,
+    "duration_ms": 2817,
     "errors": []
   },
   "power": {
@@ -20,17 +20,17 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 32.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7785.6,
-    "swap_total_mb": 8192.0,
-    "compressed_mb": 3511.4,
-    "wired_mb": 1660.6
+    "swap_used_mb": 7782.4,
+    "swap_total_mb": 9216.0,
+    "compressed_mb": 3407.5,
+    "wired_mb": 1634.6
   },
   "cpu": {
-    "load1": 2.65,
-    "load5": 2.75,
-    "load15": 2.59,
+    "load1": 3.48,
+    "load5": 2.97,
+    "load15": 2.71,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -40,38 +40,38 @@
         "name": "WindowServer"
       },
       {
-        "cpu": 17.2,
+        "cpu": 16.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 16.1,
-        "mem": 1.2,
-        "name": "bun"
+        "cpu": 14.4,
+        "mem": 2.4,
+        "name": "claude"
       },
       {
-        "cpu": 12.2,
+        "cpu": 9.7,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.7,
-        "mem": 0.9,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 5.7,
+        "mem": 0.5,
+        "name": "bun"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 173.0,
-    "free_gb": 23.0,
+    "free_gb": 22.0,
     "pct_used": 89.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.335,
+    "latency_ms": 14.701,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.07,
+    "down_mbps": 0.03,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -38,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1318397,
+    "uptime_s": 1319306,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
