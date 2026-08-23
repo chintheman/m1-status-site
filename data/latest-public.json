@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-23T18:32:06+08:00",
+  "ts": "2026-08-23T18:47:14+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2793,
+    "duration_ms": 6600,
     "errors": []
   },
   "power": {
@@ -20,58 +20,58 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 39.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7349.1,
+    "swap_used_mb": 7534.1,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 3574.0,
-    "wired_mb": 1617.5
+    "compressed_mb": 2944.9,
+    "wired_mb": 1620.0
   },
   "cpu": {
-    "load1": 2.3,
-    "load5": 2.54,
-    "load15": 2.5,
+    "load1": 1.83,
+    "load5": 2.18,
+    "load15": 2.29,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.1,
-        "mem": 0.3,
+        "cpu": 17.2,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.8,
+        "cpu": 16.8,
+        "mem": 1.2,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 14.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.0,
+        "cpu": 12.4,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 10.2,
+        "cpu": 7.6,
         "mem": 0.5,
         "name": "bun"
-      },
-      {
-        "cpu": 7.7,
-        "mem": 0.9,
-        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 172.0,
-    "free_gb": 24.0,
+    "free_gb": 23.0,
     "pct_used": 89.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.92,
+    "latency_ms": 9.772,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.04,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -38,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1276813,
+    "uptime_s": 1277725,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
