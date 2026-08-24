@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T17:38:52+08:00",
+  "ts": "2026-08-24T17:54:01+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2580,
+    "duration_ms": 2587,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 34.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8338.6,
+    "swap_used_mb": 8355.3,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3361.0,
-    "wired_mb": 1637.2
+    "compressed_mb": 3365.1,
+    "wired_mb": 1630.4
   },
   "cpu": {
-    "load1": 1.88,
-    "load5": 1.97,
-    "load15": 2.2,
+    "load1": 2.33,
+    "load5": 2.73,
+    "load15": 2.61,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.9,
+        "cpu": 24.3,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.0,
+        "cpu": 15.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.4,
+        "cpu": 14.7,
+        "mem": 0.3,
+        "name": "loginwindow"
+      },
+      {
+        "cpu": 12.0,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 7.3,
+        "cpu": 10.6,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 4.9,
-        "mem": 1.0,
-        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.563,
+    "latency_ms": 17.169,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1360020,
+    "uptime_s": 1360929,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
