@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T17:23:40+08:00",
+  "ts": "2026-08-24T17:38:52+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2501,
+    "duration_ms": 2580,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 33.0,
+    "free_pct": 34.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8368.8,
+    "swap_used_mb": 8338.6,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3425.2,
-    "wired_mb": 1645.5
+    "compressed_mb": 3361.0,
+    "wired_mb": 1637.2
   },
   "cpu": {
-    "load1": 2.44,
-    "load5": 2.68,
-    "load15": 2.59,
+    "load1": 1.88,
+    "load5": 1.97,
+    "load15": 2.2,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.8,
+        "cpu": 18.9,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.9,
+        "cpu": 16.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 13.7,
+        "cpu": 12.4,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 7.6,
+        "cpu": 7.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 5.2,
-        "mem": 1.1,
+        "cpu": 4.9,
+        "mem": 1.0,
         "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.218,
+    "latency_ms": 18.563,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1359107,
+    "uptime_s": 1360020,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
