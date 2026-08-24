@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T13:10:05+08:00",
+  "ts": "2026-08-24T13:25:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2548,
+    "duration_ms": 2747,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7975.2,
+    "swap_used_mb": 7931.6,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3564.5,
-    "wired_mb": 1648.2
+    "compressed_mb": 3508.8,
+    "wired_mb": 1646.3
   },
   "cpu": {
-    "load1": 4.63,
-    "load5": 3.24,
-    "load15": 2.89,
+    "load1": 2.61,
+    "load5": 2.69,
+    "load15": 2.77,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 91.0,
-        "mem": 0.3,
-        "name": "signpost_reporter"
-      },
-      {
-        "cpu": 21.2,
+        "cpu": 18.0,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 12.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 10.9,
+        "cpu": 15.6,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 9.5,
+        "cpu": 13.0,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 11.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 5.3,
+        "mem": 1.0,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.973,
+    "latency_ms": 12.621,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.06,
-    "up_mbps": 0.2,
+    "down_mbps": 0.03,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1343892,
+    "uptime_s": 1344801,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
