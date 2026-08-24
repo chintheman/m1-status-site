@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T17:54:01+08:00",
+  "ts": "2026-08-24T18:09:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2587,
+    "duration_ms": 2534,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 34.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8355.3,
+    "swap_used_mb": 8230.0,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3365.1,
-    "wired_mb": 1630.4
+    "compressed_mb": 3437.4,
+    "wired_mb": 1610.5
   },
   "cpu": {
-    "load1": 2.33,
-    "load5": 2.73,
-    "load15": 2.61,
+    "load1": 2.18,
+    "load5": 2.31,
+    "load15": 2.52,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 24.3,
-        "mem": 0.3,
+        "cpu": 18.8,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.4,
+        "cpu": 15.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 14.7,
-        "mem": 0.3,
-        "name": "loginwindow"
-      },
-      {
-        "cpu": 12.0,
+        "cpu": 14.9,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 10.6,
+        "cpu": 8.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 5.6,
+        "mem": 0.9,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.169,
+    "latency_ms": 12.377,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.01,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1360929,
+    "uptime_s": 1361841,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 127,
+    "running_apps": 124,
     "active_claude_sessions": 1,
     "hermes_sessions_count": 143
   },
