@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-24T23:12:45+08:00",
+  "ts": "2026-08-24T23:27:54+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2572,
+    "duration_ms": 2612,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8216.4,
+    "swap_used_mb": 8241.4,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3566.8,
-    "wired_mb": 1619.8
+    "compressed_mb": 3473.9,
+    "wired_mb": 1618.8
   },
   "cpu": {
-    "load1": 1.86,
-    "load5": 2.04,
-    "load15": 2.19,
+    "load1": 2.39,
+    "load5": 2.48,
+    "load15": 2.45,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.4,
+        "cpu": 19.8,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.3,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 15.4,
+        "cpu": 16.1,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.2,
+        "cpu": 14.6,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 6.4,
         "mem": 0.5,
         "name": "bun"
       },
       {
         "cpu": 4.6,
-        "mem": 1.0,
+        "mem": 1.1,
         "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.912,
+    "latency_ms": 9.454,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.01,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -37,
       "noise_dbm": -93,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1380052,
+    "uptime_s": 1380961,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
