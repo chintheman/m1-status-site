@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-25T06:58:12+08:00",
+  "ts": "2026-08-25T07:13:21+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3070,
+    "duration_ms": 6947,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 29.0,
+    "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 15813.3,
+    "swap_used_mb": 15905.9,
     "swap_total_mb": 16384.0,
-    "compressed_mb": 3384.8,
-    "wired_mb": 1966.1
+    "compressed_mb": 3240.9,
+    "wired_mb": 1987.1
   },
   "cpu": {
-    "load1": 2.79,
-    "load5": 3.11,
-    "load15": 3.4,
+    "load1": 7.89,
+    "load5": 4.84,
+    "load15": 3.74,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.7,
+        "cpu": 19.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 17.0,
+        "cpu": 18.8,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.4,
+        "cpu": 13.6,
+        "mem": 0.3,
+        "name": "Google Chrome for Testing Helper"
+      },
+      {
+        "cpu": 13.5,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 13.7,
+        "cpu": 7.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 12.0,
-        "mem": 0.3,
-        "name": "Google Chrome for Testing Helper"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.737,
+    "latency_ms": 18.75,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.09,
-    "up_mbps": 0.03,
+    "down_mbps": 0.04,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -37,
-      "noise_dbm": -92,
+      "noise_dbm": -93,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1407980,
+    "uptime_s": 1408893,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "yellow",
       "disk": "yellow",
       "network": "green",
       "services": "green",
