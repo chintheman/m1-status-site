@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-26T00:21:13+08:00",
+  "ts": "2026-08-26T00:36:25+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2684,
+    "duration_ms": 2738,
     "errors": []
   },
   "power": {
@@ -20,39 +20,39 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 30.0,
+    "free_pct": 29.0,
     "pressure_level": "critical",
-    "swap_used_mb": 15669.4,
+    "swap_used_mb": 15686.0,
     "swap_total_mb": 16384.0,
-    "compressed_mb": 3384.2,
-    "wired_mb": 1947.9
+    "compressed_mb": 3390.3,
+    "wired_mb": 1947.3
   },
   "cpu": {
-    "load1": 3.34,
-    "load5": 2.94,
-    "load15": 2.98,
+    "load1": 1.88,
+    "load5": 2.32,
+    "load15": 2.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.2,
+        "cpu": 27.4,
+        "mem": 3.9,
+        "name": "claude"
+      },
+      {
+        "cpu": 15.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.5,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 15.1,
+        "cpu": 15.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 5.0,
-        "mem": 0.5,
-        "name": "bun"
+        "cpu": 11.4,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
       },
       {
         "cpu": 3.7,
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.328,
+    "latency_ms": 17.724,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.04,
-    "up_mbps": 0.03,
+    "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -93,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1470560,
+    "uptime_s": 1471473,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
