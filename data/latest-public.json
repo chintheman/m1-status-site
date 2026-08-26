@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-26T09:12:44+08:00",
+  "ts": "2026-08-26T09:27:52+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2595,
+    "duration_ms": 2632,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 30.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 16090.4,
+    "swap_used_mb": 16129.1,
     "swap_total_mb": 17408.0,
-    "compressed_mb": 3389.6,
-    "wired_mb": 1936.5
+    "compressed_mb": 3213.1,
+    "wired_mb": 1926.1
   },
   "cpu": {
-    "load1": 2.35,
-    "load5": 2.66,
-    "load15": 3.4,
+    "load1": 2.97,
+    "load5": 4.11,
+    "load15": 3.74,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.2,
+        "cpu": 18.9,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.0,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 14.3,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 13.7,
+        "cpu": 17.3,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 3.8,
+        "cpu": 15.4,
         "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "name": "Python"
+      },
+      {
+        "cpu": 12.4,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 6.5,
+        "mem": 0.7,
+        "name": "python"
       }
     ]
   },
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.668,
+    "latency_ms": 13.637,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
+    "down_mbps": 0.05,
     "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -36,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1502451,
+    "uptime_s": 1503360,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
