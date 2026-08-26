@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-26T16:58:49+08:00",
+  "ts": "2026-08-26T17:14:02+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2671,
+    "duration_ms": 2650,
     "errors": []
   },
   "power": {
@@ -20,62 +20,62 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 33.0,
+    "free_pct": 30.0,
     "pressure_level": "critical",
-    "swap_used_mb": 15983.1,
-    "swap_total_mb": 16384.0,
-    "compressed_mb": 3179.4,
-    "wired_mb": 1895.1
+    "swap_used_mb": 16047.5,
+    "swap_total_mb": 17408.0,
+    "compressed_mb": 3363.1,
+    "wired_mb": 1916.2
   },
   "cpu": {
-    "load1": 3.73,
-    "load5": 3.64,
-    "load15": 3.38,
+    "load1": 1.92,
+    "load5": 2.67,
+    "load15": 3.04,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.2,
+        "cpu": 19.9,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.5,
-        "mem": 0.2,
-        "name": "mdworker_shared"
-      },
-      {
-        "cpu": 16.4,
-        "mem": 0.2,
-        "name": "mdworker_shared"
-      },
-      {
-        "cpu": 14.9,
+        "cpu": 17.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 14.7,
+        "cpu": 16.9,
         "mem": 0.5,
         "name": "bun"
+      },
+      {
+        "cpu": 9.7,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 3.6,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 169.0,
-    "free_gb": 7.3,
-    "pct_used": 96.0,
+    "free_gb": 6.3,
+    "pct_used": 97.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.881,
+    "latency_ms": 10.9,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.04,
+    "down_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -35,
-      "noise_dbm": -90,
+      "signal_dbm": -36,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1530417,
+    "uptime_s": 1531329,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
