@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-26T13:10:36+08:00",
+  "ts": "2026-08-26T13:25:46+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2797,
+    "duration_ms": 2692,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 30.0,
     "pressure_level": "critical",
-    "swap_used_mb": 16214.8,
+    "swap_used_mb": 16209.9,
     "swap_total_mb": 17408.0,
-    "compressed_mb": 3372.9,
-    "wired_mb": 1920.3
+    "compressed_mb": 3340.0,
+    "wired_mb": 1921.6
   },
   "cpu": {
-    "load1": 2.45,
-    "load5": 3.28,
-    "load15": 3.75,
+    "load1": 7.72,
+    "load5": 4.16,
+    "load15": 3.79,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 25.0,
-        "mem": 0.3,
-        "name": "signpost_reporter"
-      },
-      {
-        "cpu": 18.9,
+        "cpu": 19.0,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.5,
+        "cpu": 15.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.0,
-        "mem": 1.1,
-        "name": "python"
+        "cpu": 12.5,
+        "mem": 0.5,
+        "name": "bun"
       },
       {
-        "cpu": 11.8,
+        "cpu": 11.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 7.0,
+        "mem": 1.7,
+        "name": "claude"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.764,
+    "latency_ms": 21.609,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.05,
-    "up_mbps": 0.06,
+    "down_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -92,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1516724,
+    "uptime_s": 1517633,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "yellow",
       "disk": "yellow",
       "network": "green",
       "services": "green",
