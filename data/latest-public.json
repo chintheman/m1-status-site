@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-27T07:08:45+08:00",
+  "ts": "2026-08-27T07:23:58+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2407,
+    "duration_ms": 2992,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 30.0,
     "pressure_level": "critical",
-    "swap_used_mb": 15570.3,
+    "swap_used_mb": 15895.4,
     "swap_total_mb": 16384.0,
-    "compressed_mb": 3283.8,
-    "wired_mb": 1978.6
+    "compressed_mb": 3305.4,
+    "wired_mb": 1997.4
   },
   "cpu": {
-    "load1": 1.76,
-    "load5": 2.37,
-    "load15": 2.59,
+    "load1": 9.17,
+    "load5": 5.45,
+    "load15": 3.76,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.8,
+        "cpu": 19.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.0,
+        "cpu": 18.0,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 15.6,
+        "cpu": 17.1,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.9,
+        "cpu": 15.8,
+        "mem": 0.2,
+        "name": "mdworker_shared"
+      },
+      {
+        "cpu": 7.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 4.1,
-        "mem": 0.2,
-        "name": "Python"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.689,
+    "latency_ms": 13.024,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "down_mbps": 0.04,
+    "up_mbps": 0.05,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1581412,
+    "uptime_s": 1582325,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
       "services": "green",
