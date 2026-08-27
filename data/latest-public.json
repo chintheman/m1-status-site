@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-28T06:06:58+08:00",
+  "ts": "2026-08-28T06:22:12+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2558,
+    "duration_ms": 3134,
     "errors": []
   },
   "power": {
@@ -22,54 +22,54 @@
     "total_gb": 8.0,
     "free_pct": 29.0,
     "pressure_level": "critical",
-    "swap_used_mb": 17107.6,
-    "swap_total_mb": 17408.0,
-    "compressed_mb": 3399.6,
-    "wired_mb": 1947.3
+    "swap_used_mb": 17128.0,
+    "swap_total_mb": 18432.0,
+    "compressed_mb": 3402.5,
+    "wired_mb": 1945.6
   },
   "cpu": {
-    "load1": 2.81,
-    "load5": 2.97,
-    "load15": 3.2,
+    "load1": 2.25,
+    "load5": 2.59,
+    "load15": 2.86,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.9,
+        "cpu": 19.2,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.4,
+        "cpu": 16.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 13.1,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 5.4,
+        "cpu": 14.1,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 3.1,
-        "mem": 1.0,
-        "name": "claude"
+        "cpu": 13.9,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 3.3,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 114.0,
-    "free_gb": 62.0,
-    "pct_used": 65.0,
+    "free_gb": 61.0,
+    "pct_used": 66.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.064,
+    "latency_ms": 16.023,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1664105,
+    "uptime_s": 1665020,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
