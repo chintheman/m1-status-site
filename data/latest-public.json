@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-28T09:49:38+08:00",
+  "ts": "2026-08-28T10:04:46+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2567,
+    "duration_ms": 2597,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 100,
     "state": "charged",
     "cycle_count": 1440.0,
-    "temperature_c": 30.8,
+    "temperature_c": 30.9,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 29.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 16984.2,
+    "swap_used_mb": 17074.3,
     "swap_total_mb": 18432.0,
-    "compressed_mb": 3356.3,
-    "wired_mb": 2023.7
+    "compressed_mb": 3038.4,
+    "wired_mb": 2066.4
   },
   "cpu": {
-    "load1": 2.34,
-    "load5": 2.8,
-    "load15": 3.15,
+    "load1": 2.14,
+    "load5": 2.9,
+    "load15": 3.19,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.5,
+        "cpu": 28.1,
+        "mem": 4.2,
+        "name": "claude"
+      },
+      {
+        "cpu": 19.0,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.3,
+        "cpu": 17.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.5,
+        "cpu": 13.6,
         "mem": 0.5,
         "name": "bun"
       },
       {
-        "cpu": 10.7,
+        "cpu": 12.4,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 4.2,
-        "mem": 1.1,
-        "name": "Google Chrome for Testing"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.213,
+    "latency_ms": 33.686,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.02,
+    "down_mbps": 0.26,
+    "up_mbps": 0.19,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1677466,
+    "uptime_s": 1678374,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 129,
-    "active_claude_sessions": 1,
+    "running_apps": 132,
+    "active_claude_sessions": 2,
     "hermes_sessions_count": 143
   },
   "battery_condition": {
