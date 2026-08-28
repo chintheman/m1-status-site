@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-29T01:26:03+08:00",
+  "ts": "2026-08-29T01:41:15+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6720,
+    "duration_ms": 2450,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 100,
     "state": "charged",
     "cycle_count": 1440.0,
-    "temperature_c": 30.8,
+    "temperature_c": 30.7,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5214.0,
+    "swap_used_mb": 5184.5,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 3393.4,
-    "wired_mb": 1728.3
+    "compressed_mb": 3397.9,
+    "wired_mb": 1711.4
   },
   "cpu": {
-    "load1": 2.99,
-    "load5": 2.94,
-    "load15": 2.57,
+    "load1": 2.28,
+    "load5": 2.42,
+    "load15": 2.47,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.0,
-        "mem": 0.3,
+        "cpu": 15.7,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.9,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 10.1,
+        "cpu": 12.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.7,
-        "mem": 1.6,
-        "name": "claude"
+        "cpu": 4.8,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 3.0,
+        "cpu": 3.3,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
+      },
+      {
+        "cpu": 1.1,
+        "mem": 0.2,
+        "name": "launchd"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.758,
+    "latency_ms": 12.68,
     "packet_loss_pct": 0.0,
-    "down_mbps": 2.14,
-    "up_mbps": 0.07,
+    "down_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1733654,
+    "uptime_s": 1734562,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
