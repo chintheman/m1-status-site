@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-29T03:42:37+08:00",
+  "ts": "2026-08-29T03:57:45+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2580,
+    "duration_ms": 6470,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5282.4,
+    "swap_used_mb": 5418.3,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 3538.2,
-    "wired_mb": 1697.2
+    "compressed_mb": 3461.3,
+    "wired_mb": 1708.2
   },
   "cpu": {
-    "load1": 2.91,
-    "load5": 2.72,
-    "load15": 2.66,
+    "load1": 2.52,
+    "load5": 2.39,
+    "load15": 2.48,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.6,
+        "cpu": 16.8,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.2,
+        "cpu": 15.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 13.9,
+        "cpu": 12.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.2,
+        "cpu": 2.6,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 2.3,
-        "mem": 2.1,
+        "cpu": 1.8,
+        "mem": 1.6,
         "name": "claude"
       }
     ]
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.175,
+    "latency_ms": 15.724,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.01,
     "up_mbps": 0.01,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1741844,
+    "uptime_s": 1742756,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 124,
+    "running_apps": 125,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
