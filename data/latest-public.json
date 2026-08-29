@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-29T23:06:02+08:00",
+  "ts": "2026-08-29T23:21:14+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2506,
+    "duration_ms": 2521,
     "errors": []
   },
   "power": {
@@ -22,40 +22,40 @@
     "total_gb": 8.0,
     "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6242.0,
+    "swap_used_mb": 6326.0,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3486.8,
-    "wired_mb": 1709.7
+    "compressed_mb": 3478.7,
+    "wired_mb": 1706.7
   },
   "cpu": {
-    "load1": 1.65,
-    "load5": 1.94,
-    "load15": 2.07,
+    "load1": 2.1,
+    "load5": 2.07,
+    "load15": 2.06,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.8,
+        "cpu": 16.7,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 15.2,
+        "cpu": 14.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.0,
+        "cpu": 11.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.1,
-        "mem": 1.7,
-        "name": "claude"
+        "cpu": 5.1,
+        "mem": 0.7,
+        "name": "python3"
       },
       {
-        "cpu": 3.2,
+        "cpu": 3.5,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.429,
+    "latency_ms": 16.351,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.02,
+    "up_mbps": 0.11,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -90,
+      "noise_dbm": -88,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1811650,
+    "uptime_s": 1812562,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
