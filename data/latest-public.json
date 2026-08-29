@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-30T03:34:03+08:00",
+  "ts": "2026-08-30T03:49:14+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2500,
+    "duration_ms": 4435,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 32.0,
+    "free_pct": 35.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6577.8,
+    "swap_used_mb": 6668.8,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3384.1,
-    "wired_mb": 1720.4
+    "compressed_mb": 3180.7,
+    "wired_mb": 1704.3
   },
   "cpu": {
-    "load1": 3.0,
-    "load5": 2.34,
-    "load15": 2.27,
+    "load1": 2.2,
+    "load5": 2.43,
+    "load15": 2.39,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.0,
-        "mem": 0.3,
+        "cpu": 16.6,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.2,
+        "cpu": 15.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.4,
+        "cpu": 9.6,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.8,
+        "cpu": 5.0,
         "mem": 1.3,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
         "cpu": 3.5,
-        "mem": 0.2,
+        "mem": 0.3,
         "name": "VTDecoderXPCService"
       }
     ]
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.221,
+    "latency_ms": 15.763,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.14,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -90,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1827730,
+    "uptime_s": 1828644,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
