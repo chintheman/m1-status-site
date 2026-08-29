@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-29T13:03:48+08:00",
+  "ts": "2026-08-29T13:13:57+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6691,
+    "duration_ms": 2335,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5912.4,
+    "swap_used_mb": 5969.1,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3455.2,
-    "wired_mb": 1725.5
+    "compressed_mb": 3441.0,
+    "wired_mb": 1709.1
   },
   "cpu": {
-    "load1": 2.58,
-    "load5": 2.4,
+    "load1": 2.33,
+    "load5": 2.31,
     "load15": 2.23,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 16.9,
+        "cpu": 95.9,
+        "mem": 0.4,
+        "name": "signpost_reporter"
+      },
+      {
+        "cpu": 18.2,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 13.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 16.7,
-        "mem": 0.4,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 9.0,
-        "mem": 2.3,
-        "name": "python"
-      },
-      {
-        "cpu": 8.0,
+        "cpu": 9.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.3,
+        "cpu": 3.5,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
       }
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.22,
+    "latency_ms": 15.66,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.04,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -92,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1775519,
+    "uptime_s": 1776124,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
