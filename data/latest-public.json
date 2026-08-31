@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-31T07:58:45+08:00",
+  "ts": "2026-08-31T08:13:58+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2487,
+    "duration_ms": 2844,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 33.0,
+    "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6529.1,
+    "swap_used_mb": 6201.3,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3301.0,
-    "wired_mb": 1734.5
+    "compressed_mb": 3490.2,
+    "wired_mb": 1692.5
   },
   "cpu": {
-    "load1": 3.37,
-    "load5": 2.77,
-    "load15": 2.54,
+    "load1": 2.18,
+    "load5": 2.33,
+    "load15": 2.4,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.4,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 17.4,
+        "cpu": 17.1,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 10.6,
+        "cpu": 15.8,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 9.4,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.3,
-        "mem": 2.0,
-        "name": "claude"
+        "cpu": 5.1,
+        "mem": 1.4,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 4.4,
-        "mem": 1.5,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 3.9,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.424,
+    "latency_ms": 12.928,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -35,
-      "noise_dbm": -92,
+      "signal_dbm": -36,
+      "noise_dbm": -91,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1930013,
+    "uptime_s": 1930926,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 127,
+    "running_apps": 125,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
