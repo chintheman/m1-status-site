@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-01T07:10:00+08:00",
+  "ts": "2026-09-01T07:25:12+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6789.2,
+    "swap_used_mb": 6976.8,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 3514.6,
-    "wired_mb": 1726.6
+    "compressed_mb": 3433.0,
+    "wired_mb": 1729.7
   },
   "cpu": {
-    "load1": 2.24,
-    "load5": 2.12,
-    "load15": 2.24,
+    "load1": 1.77,
+    "load5": 2.04,
+    "load15": 2.12,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 29.8,
-        "mem": 0.4,
-        "name": "loginwindow"
-      },
-      {
-        "cpu": 22.2,
-        "mem": 0.4,
+        "cpu": 16.7,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.4,
+        "cpu": 14.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.7,
+        "cpu": 10.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 6.4,
-        "mem": 0.1,
-        "name": "curl"
+        "cpu": 4.7,
+        "mem": 0.9,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 3.5,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.726,
+    "latency_ms": 14.674,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.01,
+    "down_mbps": 0.02,
     "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -90,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2013487,
+    "uptime_s": 2014399,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 130,
+    "running_apps": 131,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
