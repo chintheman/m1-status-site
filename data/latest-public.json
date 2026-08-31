@@ -1,10 +1,10 @@
 {
-  "ts": "2026-08-31T14:33:11+08:00",
+  "ts": "2026-08-31T14:48:24+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2599,
+    "duration_ms": 2436,
     "errors": []
   },
   "power": {
@@ -20,43 +20,43 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6176.1,
+    "swap_used_mb": 6263.4,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3521.5,
-    "wired_mb": 1712.3
+    "compressed_mb": 3375.9,
+    "wired_mb": 1715.1
   },
   "cpu": {
-    "load1": 5.11,
-    "load5": 3.05,
-    "load15": 2.51,
+    "load1": 2.04,
+    "load5": 2.35,
+    "load15": 2.4,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.6,
+        "cpu": 17.1,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 15.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 18.1,
-        "mem": 0.4,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 9.6,
+        "cpu": 8.0,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 5.0,
-        "mem": 1.0,
+        "cpu": 5.3,
+        "mem": 1.5,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 3.7,
-        "mem": 0.2,
+        "cpu": 3.6,
+        "mem": 0.3,
         "name": "VTDecoderXPCService"
       }
     ]
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.843,
+    "latency_ms": 17.018,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.02,
     "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -89,
+      "signal_dbm": -35,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 1953679,
+    "uptime_s": 1954591,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 125,
+    "running_apps": 126,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
