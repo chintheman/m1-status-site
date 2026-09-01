@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-01T17:27:21+08:00",
+  "ts": "2026-09-01T17:42:33+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6777,
+    "duration_ms": 2455,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6690.6,
+    "swap_used_mb": 6708.0,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3410.2,
-    "wired_mb": 1727.6
+    "compressed_mb": 3373.8,
+    "wired_mb": 1730.7
   },
   "cpu": {
-    "load1": 2.39,
-    "load5": 2.45,
-    "load15": 2.51,
+    "load1": 2.57,
+    "load5": 2.48,
+    "load15": 2.48,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.7,
+        "cpu": 18.3,
+        "mem": 0.1,
+        "name": "launchd"
+      },
+      {
+        "cpu": 16.2,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.1,
+        "cpu": 8.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.4,
+        "cpu": 7.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.8,
-        "mem": 1.3,
-        "name": "Google Chrome for Testing Helper (Renderer)"
-      },
-      {
-        "cpu": 3.5,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "cpu": 7.1,
+        "mem": 1.2,
+        "name": "python"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.168,
+    "latency_ms": 11.758,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
     "up_mbps": 0.01,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2050532,
+    "uptime_s": 2051440,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 128,
+    "running_apps": 127,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
