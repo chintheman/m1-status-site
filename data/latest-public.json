@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-01T15:40:44+08:00",
+  "ts": "2026-09-01T15:56:20+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2465,
+    "duration_ms": 6676,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 34.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6423.9,
+    "swap_used_mb": 6635.0,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3483.0,
-    "wired_mb": 1714.3
+    "compressed_mb": 3238.0,
+    "wired_mb": 1728.2
   },
   "cpu": {
-    "load1": 2.55,
-    "load5": 2.54,
-    "load15": 2.51,
+    "load1": 2.24,
+    "load5": 2.32,
+    "load15": 2.4,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.7,
+        "cpu": 16.0,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.0,
+        "cpu": 12.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 12.5,
+        "cpu": 10.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 4.1,
-        "mem": 1.4,
+        "cpu": 4.5,
+        "mem": 1.2,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 3.8,
+        "cpu": 3.1,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.079,
+    "latency_ms": 10.157,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "down_mbps": 0.05,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2044131,
+    "uptime_s": 2045072,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 128,
+    "running_apps": 130,
     "active_claude_sessions": 0,
     "hermes_sessions_count": 143
   },
@@ -130,11 +130,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 13,
-      "input_tokens_24h": 152519,
-      "output_tokens_24h": 8200867,
-      "cache_read_24h": 2562855591,
-      "cache_creation_24h": 75998284
+      "active_files_24h": 12,
+      "input_tokens_24h": 246,
+      "output_tokens_24h": 168315,
+      "cache_read_24h": 4382982,
+      "cache_creation_24h": 725185
     }
   },
   "storage": {
@@ -142,16 +142,16 @@
     "downloads": null,
     "containers": "8.7M",
     "hermes": "10G",
-    "wiki": "469M"
+    "wiki": "475M"
   },
   "security": {
-    "ssh_failures_24h": 3
+    "ssh_failures_24h": 0
   },
   "versions": {
-    "claude_code": "2.1.251 (Claude Code)",
-    "claude_code_latest": "2.1.251",
+    "claude_code": "2.1.252 (Claude Code)",
+    "claude_code_latest": "2.1.252",
     "hermes": "",
-    "hermes_latest": "2026.8.27"
+    "hermes_latest": "2026.8.31"
   },
   "recent_events": [],
   "status": {
