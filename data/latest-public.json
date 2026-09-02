@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-02T16:48:45+08:00",
+  "ts": "2026-09-02T17:03:54+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2816,
+    "duration_ms": 2821,
     "errors": []
   },
   "power": {
@@ -20,59 +20,59 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 32.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6841.1,
-    "swap_total_mb": 8192.0,
-    "compressed_mb": 3408.0,
-    "wired_mb": 1721.2
+    "swap_used_mb": 6794.2,
+    "swap_total_mb": 7168.0,
+    "compressed_mb": 3335.5,
+    "wired_mb": 1753.2
   },
   "cpu": {
-    "load1": 2.68,
-    "load5": 2.54,
-    "load15": 2.5,
+    "load1": 3.0,
+    "load5": 2.62,
+    "load15": 2.58,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 19.0,
+        "cpu": 17.1,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 10.3,
+        "cpu": 17.1,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 10.1,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.9,
+        "cpu": 4.3,
         "mem": 0.9,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 4.5,
-        "mem": 1.4,
-        "name": "claude"
+        "cpu": 3.5,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 110.0,
-    "free_gb": 74.0,
+    "free_gb": 75.0,
     "pct_used": 60.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.206,
+    "latency_ms": 12.587,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2134612,
+    "uptime_s": 2135521,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
