@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-04T10:07:14+08:00",
+  "ts": "2026-09-04T10:22:26+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2553,
+    "duration_ms": 3095,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 34.0,
+    "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8692.6,
+    "swap_used_mb": 8638.4,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 3204.8,
-    "wired_mb": 1795.9
+    "compressed_mb": 3341.2,
+    "wired_mb": 1739.9
   },
   "cpu": {
-    "load1": 3.42,
-    "load5": 3.41,
-    "load15": 2.91,
+    "load1": 1.66,
+    "load5": 2.26,
+    "load15": 2.57,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 47.9,
-        "mem": 0.2,
-        "name": "XProtectRemediatorToyDrop"
-      },
-      {
-        "cpu": 21.5,
-        "mem": 0.1,
-        "name": "opendirectoryd"
-      },
-      {
-        "cpu": 19.2,
+        "cpu": 17.0,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 18.8,
+        "cpu": 10.0,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 9.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.8,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
+        "cpu": 5.4,
+        "mem": 1.6,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 3.0,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.442,
+    "latency_ms": 19.436,
     "packet_loss_pct": 0.0,
-    "down_mbps": 2.04,
-    "up_mbps": 0.11,
+    "down_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2283321,
+    "uptime_s": 2284233,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 133,
-    "active_claude_sessions": 0,
+    "active_claude_sessions": 1,
     "hermes_sessions_count": 143
   },
   "battery_condition": {
