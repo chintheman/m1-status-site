@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-05T04:55:32+08:00",
+  "ts": "2026-09-05T05:10:45+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6729,
+    "duration_ms": 2480,
     "errors": []
   },
   "power": {
@@ -22,57 +22,57 @@
     "total_gb": 8.0,
     "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7730.2,
-    "swap_total_mb": 9216.0,
-    "compressed_mb": 3418.5,
-    "wired_mb": 1772.3
+    "swap_used_mb": 7708.4,
+    "swap_total_mb": 8192.0,
+    "compressed_mb": 3456.2,
+    "wired_mb": 1769.0
   },
   "cpu": {
-    "load1": 2.4,
-    "load5": 2.71,
-    "load15": 2.6,
+    "load1": 2.48,
+    "load5": 2.43,
+    "load15": 2.54,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.3,
+        "cpu": 19.1,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 19.2,
+        "cpu": 15.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.5,
+        "cpu": 14.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.8,
-        "mem": 2.9,
-        "name": "claude"
+        "cpu": 6.1,
+        "mem": 0.3,
+        "name": "Claude Helper"
       },
       {
-        "cpu": 5.9,
-        "mem": 0.2,
-        "name": "mdworker_shared"
+        "cpu": 5.8,
+        "mem": 0.9,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 112.0,
-    "free_gb": 71.0,
+    "free_gb": 72.0,
     "pct_used": 62.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.213,
+    "latency_ms": 24.706,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.02,
+    "down_mbps": 0.03,
+    "up_mbps": 0.24,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -92,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2351024,
+    "uptime_s": 2351933,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 136,
+    "running_apps": 135,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 144
   },
