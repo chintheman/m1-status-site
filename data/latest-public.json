@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-06T04:17:09+08:00",
+  "ts": "2026-09-06T04:32:16+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2446,
+    "duration_ms": 2507,
     "errors": []
   },
   "power": {
@@ -20,59 +20,59 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6112.6,
-    "swap_total_mb": 7168.0,
-    "compressed_mb": 2798.5,
-    "wired_mb": 1873.0
+    "swap_used_mb": 6666.3,
+    "swap_total_mb": 8192.0,
+    "compressed_mb": 1873.2,
+    "wired_mb": 1717.5
   },
   "cpu": {
-    "load1": 3.03,
-    "load5": 2.58,
-    "load15": 2.61,
+    "load1": 2.5,
+    "load5": 2.34,
+    "load15": 2.34,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.2,
+        "cpu": 99.9,
+        "mem": 0.3,
+        "name": "grep"
+      },
+      {
+        "cpu": 14.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.4,
+        "cpu": 13.0,
+        "mem": 0.1,
+        "name": "sqlite3"
+      },
+      {
+        "cpu": 9.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.5,
+        "cpu": 8.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 5.4,
-        "mem": 2.2,
-        "name": "claude"
-      },
-      {
-        "cpu": 3.9,
-        "mem": 0.8,
-        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 113.0,
-    "free_gb": 72.0,
-    "pct_used": 62.0,
+    "used_gb": 115.0,
+    "free_gb": 69.0,
+    "pct_used": 63.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 15.497,
+    "latency_ms": 12.578,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.29,
-    "up_mbps": 0.16,
+    "down_mbps": 0.03,
+    "up_mbps": 0.06,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,15 +89,15 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2435116,
+    "uptime_s": 2436024,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 146,
-    "active_claude_sessions": 4,
-    "hermes_sessions_count": 144
+    "running_apps": 136,
+    "active_claude_sessions": 7,
+    "hermes_sessions_count": 146
   },
   "battery_condition": {
     "cycle_count": 1440.0,
