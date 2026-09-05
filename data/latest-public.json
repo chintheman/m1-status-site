@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-06T02:20:49+08:00",
+  "ts": "2026-09-06T02:35:57+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2537,
+    "duration_ms": 2912,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 34.0,
+    "free_pct": 40.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6630.8,
+    "swap_used_mb": 6637.4,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 3241.2,
-    "wired_mb": 1758.4
+    "compressed_mb": 2803.0,
+    "wired_mb": 1712.9
   },
   "cpu": {
-    "load1": 3.49,
-    "load5": 3.2,
-    "load15": 2.92,
+    "load1": 2.28,
+    "load5": 2.63,
+    "load15": 2.72,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.8,
+        "cpu": 19.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 9.7,
+        "cpu": 16.1,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 7.2,
+        "cpu": 6.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 6.3,
-        "mem": 1.7,
-        "name": "claude"
+        "cpu": 5.6,
+        "mem": 0.3,
+        "name": "Claude Helper"
       },
       {
-        "cpu": 6.0,
-        "mem": 0.2,
-        "name": "Claude Helper"
+        "cpu": 4.5,
+        "mem": 0.9,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.212,
+    "latency_ms": 8.607,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2428136,
+    "uptime_s": 2429045,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 139,
+    "running_apps": 136,
     "active_claude_sessions": 1,
     "hermes_sessions_count": 144
   },
