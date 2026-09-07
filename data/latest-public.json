@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-07T15:51:52+08:00",
+  "ts": "2026-09-07T16:07:44+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2587,
+    "duration_ms": 6659,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 34.0,
+    "free_pct": 36.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9135.3,
+    "swap_used_mb": 9321.9,
     "swap_total_mb": 10240.0,
-    "compressed_mb": 3155.9,
-    "wired_mb": 1839.8
+    "compressed_mb": 2994.8,
+    "wired_mb": 1857.2
   },
   "cpu": {
-    "load1": 2.37,
-    "load5": 2.44,
-    "load15": 2.44,
+    "load1": 3.3,
+    "load5": 2.85,
+    "load15": 2.73,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 18.7,
-        "mem": 0.3,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 15.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.7,
+        "cpu": 17.4,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 10.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.7,
-        "mem": 0.7,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 6.3,
+        "mem": 3.1,
+        "name": "claude"
       },
       {
-        "cpu": 3.5,
-        "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "cpu": 3.9,
+        "mem": 0.8,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,13 +69,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.12,
+    "latency_ms": 11.599,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.02,
+    "down_mbps": 0.22,
+    "up_mbps": 1.07,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -90,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2563200,
+    "uptime_s": 2564155,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 146,
-    "active_claude_sessions": 5,
+    "running_apps": 151,
+    "active_claude_sessions": 2,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -130,11 +130,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 59,
-      "input_tokens_24h": 19124,
-      "output_tokens_24h": 8671231,
-      "cache_read_24h": 2986338958,
-      "cache_creation_24h": 60460706
+      "active_files_24h": 33,
+      "input_tokens_24h": 14092,
+      "output_tokens_24h": 6079304,
+      "cache_read_24h": 2135182982,
+      "cache_creation_24h": 51558438
     }
   },
   "storage": {
@@ -142,7 +142,7 @@
     "downloads": null,
     "containers": "8.7M",
     "hermes": "12G",
-    "wiki": "580M"
+    "wiki": "588M"
   },
   "security": {
     "ssh_failures_24h": 0
