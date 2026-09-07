@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-07T12:14:24+08:00",
+  "ts": "2026-09-07T12:29:32+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2976,
+    "duration_ms": 2465,
     "errors": []
   },
   "power": {
@@ -20,17 +20,17 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 34.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9362.7,
+    "swap_used_mb": 9234.7,
     "swap_total_mb": 10240.0,
-    "compressed_mb": 2854.5,
-    "wired_mb": 1858.3
+    "compressed_mb": 3151.6,
+    "wired_mb": 1840.1
   },
   "cpu": {
-    "load1": 2.31,
-    "load5": 2.38,
-    "load15": 2.55,
+    "load1": 2.53,
+    "load5": 2.37,
+    "load15": 2.47,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -40,22 +40,22 @@
         "name": "WindowServer"
       },
       {
-        "cpu": 15.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 12.8,
+        "cpu": 16.5,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.5,
-        "mem": 1.3,
+        "cpu": 14.1,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 4.8,
+        "mem": 1.0,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 3.2,
+        "cpu": 3.4,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.173,
+    "latency_ms": 11.012,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 2550152,
+    "uptime_s": 2551061,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
