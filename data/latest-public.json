@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-09T03:08:05+08:00",
+  "ts": "2026-09-09T03:23:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2597,
+    "duration_ms": 2492,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 36.0,
+    "free_pct": 41.0,
     "pressure_level": "critical",
-    "swap_used_mb": 10866.6,
+    "swap_used_mb": 11340.9,
     "swap_total_mb": 12288.0,
-    "compressed_mb": 3025.6,
-    "wired_mb": 1826.6
+    "compressed_mb": 2552.9,
+    "wired_mb": 1890.5
   },
   "cpu": {
-    "load1": 2.56,
-    "load5": 2.5,
-    "load15": 2.74,
+    "load1": 2.46,
+    "load5": 2.44,
+    "load15": 2.5,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.2,
-        "mem": 0.4,
+        "cpu": 18.0,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.7,
+        "cpu": 16.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.4,
+        "cpu": 11.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.8,
-        "mem": 0.7,
+        "cpu": 4.1,
+        "mem": 0.6,
         "name": "Google Chrome for Testing Helper (Renderer)"
       },
       {
-        "cpu": 3.4,
+        "cpu": 3.3,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.639,
+    "latency_ms": 15.183,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.02,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2690172,
+    "uptime_s": 2691080,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 157,
+    "running_apps": 162,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 179
   },
