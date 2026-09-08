@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-08T15:34:02+08:00",
+  "ts": "2026-09-08T15:49:10+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3419,
+    "duration_ms": 2401,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 35.0,
+    "free_pct": 32.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9786.9,
+    "swap_used_mb": 9781.5,
     "swap_total_mb": 10240.0,
-    "compressed_mb": 3038.2,
-    "wired_mb": 1856.0
+    "compressed_mb": 3250.9,
+    "wired_mb": 1856.9
   },
   "cpu": {
-    "load1": 4.05,
-    "load5": 3.56,
-    "load15": 3.09,
+    "load1": 2.64,
+    "load5": 2.7,
+    "load15": 2.77,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 16.4,
+        "cpu": 15.7,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.4,
+        "cpu": 13.1,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 6.8,
-        "mem": 2.2,
-        "name": "claude"
+        "cpu": 9.5,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 4.8,
-        "mem": 0.4,
-        "name": "loginwindow"
+        "cpu": 6.1,
+        "mem": 0.7,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 4.9,
+        "mem": 0.7,
+        "name": "python"
       }
     ]
   },
@@ -69,7 +69,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.027,
+    "latency_ms": 9.819,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.03,
@@ -89,7 +89,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2648529,
+    "uptime_s": 2649438,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
