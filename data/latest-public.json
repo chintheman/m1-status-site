@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-09T22:47:57+08:00",
+  "ts": "2026-09-09T23:03:10+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6864,
+    "duration_ms": 2627,
     "errors": []
   },
   "power": {
@@ -22,15 +22,15 @@
     "total_gb": 8.0,
     "free_pct": 33.0,
     "pressure_level": "critical",
-    "swap_used_mb": 9464.2,
+    "swap_used_mb": 9398.6,
     "swap_total_mb": 10240.0,
-    "compressed_mb": 3289.3,
-    "wired_mb": 1780.7
+    "compressed_mb": 3301.6,
+    "wired_mb": 1758.4
   },
   "cpu": {
-    "load1": 1.77,
-    "load5": 2.38,
-    "load15": 2.59,
+    "load1": 7.86,
+    "load5": 3.99,
+    "load15": 3.44,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -40,24 +40,24 @@
         "name": "WindowServer"
       },
       {
-        "cpu": 15.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 12.9,
+        "cpu": 14.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.1,
-        "mem": 0.6,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 13.9,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 3.8,
-        "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "cpu": 7.8,
+        "mem": 2.2,
+        "name": "claude"
+      },
+      {
+        "cpu": 4.4,
+        "mem": 0.8,
+        "name": "Google Chrome for Testing Helper (Renderer)"
       }
     ]
   },
@@ -69,9 +69,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.971,
+    "latency_ms": 9.284,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.04,
     "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -36,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2760968,
+    "uptime_s": 2761877,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 166,
+    "running_apps": 164,
     "active_claude_sessions": 4,
     "hermes_sessions_count": 179
   },
@@ -159,7 +159,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
       "services": "green",
