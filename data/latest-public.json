@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-11T06:56:51+08:00",
+  "ts": "2026-09-11T07:12:02+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2665,
+    "duration_ms": 6811,
     "errors": []
   },
   "power": {
@@ -22,57 +22,57 @@
     "total_gb": 8.0,
     "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 10826.0,
-    "swap_total_mb": 12288.0,
-    "compressed_mb": 3272.9,
-    "wired_mb": 1950.9
+    "swap_used_mb": 10061.1,
+    "swap_total_mb": 11264.0,
+    "compressed_mb": 3345.9,
+    "wired_mb": 1829.8
   },
   "cpu": {
-    "load1": 3.76,
-    "load5": 3.91,
-    "load15": 3.05,
+    "load1": 2.35,
+    "load5": 2.83,
+    "load15": 2.92,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 16.8,
+        "cpu": 19.0,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 13.4,
+        "cpu": 14.9,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 11.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.7,
-        "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "cpu": 4.0,
+        "mem": 2.0,
+        "name": "claude"
       },
       {
-        "cpu": 3.0,
-        "mem": 1.1,
-        "name": "claude"
+        "cpu": 3.2,
+        "mem": 0.4,
+        "name": "loginwindow"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 116.0,
-    "free_gb": 64.0,
+    "free_gb": 65.0,
     "pct_used": 65.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.054,
+    "latency_ms": 9.796,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.09,
-    "up_mbps": 0.03,
+    "down_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2876699,
+    "uptime_s": 2877613,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 171,
+    "running_apps": 162,
     "active_claude_sessions": 2,
     "hermes_sessions_count": 179
   },
