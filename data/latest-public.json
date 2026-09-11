@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-11T21:03:21+08:00",
+  "ts": "2026-09-11T21:18:30+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2425,
+    "duration_ms": 3014,
     "errors": []
   },
   "power": {
@@ -20,42 +20,42 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 42.0,
+    "free_pct": 36.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5873.5,
+    "swap_used_mb": 5836.2,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 2661.0,
-    "wired_mb": 1713.4
+    "compressed_mb": 3106.2,
+    "wired_mb": 1728.7
   },
   "cpu": {
-    "load1": 1.8,
-    "load5": 1.82,
-    "load15": 1.94,
+    "load1": 2.51,
+    "load5": 2.17,
+    "load15": 2.01,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 47.7,
-        "mem": 5.3,
+        "cpu": 24.5,
+        "mem": 2.0,
         "name": "python"
       },
       {
-        "cpu": 14.3,
+        "cpu": 18.4,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 12.7,
+        "cpu": 14.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 9.3,
+        "cpu": 14.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 5.0,
+        "cpu": 5.8,
         "mem": 0.2,
         "name": "Claude Helper"
       }
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.3,
+    "latency_ms": 9.416,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.99,
-    "up_mbps": 0.82,
+    "down_mbps": 1.3,
+    "up_mbps": 0.36,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2927488,
+    "uptime_s": 2928398,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 171,
-    "active_claude_sessions": 9,
+    "running_apps": 170,
+    "active_claude_sessions": 8,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
