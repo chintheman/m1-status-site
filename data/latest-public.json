@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-11T16:03:08+08:00",
+  "ts": "2026-09-11T16:13:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2461,
+    "duration_ms": 115679,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 30.9,
+    "temperature_c": 30.8,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 60.0,
+    "free_pct": 50.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7035.0,
+    "swap_used_mb": 7011.0,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1267.3,
-    "wired_mb": 1691.4
+    "compressed_mb": 2038.9,
+    "wired_mb": 1721.3
   },
   "cpu": {
-    "load1": 2.68,
-    "load5": 2.76,
-    "load15": 2.53,
+    "load1": 2.34,
+    "load5": 2.27,
+    "load15": 2.38,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 17.7,
-        "mem": 0.4,
+        "cpu": 30.7,
+        "mem": 2.6,
+        "name": "python"
+      },
+      {
+        "cpu": 14.9,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.0,
+        "cpu": 14.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 13.4,
+        "cpu": 12.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 11.5,
-        "mem": 5.0,
-        "name": "claude bg-spare"
-      },
-      {
-        "cpu": 6.5,
-        "mem": 8.1,
-        "name": "claude"
+        "cpu": 4.9,
+        "mem": 0.2,
+        "name": "Claude Helper"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.995,
+    "latency_ms": 11.562,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.24,
-    "up_mbps": 0.4,
+    "down_mbps": 0.11,
+    "up_mbps": 0.14,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2909475,
+    "uptime_s": 2910080,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 162,
-    "active_claude_sessions": 7,
+    "running_apps": 165,
+    "active_claude_sessions": 6,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -130,26 +130,26 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 6,
-      "input_tokens_24h": 16232,
-      "output_tokens_24h": 9720061,
-      "cache_read_24h": 2939332254,
-      "cache_creation_24h": 54583310
+      "active_files_24h": 10,
+      "input_tokens_24h": 17706,
+      "output_tokens_24h": 10459491,
+      "cache_read_24h": 3099556888,
+      "cache_creation_24h": 60158213
     }
   },
   "storage": {
     "caches": "2.5G",
     "downloads": null,
-    "containers": "8.7M",
+    "containers": null,
     "hermes": "13G",
-    "wiki": "619M"
+    "wiki": "631M"
   },
   "security": {
-    "ssh_failures_24h": 0
+    "ssh_failures_24h": 6
   },
   "versions": {
-    "claude_code": "2.1.252 (Claude Code)",
-    "claude_code_latest": "2.1.267",
+    "claude_code": "2.1.268 (Claude Code)",
+    "claude_code_latest": "2.1.268",
     "hermes": "",
     "hermes_latest": "2026.9.7"
   },
