@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-11T10:14:08+08:00",
+  "ts": "2026-09-11T10:29:21+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6965,
+    "duration_ms": 2501,
     "errors": []
   },
   "power": {
@@ -22,42 +22,42 @@
     "total_gb": 8.0,
     "free_pct": 31.0,
     "pressure_level": "critical",
-    "swap_used_mb": 10832.4,
+    "swap_used_mb": 11011.3,
     "swap_total_mb": 12288.0,
-    "compressed_mb": 3327.2,
-    "wired_mb": 1862.7
+    "compressed_mb": 3354.5,
+    "wired_mb": 1863.8
   },
   "cpu": {
-    "load1": 1.91,
-    "load5": 2.63,
-    "load15": 2.7,
+    "load1": 2.17,
+    "load5": 2.68,
+    "load15": 2.69,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.2,
+        "cpu": 17.9,
+        "mem": 3.8,
+        "name": "claude"
+      },
+      {
+        "cpu": 17.5,
         "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.5,
+        "cpu": 12.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.5,
-        "mem": 0.2,
+        "cpu": 7.5,
+        "mem": 0.1,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.8,
+        "cpu": 4.3,
         "mem": 0.2,
-        "name": "VTDecoderXPCService"
-      },
-      {
-        "cpu": 2.2,
-        "mem": 0.9,
-        "name": "python"
+        "name": "Python"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 18.768,
+    "latency_ms": 10.286,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.03,
+    "down_mbps": 0.05,
+    "up_mbps": 0.06,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -92,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 2888541,
+    "uptime_s": 2889449,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 164,
-    "active_claude_sessions": 3,
+    "running_apps": 165,
+    "active_claude_sessions": 5,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
