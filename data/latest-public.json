@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-12T15:10:21+08:00",
+  "ts": "2026-09-12T15:25:29+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2602,
+    "duration_ms": 2440,
     "errors": []
   },
   "power": {
@@ -20,59 +20,59 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 61.0,
+    "free_pct": 54.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6868.7,
+    "swap_used_mb": 6820.7,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1187.5,
-    "wired_mb": 1753.0
+    "compressed_mb": 1744.5,
+    "wired_mb": 1740.1
   },
   "cpu": {
-    "load1": 2.93,
-    "load5": 2.5,
-    "load15": 2.39,
+    "load1": 1.44,
+    "load5": 1.94,
+    "load15": 2.21,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 99.6,
-        "mem": 0.4,
-        "name": "Python"
-      },
-      {
-        "cpu": 14.6,
+        "cpu": 17.0,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 12.6,
+        "cpu": 15.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.2,
+        "cpu": 12.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 2.6,
-        "mem": 3.0,
+        "cpu": 3.3,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
+      },
+      {
+        "cpu": 2.9,
+        "mem": 0.4,
         "name": "python"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 122.0,
+    "used_gb": 123.0,
     "free_gb": 62.0,
     "pct_used": 67.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.371,
+    "latency_ms": 11.677,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.09,
-    "up_mbps": 0.09,
+    "down_mbps": 0.39,
+    "up_mbps": 0.18,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 2992709,
+    "uptime_s": 2993617,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 172,
-    "active_claude_sessions": 3,
+    "running_apps": 176,
+    "active_claude_sessions": 5,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -106,8 +106,34 @@
   },
   "updates": {
     "brew": {
-      "count": 0,
-      "packages": []
+      "count": 53,
+      "packages": [
+        "aom",
+        "apache-arrow",
+        "aws-c-auth",
+        "aws-c-cal",
+        "aws-c-common",
+        "aws-c-compression",
+        "aws-c-event-stream",
+        "aws-c-http",
+        "aws-c-io",
+        "aws-c-mqtt",
+        "aws-c-s3",
+        "aws-c-sdkutils",
+        "aws-checksums",
+        "aws-crt-cpp",
+        "aws-sdk-cpp",
+        "cgal",
+        "cloudflared",
+        "fastlane",
+        "gdal",
+        "geos",
+        "ggml",
+        "gh",
+        "gnupg",
+        "gpgme",
+        "gpgmepp"
+      ]
     },
     "macos": {
       "count": 1,
@@ -122,12 +148,12 @@
   },
   "token_usage": {
     "hermes": {
-      "sessions": null,
-      "messages": null,
-      "input_tokens": null,
-      "output_tokens": null,
-      "total_tokens": null,
-      "top_model": null
+      "sessions": 270,
+      "messages": 7505,
+      "input_tokens": 15633471,
+      "output_tokens": 3368855,
+      "total_tokens": 213579350,
+      "top_model": "deepseek-v4-flash"
     },
     "claude": {
       "active_files_24h": 10,
@@ -148,10 +174,10 @@
     "ssh_failures_24h": 6
   },
   "versions": {
-    "claude_code": "2.1.268 (Claude Code)",
-    "claude_code_latest": "2.1.268",
-    "hermes": "",
-    "hermes_latest": "2026.9.7"
+    "claude_code": "2.1.269 (Claude Code)",
+    "claude_code_latest": "2.1.269",
+    "hermes": "0.21.2",
+    "hermes_latest": "2026.9.11"
   },
   "recent_events": [],
   "status": {
