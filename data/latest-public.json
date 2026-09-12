@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-12T23:59:25+08:00",
+  "ts": "2026-09-13T00:14:34+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3016,
+    "duration_ms": 6695,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.2,
+    "temperature_c": 31.3,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
+    "free_pct": 44.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5674.6,
+    "swap_used_mb": 5912.9,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 3469.6,
-    "wired_mb": 1759.0,
+    "compressed_mb": 2522.8,
+    "wired_mb": 1701.8,
     "breakdown": {
-      "hermes_mb": 232,
-      "hermes_procs": 23,
-      "claude_mb": 904,
-      "claude_procs": 6,
-      "other_mb": 2159,
-      "other_procs": 594
+      "hermes_mb": 461,
+      "hermes_procs": 21,
+      "claude_mb": 1815,
+      "claude_procs": 8,
+      "other_mb": 2347,
+      "other_procs": 548
     }
   },
   "cpu": {
-    "load1": 4.48,
-    "load5": 4.24,
-    "load15": 4.02,
+    "load1": 2.95,
+    "load5": 3.51,
+    "load15": 3.83,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 104.7,
-        "mem": 5.6,
-        "name": "node"
-      },
-      {
-        "cpu": 99.1,
-        "mem": 0.0,
-        "name": "grep"
-      },
-      {
-        "cpu": 98.7,
+        "cpu": 100.0,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 97.8,
+        "cpu": 99.4,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 17.4,
+        "cpu": 15.8,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 13.3,
         "mem": 0.2,
         "name": "Python"
+      },
+      {
+        "cpu": 7.9,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.803,
+    "latency_ms": 13.406,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.05,
-    "up_mbps": 0.18,
+    "down_mbps": 0.16,
+    "up_mbps": 0.28,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3024452,
+    "uptime_s": 3025365,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 174,
+    "running_apps": 175,
     "active_claude_sessions": 15,
     "hermes_sessions_count": 179
   },
@@ -170,7 +170,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
