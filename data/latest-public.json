@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-12T16:11:03+08:00",
+  "ts": "2026-09-12T16:23:47+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 62.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6948.2,
+    "swap_used_mb": 6812.2,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1101.2,
-    "wired_mb": 1720.4
+    "compressed_mb": 1898.0,
+    "wired_mb": 1747.1
   },
   "cpu": {
-    "load1": 4.87,
-    "load5": 4.44,
-    "load15": 3.77,
+    "load1": 3.99,
+    "load5": 4.6,
+    "load15": 4.4,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 97.4,
-        "mem": 7.5,
-        "name": "python"
-      },
-      {
-        "cpu": 95.3,
-        "mem": 0.5,
+        "cpu": 93.2,
+        "mem": 0.7,
         "name": "Python"
       },
       {
-        "cpu": 95.1,
-        "mem": 0.5,
+        "cpu": 92.1,
+        "mem": 0.7,
         "name": "Python"
       },
       {
-        "cpu": 94.6,
-        "mem": 0.8,
-        "name": "Python"
-      },
-      {
-        "cpu": 17.4,
+        "cpu": 16.7,
         "mem": 0.2,
         "name": "Python"
+      },
+      {
+        "cpu": 11.7,
+        "mem": 0.4,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 9.1,
+        "mem": 0.0,
+        "name": "find"
       }
     ]
   },
@@ -69,10 +69,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.364,
+    "latency_ms": 9.678,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.8,
-    "up_mbps": 0.58,
+    "down_mbps": 0.07,
+    "up_mbps": 0.09,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -89,13 +89,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 2996351,
+    "uptime_s": 2997115,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 171,
+    "running_apps": 179,
     "active_claude_sessions": 5,
     "hermes_sessions_count": 179
   },
@@ -156,22 +156,22 @@
       "top_model": "deepseek-v4-flash"
     },
     "claude": {
-      "active_files_24h": 10,
-      "input_tokens_24h": 17706,
-      "output_tokens_24h": 10459491,
-      "cache_read_24h": 3099556888,
-      "cache_creation_24h": 60158213
+      "active_files_24h": 74,
+      "input_tokens_24h": 27604,
+      "output_tokens_24h": 14024187,
+      "cache_read_24h": 3954387447,
+      "cache_creation_24h": 93008265
     }
   },
   "storage": {
-    "caches": "2.5G",
+    "caches": null,
     "downloads": null,
     "containers": null,
-    "hermes": "13G",
-    "wiki": "631M"
+    "hermes": "14G",
+    "wiki": "647M"
   },
   "security": {
-    "ssh_failures_24h": 6
+    "ssh_failures_24h": 15
   },
   "versions": {
     "claude_code": "2.1.269 (Claude Code)",
@@ -185,7 +185,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
