@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-12T17:24:32+08:00",
+  "ts": "2026-09-12T17:39:41+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2667,
+    "duration_ms": 7234,
     "errors": []
   },
   "power": {
@@ -20,44 +20,44 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 42.0,
+    "free_pct": 36.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6992.9,
+    "swap_used_mb": 7023.1,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 2681.8,
-    "wired_mb": 1720.6
+    "compressed_mb": 3067.6,
+    "wired_mb": 1755.2
   },
   "cpu": {
-    "load1": 3.62,
-    "load5": 4.22,
-    "load15": 3.96,
+    "load1": 4.36,
+    "load5": 4.38,
+    "load15": 4.11,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 100.0,
-        "mem": 0.5,
-        "name": "Python"
-      },
-      {
-        "cpu": 99.9,
-        "mem": 0.5,
-        "name": "Python"
-      },
-      {
-        "cpu": 16.6,
+        "cpu": 99.7,
         "mem": 0.3,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 14.9,
-        "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.4,
+        "cpu": 99.4,
+        "mem": 0.3,
+        "name": "Python"
+      },
+      {
+        "cpu": 60.6,
+        "mem": 0.0,
+        "name": "find"
+      },
+      {
+        "cpu": 55.6,
+        "mem": 2.4,
+        "name": "python"
+      },
+      {
+        "cpu": 17.5,
         "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
+        "name": "Python"
       }
     ]
   },
@@ -69,12 +69,12 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.131,
+    "latency_ms": 11.854,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.22,
-    "up_mbps": 0.19,
+    "down_mbps": 1.67,
+    "up_mbps": 0.48,
     "wifi": {
-      "signal_dbm": -36,
+      "signal_dbm": -35,
       "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
@@ -89,14 +89,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3000760,
+    "uptime_s": 3001673,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 175,
-    "active_claude_sessions": 19,
+    "running_apps": 173,
+    "active_claude_sessions": 21,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -185,7 +185,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
       "services": "green",
