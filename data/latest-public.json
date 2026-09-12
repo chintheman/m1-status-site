@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-13T05:58:44+08:00",
+  "ts": "2026-09-13T06:13:53+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3368,
+    "duration_ms": 2593,
     "errors": []
   },
   "power": {
@@ -20,25 +20,25 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 47.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5960.9,
+    "swap_used_mb": 5864.9,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 2082.7,
-    "wired_mb": 1733.0,
+    "compressed_mb": 2289.2,
+    "wired_mb": 1726.0,
     "breakdown": {
-      "hermes_mb": 848,
+      "hermes_mb": 728,
       "hermes_procs": 21,
-      "claude_mb": 1708,
+      "claude_mb": 1504,
       "claude_procs": 6,
-      "other_mb": 2476,
-      "other_procs": 579
+      "other_mb": 2563,
+      "other_procs": 582
     }
   },
   "cpu": {
-    "load1": 4.02,
+    "load1": 3.45,
     "load5": 3.54,
-    "load15": 3.48,
+    "load15": 3.56,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -48,22 +48,22 @@
         "name": "Python"
       },
       {
-        "cpu": 99.4,
+        "cpu": 99.9,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 16.3,
+        "cpu": 15.9,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 14.5,
+        "cpu": 15.8,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.2,
+        "cpu": 10.4,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.021,
+    "latency_ms": 12.951,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
     "up_mbps": 0.01,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3046012,
+    "uptime_s": 3046920,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 179,
-    "active_claude_sessions": 6,
+    "active_claude_sessions": 7,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -171,7 +171,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
