@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-15T03:31:43+08:00",
+  "ts": "2026-09-15T03:46:52+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2831,
+    "duration_ms": 2653,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 49.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6221.9,
+    "swap_used_mb": 6205.9,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 2944.8,
-    "wired_mb": 1762.5,
+    "compressed_mb": 2072.4,
+    "wired_mb": 1770.6,
     "breakdown": {
-      "hermes_mb": 537,
+      "hermes_mb": 872,
       "hermes_procs": 23,
-      "claude_mb": 833,
+      "claude_mb": 1014,
       "claude_procs": 4,
-      "other_mb": 2017,
-      "other_procs": 587
+      "other_mb": 3002,
+      "other_procs": 593
     }
   },
   "cpu": {
-    "load1": 3.71,
-    "load5": 3.37,
-    "load15": 3.25,
+    "load1": 3.0,
+    "load5": 3.22,
+    "load15": 3.24,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 100.0,
-        "mem": 0.1,
+        "mem": 0.2,
         "name": "Python"
       },
       {
         "cpu": 99.7,
-        "mem": 0.1,
+        "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 99.1,
-        "mem": 3.2,
-        "name": "python"
+        "cpu": 15.4,
+        "mem": 0.4,
+        "name": "WindowServer"
       },
       {
-        "cpu": 77.9,
-        "mem": 0.6,
-        "name": "replayd"
+        "cpu": 13.3,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 16.5,
+        "cpu": 12.9,
         "mem": 0.2,
         "name": "Python"
       }
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 17.0,
+    "latency_ms": 12.668,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.04,
     "up_mbps": 0.01,
@@ -97,15 +97,15 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3209990,
+    "uptime_s": 3210899,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 192,
+    "running_apps": 197,
     "active_claude_sessions": 6,
-    "hermes_sessions_count": 179
+    "hermes_sessions_count": 180
   },
   "battery_condition": {
     "cycle_count": 1440.0,
