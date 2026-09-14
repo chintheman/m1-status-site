@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-14T21:42:25+08:00",
+  "ts": "2026-09-14T21:57:39+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2954,
+    "duration_ms": 11293,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 50.0,
+    "free_pct": 64.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5924.2,
+    "swap_used_mb": 5788.1,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1864.9,
-    "wired_mb": 1868.1,
+    "compressed_mb": 858.1,
+    "wired_mb": 1809.5,
     "breakdown": {
-      "hermes_mb": 633,
-      "hermes_procs": 21,
-      "claude_mb": 1669,
+      "hermes_mb": 586,
+      "hermes_procs": 18,
+      "claude_mb": 1745,
       "claude_procs": 4,
-      "other_mb": 2473,
-      "other_procs": 642
+      "other_mb": 2840,
+      "other_procs": 636
     }
   },
   "cpu": {
-    "load1": 4.93,
-    "load5": 5.15,
-    "load15": 4.97,
+    "load1": 5.1,
+    "load5": 4.84,
+    "load15": 5.02,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 99.9,
-        "mem": 2.6,
-        "name": "Python"
+        "cpu": 47.9,
+        "mem": 6.3,
+        "name": "claude"
       },
       {
-        "cpu": 99.8,
-        "mem": 0.0,
-        "name": "Python"
+        "cpu": 46.5,
+        "mem": 1.1,
+        "name": "brave-search-mcp-server@2.1.0"
       },
       {
-        "cpu": 99.4,
-        "mem": 0.0,
-        "name": "Python"
+        "cpu": 45.5,
+        "mem": 1.1,
+        "name": "npm exec dexpaprika-mcp@2.3.2"
       },
       {
-        "cpu": 14.4,
-        "mem": 0.2,
-        "name": "Python"
+        "cpu": 44.5,
+        "mem": 1.1,
+        "name": "npm exec stock-scanner-mcp@1.18.0"
       },
       {
-        "cpu": 13.2,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
+        "cpu": 42.1,
+        "mem": 1.1,
+        "name": "defillama-mcp-server@0.1.0"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.224,
+    "latency_ms": 11.814,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.3,
-    "up_mbps": 3.13,
+    "down_mbps": 0.2,
+    "up_mbps": 1.4,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -91,
+      "signal_dbm": -35,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3189033,
+    "uptime_s": 3189947,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 204,
-    "active_claude_sessions": 11,
+    "running_apps": 205,
+    "active_claude_sessions": 12,
     "hermes_sessions_count": 179
   },
   "battery_condition": {
@@ -114,10 +114,12 @@
   },
   "updates": {
     "brew": {
-      "count": 4,
+      "count": 6,
       "packages": [
         "aws-c-s3",
+        "fastlane",
         "steipete/tap/imsg",
+        "s2n",
         "whisper.cpp",
         "xz"
       ]
