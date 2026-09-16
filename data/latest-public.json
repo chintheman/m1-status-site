@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-16T15:29:18+08:00",
+  "ts": "2026-09-16T15:44:57+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2795,
+    "duration_ms": 2733,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 43.0,
     "pressure_level": "critical",
     "swap_used_mb": 6670.9,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 2801.2,
-    "wired_mb": 1841.9,
+    "compressed_mb": 2459.1,
+    "wired_mb": 1814.4,
     "breakdown": {
-      "hermes_mb": 840,
-      "hermes_procs": 25,
-      "claude_mb": 862,
+      "hermes_mb": 581,
+      "hermes_procs": 23,
+      "claude_mb": 1117,
       "claude_procs": 4,
-      "other_mb": 2364,
-      "other_procs": 600
+      "other_mb": 2565,
+      "other_procs": 593
     }
   },
   "cpu": {
-    "load1": 3.69,
-    "load5": 3.44,
-    "load15": 3.29,
+    "load1": 3.15,
+    "load5": 3.33,
+    "load15": 3.4,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 99.3,
+        "cpu": 99.5,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 99.3,
+        "cpu": 99.1,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 17.4,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 15.4,
+        "cpu": 14.8,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 12.5,
+        "cpu": 13.9,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 12.2,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 15.038,
+    "latency_ms": 13.51,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
+    "down_mbps": 0.02,
     "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -35,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3339446,
+    "uptime_s": 3340385,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 200,
+    "running_apps": 197,
     "active_claude_sessions": 7,
     "hermes_sessions_count": 187
   },
@@ -154,11 +154,11 @@
   },
   "token_usage": {
     "hermes": {
-      "sessions": 214,
-      "messages": 7593,
-      "input_tokens": 15541884,
-      "output_tokens": 3651773,
-      "total_tokens": 305388089,
+      "sessions": 187,
+      "messages": 2789,
+      "input_tokens": 5020427,
+      "output_tokens": 924467,
+      "total_tokens": 59774398,
       "top_model": "deepseek-v4-flash"
     },
     "claude": {
@@ -179,8 +179,8 @@
     "ssh_failures_24h": 0
   },
   "versions": {
-    "claude_code": "2.1.270 (Claude Code)",
-    "claude_code_latest": "2.1.272",
+    "claude_code": "2.1.273 (Claude Code)",
+    "claude_code_latest": "2.1.273",
     "hermes": "0.21.2",
     "hermes_latest": "2026.9.14"
   },
