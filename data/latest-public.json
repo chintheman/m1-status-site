@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-17T13:37:33+08:00",
+  "ts": "2026-09-17T13:52:45+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2741,
+    "duration_ms": 2968,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 77,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.2,
+    "temperature_c": 31.3,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 57.0,
+    "free_pct": 41.0,
     "pressure_level": "critical",
     "swap_used_mb": 7288.5,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1494.9,
-    "wired_mb": 1773.0,
+    "compressed_mb": 2591.6,
+    "wired_mb": 1834.7,
     "breakdown": {
-      "hermes_mb": 961,
-      "hermes_procs": 20,
-      "claude_mb": 703,
+      "hermes_mb": 1271,
+      "hermes_procs": 28,
+      "claude_mb": 663,
       "claude_procs": 4,
-      "other_mb": 2835,
-      "other_procs": 640
+      "other_mb": 2967,
+      "other_procs": 628
     }
   },
   "cpu": {
-    "load1": 3.48,
-    "load5": 3.68,
-    "load15": 3.64,
+    "load1": 3.8,
+    "load5": 3.95,
+    "load15": 3.81,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 100.0,
+        "cpu": 135.6,
+        "mem": 1.7,
+        "name": "node"
+      },
+      {
+        "cpu": 97.2,
         "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 100.0,
+        "cpu": 96.5,
         "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 17.2,
+        "cpu": 46.6,
+        "mem": 0.3,
+        "name": "python"
+      },
+      {
+        "cpu": 13.5,
         "mem": 0.2,
         "name": "Python"
-      },
-      {
-        "cpu": 15.4,
-        "mem": 0.4,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 8.9,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.334,
+    "latency_ms": 13.299,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "down_mbps": 1.27,
+    "up_mbps": 1.7,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -90,
+      "noise_dbm": -89,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3419140,
+    "uptime_s": 3420053,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 200,
-    "active_claude_sessions": 5,
+    "running_apps": 204,
+    "active_claude_sessions": 4,
     "hermes_sessions_count": 177
   },
   "battery_condition": {
