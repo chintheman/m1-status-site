@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-17T21:14:00+08:00",
+  "ts": "2026-09-17T21:29:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2875,
+    "duration_ms": 3085,
     "errors": []
   },
   "power": {
@@ -20,24 +20,24 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 46.0,
+    "free_pct": 45.0,
     "pressure_level": "critical",
     "swap_used_mb": 7729.1,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 2167.0,
-    "wired_mb": 1878.3,
+    "compressed_mb": 2292.3,
+    "wired_mb": 1876.5,
     "breakdown": {
-      "hermes_mb": 1028,
-      "hermes_procs": 25,
-      "claude_mb": 781,
+      "hermes_mb": 759,
+      "hermes_procs": 24,
+      "claude_mb": 850,
       "claude_procs": 4,
-      "other_mb": 3391,
-      "other_procs": 626
+      "other_mb": 3173,
+      "other_procs": 621
     }
   },
   "cpu": {
-    "load1": 3.32,
-    "load5": 3.32,
+    "load1": 3.8,
+    "load5": 3.34,
     "load15": 3.33,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
@@ -48,24 +48,24 @@
         "name": "Python"
       },
       {
-        "cpu": 99.8,
+        "cpu": 100.0,
         "mem": 0.0,
         "name": "Python"
       },
       {
-        "cpu": 21.9,
+        "cpu": 15.1,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 21.4,
-        "mem": 0.4,
-        "name": "loginwindow"
-      },
-      {
-        "cpu": 16.8,
+        "cpu": 13.4,
         "mem": 0.2,
         "name": "Python"
+      },
+      {
+        "cpu": 12.5,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.407,
+    "latency_ms": 9.403,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.06,
-    "up_mbps": 0.03,
+    "down_mbps": 0.09,
+    "up_mbps": 0.07,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 3446529,
+    "uptime_s": 3447441,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
