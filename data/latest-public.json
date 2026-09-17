@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-18T04:44:27+08:00",
+  "ts": "2026-09-18T04:59:39+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2624,
+    "duration_ms": 2477,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 54.0,
+    "free_pct": 55.0,
     "pressure_level": "critical",
-    "swap_used_mb": 8305.2,
+    "swap_used_mb": 8233.2,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 1659.1,
-    "wired_mb": 1794.0,
+    "compressed_mb": 1543.8,
+    "wired_mb": 1806.9,
     "breakdown": {
-      "hermes_mb": 909,
+      "hermes_mb": 960,
       "hermes_procs": 25,
-      "claude_mb": 959,
+      "claude_mb": 1102,
       "claude_procs": 4,
-      "other_mb": 2709,
-      "other_procs": 600
+      "other_mb": 3086,
+      "other_procs": 605
     }
   },
   "cpu": {
-    "load1": 3.25,
-    "load5": 3.62,
-    "load15": 3.75,
+    "load1": 3.28,
+    "load5": 3.39,
+    "load15": 3.49,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 100.0,
-        "mem": 0.0,
+        "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 100.0,
-        "mem": 0.0,
+        "cpu": 99.5,
+        "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 16.6,
+        "cpu": 16.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 16.0,
-        "mem": 0.4,
+        "cpu": 15.0,
+        "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 11.5,
+        "cpu": 10.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.085,
+    "latency_ms": 13.786,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.02,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3473555,
+    "uptime_s": 3474467,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
