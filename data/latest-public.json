@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-17T16:09:53+08:00",
+  "ts": "2026-09-17T16:25:05+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2453,
+    "duration_ms": 3099,
     "errors": []
   },
   "power": {
@@ -20,25 +20,25 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 54.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7654.6,
+    "swap_used_mb": 7622.6,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1723.9,
-    "wired_mb": 1744.7,
+    "compressed_mb": 1803.8,
+    "wired_mb": 1801.7,
     "breakdown": {
-      "hermes_mb": 886,
-      "hermes_procs": 23,
-      "claude_mb": 841,
+      "hermes_mb": 1002,
+      "hermes_procs": 25,
+      "claude_mb": 1065,
       "claude_procs": 4,
-      "other_mb": 2586,
-      "other_procs": 563
+      "other_mb": 3119,
+      "other_procs": 577
     }
   },
   "cpu": {
-    "load1": 3.41,
-    "load5": 3.62,
-    "load15": 3.5,
+    "load1": 3.46,
+    "load5": 3.38,
+    "load15": 3.35,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -48,23 +48,23 @@
         "name": "Python"
       },
       {
-        "cpu": 99.9,
+        "cpu": 99.7,
         "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 15.6,
+        "cpu": 15.7,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 12.4,
+        "cpu": 14.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.4,
-        "mem": 0.3,
+        "cpu": 10.5,
+        "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
     ]
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.078,
+    "latency_ms": 17.706,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "down_mbps": 0.06,
+    "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3428280,
+    "uptime_s": 3429192,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 192,
+    "running_apps": 197,
     "active_claude_sessions": 6,
     "hermes_sessions_count": 177
   },
