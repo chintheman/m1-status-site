@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-19T06:39:59+08:00",
+  "ts": "2026-09-19T06:55:11+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2516,
+    "duration_ms": 7512,
     "errors": []
   },
   "power": {
@@ -20,40 +20,40 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 51.0,
+    "free_pct": 38.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7770.3,
+    "swap_used_mb": 7624.1,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 1846.6,
-    "wired_mb": 1817.5,
+    "compressed_mb": 2881.6,
+    "wired_mb": 1811.3,
     "breakdown": {
-      "hermes_mb": 1051,
+      "hermes_mb": 445,
       "hermes_procs": 25,
-      "claude_mb": 785,
+      "claude_mb": 611,
       "claude_procs": 4,
-      "other_mb": 3197,
-      "other_procs": 620
+      "other_mb": 3243,
+      "other_procs": 610
     }
   },
   "cpu": {
-    "load1": 3.28,
-    "load5": 3.13,
-    "load15": 3.18,
+    "load1": 3.74,
+    "load5": 3.47,
+    "load15": 3.32,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 100.0,
-        "mem": 0.0,
+        "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 99.6,
-        "mem": 0.0,
+        "cpu": 100.0,
+        "mem": 0.1,
         "name": "Python"
       },
       {
-        "cpu": 15.6,
+        "cpu": 17.1,
         "mem": 0.2,
         "name": "Python"
       },
@@ -63,7 +63,7 @@
         "name": "WindowServer"
       },
       {
-        "cpu": 11.8,
+        "cpu": 10.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.649,
+    "latency_ms": 13.328,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.05,
+    "down_mbps": 0.13,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3566887,
+    "uptime_s": 3567799,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 201,
-    "active_claude_sessions": 7,
+    "running_apps": 215,
+    "active_claude_sessions": 6,
     "hermes_sessions_count": 177
   },
   "battery_condition": {
@@ -114,9 +114,10 @@
   },
   "updates": {
     "brew": {
-      "count": 18,
+      "count": 19,
       "packages": [
         "aws-c-s3",
+        "aws-crt-cpp",
         "coreutils",
         "fastlane",
         "gh",
