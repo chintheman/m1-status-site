@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-19T08:26:19+08:00",
+  "ts": "2026-09-19T08:41:28+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3049,
+    "duration_ms": 2415,
     "errors": []
   },
   "power": {
@@ -22,23 +22,23 @@
     "total_gb": 8.0,
     "free_pct": 48.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7987.9,
+    "swap_used_mb": 7923.9,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 2101.6,
-    "wired_mb": 1806.4,
+    "compressed_mb": 2085.3,
+    "wired_mb": 1800.0,
     "breakdown": {
-      "hermes_mb": 957,
+      "hermes_mb": 994,
       "hermes_procs": 25,
-      "claude_mb": 699,
+      "claude_mb": 760,
       "claude_procs": 4,
-      "other_mb": 3191,
-      "other_procs": 582
+      "other_mb": 3176,
+      "other_procs": 583
     }
   },
   "cpu": {
-    "load1": 3.61,
-    "load5": 3.3,
-    "load15": 3.3,
+    "load1": 3.5,
+    "load5": 3.35,
+    "load15": 3.31,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -48,19 +48,19 @@
         "name": "Python"
       },
       {
-        "cpu": 99.8,
+        "cpu": 100.0,
         "mem": 0.1,
         "name": "Python"
       },
       {
         "cpu": 16.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 15.5,
         "mem": 0.4,
         "name": "WindowServer"
+      },
+      {
+        "cpu": 13.5,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
         "cpu": 5.5,
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.16,
+    "latency_ms": 9.155,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.01,
+    "down_mbps": 0.05,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -90,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3573267,
+    "uptime_s": 3574175,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
