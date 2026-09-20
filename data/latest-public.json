@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-20T10:36:51+08:00",
+  "ts": "2026-09-20T10:52:02+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6517,
+    "duration_ms": 2601,
     "errors": []
   },
   "power": {
@@ -20,25 +20,25 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 53.0,
+    "free_pct": 51.0,
     "pressure_level": "critical",
     "swap_used_mb": 7343.2,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1750.0,
-    "wired_mb": 1787.1,
+    "compressed_mb": 1920.4,
+    "wired_mb": 1797.2,
     "breakdown": {
-      "hermes_mb": 866,
-      "hermes_procs": 22,
-      "claude_mb": 1030,
+      "hermes_mb": 1063,
+      "hermes_procs": 25,
+      "claude_mb": 984,
       "claude_procs": 4,
-      "other_mb": 2994,
-      "other_procs": 572
+      "other_mb": 2789,
+      "other_procs": 569
     }
   },
   "cpu": {
-    "load1": 3.41,
-    "load5": 3.36,
-    "load15": 3.35,
+    "load1": 3.93,
+    "load5": 3.51,
+    "load15": 3.41,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -53,17 +53,17 @@
         "name": "Python"
       },
       {
-        "cpu": 17.7,
+        "cpu": 14.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 12.6,
+        "cpu": 13.4,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 8.4,
+        "cpu": 9.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       }
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.598,
+    "latency_ms": 10.113,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.05,
+    "down_mbps": 0.09,
     "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -36,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3667502,
+    "uptime_s": 3668410,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
