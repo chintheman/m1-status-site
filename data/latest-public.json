@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-22T03:33:37+08:00",
+  "ts": "2026-09-22T03:48:48+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2389,
+    "duration_ms": 2837,
     "errors": []
   },
   "power": {
@@ -20,25 +20,25 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 50.0,
+    "free_pct": 59.0,
     "pressure_level": "critical",
     "swap_used_mb": 6164.8,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1941.5,
-    "wired_mb": 1812.7,
+    "compressed_mb": 1266.3,
+    "wired_mb": 1803.9,
     "breakdown": {
-      "hermes_mb": 899,
+      "hermes_mb": 987,
       "hermes_procs": 26,
-      "claude_mb": 985,
+      "claude_mb": 986,
       "claude_procs": 5,
-      "other_mb": 3300,
-      "other_procs": 621
+      "other_mb": 3174,
+      "other_procs": 623
     }
   },
   "cpu": {
-    "load1": 1.73,
-    "load5": 2.08,
-    "load15": 2.04,
+    "load1": 2.28,
+    "load5": 1.93,
+    "load15": 1.95,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
@@ -48,24 +48,24 @@
         "name": "Python"
       },
       {
-        "cpu": 12.9,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 12.3,
+        "cpu": 13.8,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 2.8,
+        "cpu": 13.3,
         "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 2.4,
-        "mem": 6.3,
-        "name": "python"
+        "cpu": 3.4,
+        "mem": 0.1,
+        "name": "rapportd"
+      },
+      {
+        "cpu": 3.2,
+        "mem": 0.2,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.486,
+    "latency_ms": 10.521,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.06,
-    "up_mbps": 0.04,
+    "down_mbps": 0.04,
+    "up_mbps": 0.02,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -93,
+      "signal_dbm": -35,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3814904,
+    "uptime_s": 3815816,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 207,
-    "active_claude_sessions": 8,
+    "active_claude_sessions": 7,
     "hermes_sessions_count": 182
   },
   "battery_condition": {
