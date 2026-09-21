@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-22T07:21:02+08:00",
+  "ts": "2026-09-22T07:36:09+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2371,
+    "duration_ms": 4403,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 59.0,
+    "free_pct": 47.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5822.0,
+    "swap_used_mb": 5806.0,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1256.8,
-    "wired_mb": 1808.3,
+    "compressed_mb": 2168.7,
+    "wired_mb": 1795.5,
     "breakdown": {
-      "hermes_mb": 1049,
-      "hermes_procs": 26,
-      "claude_mb": 960,
+      "hermes_mb": 963,
+      "hermes_procs": 25,
+      "claude_mb": 1078,
       "claude_procs": 5,
-      "other_mb": 2798,
+      "other_mb": 2887,
       "other_procs": 594
     }
   },
   "cpu": {
-    "load1": 2.83,
-    "load5": 2.22,
-    "load15": 2.11,
+    "load1": 2.15,
+    "load5": 1.97,
+    "load15": 1.99,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
         "cpu": 18.0,
-        "mem": 0.4,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 17.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.8,
-        "mem": 0.4,
-        "name": "loginwindow"
+        "cpu": 14.0,
+        "mem": 0.3,
+        "name": "WindowServer"
       },
       {
-        "cpu": 9.7,
+        "cpu": 7.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 3.3,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "cpu": 4.5,
+        "mem": 0.1,
+        "name": "rapportd"
+      },
+      {
+        "cpu": 4.0,
+        "mem": 0.2,
+        "name": "dasd"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.867,
+    "latency_ms": 10.466,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.11,
-    "up_mbps": 0.05,
+    "down_mbps": 0.43,
+    "up_mbps": 0.27,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -92,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3828549,
+    "uptime_s": 3829456,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -114,9 +114,10 @@
   },
   "updates": {
     "brew": {
-      "count": 28,
+      "count": 30,
       "packages": [
         "apache-arrow",
+        "aws-c-common",
         "aws-c-s3",
         "aws-crt-cpp",
         "coreutils",
@@ -129,6 +130,7 @@
         "harfbuzz",
         "jemalloc",
         "libde265",
+        "libheif",
         "librsvg",
         "libvmaf",
         "llvm",
@@ -138,9 +140,7 @@
         "proj",
         "protobuf",
         "protobuf-c",
-        "readline",
-        "ruby",
-        "s2n"
+        "readline"
       ]
     },
     "macos": {
