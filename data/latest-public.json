@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-21T17:47:16+08:00",
+  "ts": "2026-09-21T18:02:23+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2303,
+    "duration_ms": 6566,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 30.7,
+    "temperature_c": 30.8,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 58.0,
+    "free_pct": 50.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6095.6,
+    "swap_used_mb": 6087.6,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1380.4,
-    "wired_mb": 1790.4,
+    "compressed_mb": 1995.2,
+    "wired_mb": 1795.0,
     "breakdown": {
-      "hermes_mb": 597,
+      "hermes_mb": 934,
       "hermes_procs": 25,
-      "claude_mb": 1186,
+      "claude_mb": 908,
       "claude_procs": 5,
-      "other_mb": 2817,
+      "other_mb": 3265,
       "other_procs": 587
     }
   },
   "cpu": {
-    "load1": 2.83,
-    "load5": 2.6,
-    "load15": 2.14,
+    "load1": 1.59,
+    "load5": 1.86,
+    "load15": 1.96,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 15.3,
+        "cpu": 16.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 13.9,
-        "mem": 0.3,
+        "cpu": 13.6,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 9.7,
+        "cpu": 12.1,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 8.9,
-        "mem": 2.1,
-        "name": "claude"
+        "cpu": 3.1,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       },
       {
-        "cpu": 3.2,
-        "mem": 0.2,
-        "name": "VTDecoderXPCService"
+        "cpu": 2.9,
+        "mem": 6.1,
+        "name": "python"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.905,
+    "latency_ms": 9.091,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.41,
-    "up_mbps": 0.29,
+    "down_mbps": 0.11,
+    "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -35,
-      "noise_dbm": -92,
+      "noise_dbm": -91,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3779723,
+    "uptime_s": 3780635,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 199,
+    "running_apps": 201,
     "active_claude_sessions": 6,
     "hermes_sessions_count": 182
   },
