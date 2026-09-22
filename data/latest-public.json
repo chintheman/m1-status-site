@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-23T00:29:45+08:00",
+  "ts": "2026-09-23T00:44:52+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2470,
+    "duration_ms": 2342,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 57.0,
+    "free_pct": 58.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6452.9,
+    "swap_used_mb": 6436.9,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1466.9,
-    "wired_mb": 1776.7,
+    "compressed_mb": 1430.5,
+    "wired_mb": 1748.4,
     "breakdown": {
-      "hermes_mb": 1089,
-      "hermes_procs": 21,
-      "claude_mb": 1246,
+      "hermes_mb": 893,
+      "hermes_procs": 19,
+      "claude_mb": 1465,
       "claude_procs": 5,
-      "other_mb": 3119,
-      "other_procs": 556
+      "other_mb": 2527,
+      "other_procs": 544
     }
   },
   "cpu": {
-    "load1": 1.08,
+    "load1": 0.7,
     "load5": 1.04,
-    "load15": 0.98,
+    "load15": 0.99,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 12.6,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 10.6,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 7.6,
+        "cpu": 7.9,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 5.0,
+        "cpu": 7.6,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 6.5,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 4.8,
         "mem": 0.1,
         "name": "osascript"
       },
       {
-        "cpu": 2.7,
+        "cpu": 2.8,
         "mem": 0.3,
         "name": "VTDecoderXPCService"
       }
@@ -71,16 +71,16 @@
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 127.0,
+    "used_gb": 128.0,
     "free_gb": 58.0,
     "pct_used": 69.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 12.653,
+    "latency_ms": 12.637,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.05,
-    "up_mbps": 0.04,
+    "down_mbps": 2.05,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -93,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3890272,
+    "uptime_s": 3891180,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 202,
+    "running_apps": 196,
     "active_claude_sessions": 8,
     "hermes_sessions_count": 181
   },
