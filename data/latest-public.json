@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-24T05:40:19+08:00",
+  "ts": "2026-09-24T05:55:30+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2385,
+    "duration_ms": 2133,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 56.0,
+    "free_pct": 63.0,
     "pressure_level": "critical",
     "swap_used_mb": 7490.8,
     "swap_total_mb": 9216.0,
-    "compressed_mb": 1527.0,
-    "wired_mb": 1759.2,
+    "compressed_mb": 1005.3,
+    "wired_mb": 1780.4,
     "breakdown": {
-      "hermes_mb": 1088,
+      "hermes_mb": 1027,
       "hermes_procs": 20,
-      "claude_mb": 998,
+      "claude_mb": 905,
       "claude_procs": 5,
-      "other_mb": 3052,
-      "other_procs": 532
+      "other_mb": 2909,
+      "other_procs": 538
     }
   },
   "cpu": {
-    "load1": 0.93,
-    "load5": 1.1,
-    "load15": 1.05,
+    "load1": 0.69,
+    "load5": 0.81,
+    "load15": 0.9,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 9.7,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
         "cpu": 8.8,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 8.4,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
+        "cpu": 7.6,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 5.0,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
         "cpu": 4.8,
-        "mem": 0.1,
+        "mem": 0.0,
         "name": "osascript"
       },
       {
-        "cpu": 3.6,
-        "mem": 9.4,
-        "name": "python"
+        "cpu": 3.4,
+        "mem": 2.3,
+        "name": "claude"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.563,
+    "latency_ms": 10.204,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.38,
-    "up_mbps": 0.26,
+    "down_mbps": 0.03,
+    "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -36,
-      "noise_dbm": -93,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3995306,
+    "uptime_s": 3996217,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 200,
+    "running_apps": 204,
     "active_claude_sessions": 7,
     "hermes_sessions_count": 181
   },
