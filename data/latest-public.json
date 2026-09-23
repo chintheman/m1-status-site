@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-24T01:52:56+08:00",
+  "ts": "2026-09-24T02:08:08+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2408,
+    "duration_ms": 2315,
     "errors": []
   },
   "power": {
@@ -20,40 +20,40 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 54.0,
+    "free_pct": 57.0,
     "pressure_level": "critical",
     "swap_used_mb": 7269.8,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1658.1,
-    "wired_mb": 1781.7,
+    "compressed_mb": 1479.8,
+    "wired_mb": 1729.3,
     "breakdown": {
-      "hermes_mb": 1145,
-      "hermes_procs": 20,
-      "claude_mb": 1073,
+      "hermes_mb": 1053,
+      "hermes_procs": 19,
+      "claude_mb": 1220,
       "claude_procs": 5,
-      "other_mb": 3690,
-      "other_procs": 569
+      "other_mb": 3231,
+      "other_procs": 542
     }
   },
   "cpu": {
-    "load1": 1.64,
-    "load5": 1.16,
-    "load15": 0.98,
+    "load1": 0.55,
+    "load5": 0.72,
+    "load15": 0.85,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 11.5,
-        "mem": 0.2,
+        "cpu": 13.6,
+        "mem": 0.3,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 10.7,
+        "cpu": 10.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.0,
+        "cpu": 8.1,
         "mem": 0.4,
         "name": "WindowServer"
       },
@@ -63,9 +63,9 @@
         "name": "osascript"
       },
       {
-        "cpu": 3.0,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "cpu": 4.5,
+        "mem": 0.1,
+        "name": "rapportd"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.058,
+    "latency_ms": 9.912,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -35,
       "noise_dbm": -95,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 3981663,
+    "uptime_s": 3982576,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 205,
+    "running_apps": 195,
     "active_claude_sessions": 7,
     "hermes_sessions_count": 181
   },
@@ -114,7 +114,7 @@
   },
   "updates": {
     "brew": {
-      "count": 33,
+      "count": 34,
       "packages": [
         "aom",
         "apache-arrow",
@@ -137,10 +137,10 @@
         "librsvg",
         "libvmaf",
         "llvm",
+        "nss",
         "anomalyco/tap/opencode",
         "openexr",
-        "openjph",
-        "proj"
+        "openjph"
       ]
     },
     "macos": {
