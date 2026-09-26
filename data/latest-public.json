@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-26T13:24:40+08:00",
+  "ts": "2026-09-26T13:41:21+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6230,
+    "duration_ms": 2331,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 52.0,
     "pressure_level": "critical",
     "swap_used_mb": 6064.8,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1962.4,
-    "wired_mb": 1880.5,
+    "compressed_mb": 1781.3,
+    "wired_mb": 1831.8,
     "breakdown": {
-      "hermes_mb": 929,
-      "hermes_procs": 20,
-      "claude_mb": 1406,
+      "hermes_mb": 971,
+      "hermes_procs": 19,
+      "claude_mb": 1050,
       "claude_procs": 5,
-      "other_mb": 2870,
-      "other_procs": 573
+      "other_mb": 2518,
+      "other_procs": 552
     }
   },
   "cpu": {
-    "load1": 1.41,
-    "load5": 0.89,
-    "load15": 0.85,
+    "load1": 0.74,
+    "load5": 0.8,
+    "load15": 0.89,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 99.3,
-        "mem": 0.4,
-        "name": "signpost_reporter"
-      },
-      {
-        "cpu": 9.4,
+        "cpu": 10.9,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 8.8,
+        "cpu": 10.2,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 7.7,
+        "cpu": 8.0,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 4.6,
+        "cpu": 6.2,
+        "mem": 0.1,
+        "name": "rapportd"
+      },
+      {
+        "cpu": 4.8,
         "mem": 0.0,
         "name": "osascript"
       }
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.343,
+    "latency_ms": 14.508,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
     "up_mbps": 0.01,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 4195972,
+    "uptime_s": 4196969,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 210,
-    "active_claude_sessions": 16,
+    "running_apps": 200,
+    "active_claude_sessions": 8,
     "hermes_sessions_count": 181
   },
   "battery_condition": {
@@ -182,10 +182,10 @@
     }
   },
   "storage": {
-    "caches": "4.0G",
+    "caches": "4.1G",
     "downloads": null,
-    "hermes": "20G",
-    "wiki": "635M"
+    "hermes": "21G",
+    "wiki": "656M"
   },
   "security": {
     "ssh_failures_24h": 0
