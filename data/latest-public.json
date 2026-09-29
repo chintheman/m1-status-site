@@ -1,10 +1,10 @@
 {
-  "ts": "2026-09-29T17:10:41+08:00",
+  "ts": "2026-09-29T17:26:13+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 11748,
+    "duration_ms": 2169,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 77,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.2,
+    "temperature_c": 31.1,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -22,50 +22,50 @@
     "total_gb": 8.0,
     "free_pct": 55.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6270.6,
+    "swap_used_mb": 6230.6,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1594.6,
-    "wired_mb": 1764.8,
+    "compressed_mb": 1648.4,
+    "wired_mb": 1760.2,
     "breakdown": {
-      "hermes_mb": 1164,
-      "hermes_procs": 16,
-      "claude_mb": 1043,
+      "hermes_mb": 947,
+      "hermes_procs": 14,
+      "claude_mb": 1033,
       "claude_procs": 5,
-      "other_mb": 2516,
-      "other_procs": 588
+      "other_mb": 2766,
+      "other_procs": 599
     }
   },
   "cpu": {
-    "load1": 1.01,
-    "load5": 1.19,
-    "load15": 1.17,
+    "load1": 0.96,
+    "load5": 0.89,
+    "load15": 0.99,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 54.5,
+        "cpu": 12.0,
         "mem": 0.3,
-        "name": "(Python)"
-      },
-      {
-        "cpu": 40.9,
-        "mem": 10.5,
-        "name": "python"
-      },
-      {
-        "cpu": 14.2,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 10.0,
-        "mem": 0.0,
-        "name": "osascript"
+        "name": "WallpaperAerialsExtension"
       },
       {
         "cpu": 7.6,
         "mem": 0.4,
         "name": "WindowServer"
+      },
+      {
+        "cpu": 4.8,
+        "mem": 0.0,
+        "name": "osascript"
+      },
+      {
+        "cpu": 3.0,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
+      },
+      {
+        "cpu": 1.6,
+        "mem": 0.2,
+        "name": "Python"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.582,
+    "latency_ms": 12.572,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.46,
-    "up_mbps": 0.42,
+    "down_mbps": 0.07,
+    "up_mbps": 0.12,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -92,
+      "signal_dbm": -35,
+      "noise_dbm": -91,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4468728,
+    "uptime_s": 4469660,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 206,
+    "running_apps": 207,
     "active_claude_sessions": 5,
     "hermes_sessions_count": 181
   },
@@ -174,11 +174,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 119,
-      "input_tokens_24h": 7816,
-      "output_tokens_24h": 3868033,
-      "cache_read_24h": 1092377408,
-      "cache_creation_24h": 48607721
+      "active_files_24h": 155,
+      "input_tokens_24h": 19296,
+      "output_tokens_24h": 5878163,
+      "cache_read_24h": 1797888958,
+      "cache_creation_24h": 76005017
     }
   },
   "storage": {
@@ -188,7 +188,7 @@
     "wiki": "734M"
   },
   "security": {
-    "ssh_failures_24h": 0
+    "ssh_failures_24h": 12
   },
   "versions": {
     "claude_code": "2.1.284 (Claude Code)",
