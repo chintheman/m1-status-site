@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-01T01:03:16+08:00",
+  "ts": "2026-10-01T01:18:27+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2187,
+    "duration_ms": 2365,
     "errors": []
   },
   "power": {
@@ -20,30 +20,30 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 69.0,
+    "free_pct": 63.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6546.1,
+    "swap_used_mb": 6514.1,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 529.2,
-    "wired_mb": 1752.5,
+    "compressed_mb": 969.5,
+    "wired_mb": 1793.4,
     "breakdown": {
-      "hermes_mb": 966,
-      "hermes_procs": 13,
-      "claude_mb": 1390,
+      "hermes_mb": 1003,
+      "hermes_procs": 16,
+      "claude_mb": 1220,
       "claude_procs": 5,
-      "other_mb": 2259,
-      "other_procs": 556
+      "other_mb": 2769,
+      "other_procs": 576
     }
   },
   "cpu": {
-    "load1": 0.98,
-    "load5": 0.86,
-    "load15": 0.84,
+    "load1": 1.01,
+    "load5": 0.85,
+    "load15": 0.82,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 10.0,
+        "cpu": 10.4,
         "mem": 0.2,
         "name": "Python"
       },
@@ -53,19 +53,19 @@
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.4,
+        "cpu": 7.7,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
         "cpu": 4.8,
-        "mem": 0.1,
+        "mem": 0.0,
         "name": "osascript"
       },
       {
-        "cpu": 3.4,
-        "mem": 0.1,
-        "name": "rapportd"
+        "cpu": 2.7,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.589,
+    "latency_ms": 15.354,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.05,
     "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -36,
-      "noise_dbm": -92,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4583483,
+    "uptime_s": 4584394,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 205,
-    "active_claude_sessions": 6,
+    "running_apps": 215,
+    "active_claude_sessions": 7,
     "hermes_sessions_count": 181
   },
   "battery_condition": {
