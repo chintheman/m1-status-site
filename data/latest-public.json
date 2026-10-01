@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-01T15:23:40+08:00",
+  "ts": "2026-10-01T15:38:55+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 7442,
+    "duration_ms": 2989,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 47.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6483.7,
+    "swap_used_mb": 6467.7,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 2943.1,
-    "wired_mb": 1741.8,
+    "compressed_mb": 2312.3,
+    "wired_mb": 1710.3,
     "breakdown": {
-      "hermes_mb": 616,
-      "hermes_procs": 15,
-      "claude_mb": 705,
+      "hermes_mb": 895,
+      "hermes_procs": 12,
+      "claude_mb": 1006,
       "claude_procs": 5,
-      "other_mb": 2343,
-      "other_procs": 426
+      "other_mb": 2348,
+      "other_procs": 460
     }
   },
   "cpu": {
-    "load1": 1.03,
-    "load5": 0.86,
-    "load15": 0.84,
+    "load1": 0.79,
+    "load5": 0.77,
+    "load15": 0.79,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 11.4,
+        "cpu": 55.4,
+        "mem": 0.2,
+        "name": "mobileassetd"
+      },
+      {
+        "cpu": 9.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 10.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 7.7,
+        "cpu": 7.8,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 6.3,
-        "mem": 0.1,
-        "name": "rapportd"
+        "cpu": 6.0,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 4.8,
-        "mem": 0.0,
-        "name": "osascript"
+        "cpu": 4.6,
+        "mem": 0.1,
+        "name": "fseventsd"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.516,
+    "latency_ms": 10.95,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.18,
-    "up_mbps": 0.18,
+    "down_mbps": 0.02,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -92,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4635113,
+    "uptime_s": 4636023,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 199,
-    "active_claude_sessions": 9,
+    "running_apps": 189,
+    "active_claude_sessions": 10,
     "hermes_sessions_count": 181
   },
   "battery_condition": {
@@ -114,7 +114,7 @@
   },
   "updates": {
     "brew": {
-      "count": 45,
+      "count": 47,
       "packages": [
         "aom",
         "apache-arrow",
