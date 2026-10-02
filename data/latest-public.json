@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-02T12:03:01+08:00",
+  "ts": "2026-10-02T12:18:14+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3517,
+    "duration_ms": 2423,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 48.0,
+    "free_pct": 58.0,
     "pressure_level": "critical",
-    "swap_used_mb": 6728.1,
+    "swap_used_mb": 6592.1,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1932.1,
-    "wired_mb": 1954.7,
+    "compressed_mb": 1260.2,
+    "wired_mb": 1901.6,
     "breakdown": {
-      "hermes_mb": 236,
-      "hermes_procs": 12,
-      "claude_mb": 1050,
+      "hermes_mb": 1024,
+      "hermes_procs": 15,
+      "claude_mb": 865,
       "claude_procs": 5,
-      "other_mb": 1845,
-      "other_procs": 518
+      "other_mb": 2495,
+      "other_procs": 541
     }
   },
   "cpu": {
-    "load1": 0.98,
-    "load5": 1.01,
-    "load15": 0.93,
+    "load1": 0.86,
+    "load5": 0.9,
+    "load15": 0.88,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 51.1,
-        "mem": 0.1,
-        "name": "CarbonComponentScannerXPC"
-      },
-      {
-        "cpu": 26.8,
-        "mem": 1.2,
-        "name": "com.apple.WebKit.WebContent"
-      },
-      {
-        "cpu": 15.1,
-        "mem": 1.8,
-        "name": "Safari"
-      },
-      {
         "cpu": 9.5,
-        "mem": 0.5,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 7.5,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
+      },
+      {
+        "cpu": 7.4,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 7.3,
-        "mem": 0.1,
-        "name": "dmd"
+        "cpu": 4.7,
+        "mem": 0.0,
+        "name": "osascript"
+      },
+      {
+        "cpu": 2.8,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.767,
+    "latency_ms": 9.98,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.18,
-    "up_mbps": 0.47,
+    "down_mbps": 0.61,
+    "up_mbps": 0.39,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4709470,
+    "uptime_s": 4710381,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 199,
+    "running_apps": 211,
     "active_claude_sessions": 7,
     "hermes_sessions_count": 186
   },
