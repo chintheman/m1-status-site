@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-04T23:38:33+08:00",
+  "ts": "2026-10-04T23:53:43+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2598,
+    "duration_ms": 15748,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.4,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 55.0,
+    "free_pct": 36.0,
     "pressure_level": "critical",
-    "swap_used_mb": 5935.3,
+    "swap_used_mb": 5925.2,
     "swap_total_mb": 7168.0,
-    "compressed_mb": 1638.2,
-    "wired_mb": 1739.8,
+    "compressed_mb": 2988.1,
+    "wired_mb": 1853.2,
     "breakdown": {
-      "hermes_mb": 519,
-      "hermes_procs": 15,
-      "claude_mb": 1075,
+      "hermes_mb": 245,
+      "hermes_procs": 18,
+      "claude_mb": 330,
       "claude_procs": 6,
-      "other_mb": 2407,
-      "other_procs": 548
+      "other_mb": 1765,
+      "other_procs": 489
     }
   },
   "cpu": {
-    "load1": 0.77,
-    "load5": 0.64,
-    "load15": 0.81,
+    "load1": 14.62,
+    "load5": 5.87,
+    "load15": 2.87,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 11.4,
+        "cpu": 380.2,
+        "mem": 0.6,
+        "name": "diskimagesiod"
+      },
+      {
+        "cpu": 302.7,
+        "mem": 1.6,
+        "name": "XprotectService"
+      },
+      {
+        "cpu": 9.6,
+        "mem": 0.3,
+        "name": "WindowServer"
+      },
+      {
+        "cpu": 5.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 10.2,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 10.1,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 8.1,
-        "mem": 0.4,
-        "name": "WindowServer"
-      },
-      {
-        "cpu": 5.2,
+        "cpu": 4.4,
         "mem": 0.1,
-        "name": "osascript"
+        "name": "networkserviceproxy"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.131,
+    "latency_ms": 20.65,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.18,
-    "up_mbps": 0.18,
+    "down_mbps": 0.12,
+    "up_mbps": 0.05,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -87,
+      "signal_dbm": -35,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4924000,
+    "uptime_s": 4924923,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 201,
+    "running_apps": 208,
     "active_claude_sessions": 12,
     "hermes_sessions_count": 224
   },
@@ -202,7 +202,7 @@
     "details": {
       "power": "green",
       "memory": "red",
-      "cpu_thermal": "green",
+      "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
       "services": "green",
