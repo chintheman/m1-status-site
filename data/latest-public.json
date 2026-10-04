@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-04T17:18:48+08:00",
+  "ts": "2026-10-04T17:34:36+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6569,
+    "duration_ms": 2414,
     "errors": []
   },
   "power": {
@@ -20,50 +20,50 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 51.0,
+    "free_pct": 64.0,
     "pressure_level": "critical",
-    "swap_used_mb": 7253.2,
+    "swap_used_mb": 7197.2,
     "swap_total_mb": 8192.0,
-    "compressed_mb": 1823.1,
-    "wired_mb": 1860.1,
+    "compressed_mb": 904.2,
+    "wired_mb": 1780.9,
     "breakdown": {
       "hermes_mb": 983,
-      "hermes_procs": 15,
-      "claude_mb": 1485,
+      "hermes_procs": 14,
+      "claude_mb": 1029,
       "claude_procs": 6,
-      "other_mb": 2813,
-      "other_procs": 530
+      "other_mb": 2638,
+      "other_procs": 476
     }
   },
   "cpu": {
-    "load1": 0.91,
-    "load5": 0.95,
-    "load15": 0.95,
+    "load1": 0.77,
+    "load5": 0.91,
+    "load15": 0.91,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 10.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 10.0,
+        "cpu": 11.3,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.9,
+        "cpu": 8.0,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 4.8,
+        "cpu": 6.3,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 4.7,
         "mem": 0.0,
         "name": "osascript"
       },
       {
-        "cpu": 3.1,
+        "cpu": 2.7,
         "mem": 0.2,
         "name": "VTDecoderXPCService"
       }
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.226,
+    "latency_ms": 11.598,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.06,
-    "up_mbps": 0.21,
+    "down_mbps": 0.05,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 4901219,
+    "uptime_s": 4902163,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 204,
-    "active_claude_sessions": 11,
+    "running_apps": 200,
+    "active_claude_sessions": 9,
     "hermes_sessions_count": 224
   },
   "battery_condition": {
@@ -174,11 +174,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 120,
-      "input_tokens_24h": 18850,
-      "output_tokens_24h": 7609588,
-      "cache_read_24h": 2242658568,
-      "cache_creation_24h": 77522324
+      "active_files_24h": 117,
+      "input_tokens_24h": 14778,
+      "output_tokens_24h": 6208689,
+      "cache_read_24h": 1526146642,
+      "cache_creation_24h": 50272597
     }
   },
   "storage": {
@@ -188,7 +188,7 @@
     "wiki": "914M"
   },
   "security": {
-    "ssh_failures_24h": 6
+    "ssh_failures_24h": 0
   },
   "versions": {
     "claude_code": "2.1.289 (Claude Code)",
