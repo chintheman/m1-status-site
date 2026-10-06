@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-07T00:39:10+08:00",
+  "ts": "2026-10-07T00:54:17+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2361,
+    "duration_ms": 2354,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 60.0,
+    "free_pct": 59.0,
     "pressure_level": "critical",
     "swap_used_mb": 4266.9,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 1261.5,
-    "wired_mb": 1735.4,
+    "compressed_mb": 1319.1,
+    "wired_mb": 1763.6,
     "breakdown": {
-      "hermes_mb": 994,
-      "hermes_procs": 14,
-      "claude_mb": 1303,
+      "hermes_mb": 1009,
+      "hermes_procs": 15,
+      "claude_mb": 1338,
       "claude_procs": 6,
-      "other_mb": 2943,
-      "other_procs": 555
+      "other_mb": 3389,
+      "other_procs": 567
     }
   },
   "cpu": {
-    "load1": 0.31,
-    "load5": 0.54,
-    "load15": 0.61,
+    "load1": 1.16,
+    "load5": 0.93,
+    "load15": 0.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 10.7,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 8.5,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 7.1,
+        "cpu": 40.9,
         "mem": 0.4,
-        "name": "WindowServer"
+        "name": "com.apple.WebKit.WebContent"
       },
       {
-        "cpu": 4.6,
-        "mem": 0.0,
-        "name": "osascript"
+        "cpu": 17.8,
+        "mem": 0.2,
+        "name": "launchd"
       },
       {
-        "cpu": 3.9,
-        "mem": 9.4,
-        "name": "python"
+        "cpu": 12.5,
+        "mem": 0.3,
+        "name": "nsattributedstringagent"
+      },
+      {
+        "cpu": 9.7,
+        "mem": 0.3,
+        "name": "nsattributedstringagent"
+      },
+      {
+        "cpu": 9.6,
+        "mem": 0.7,
+        "name": "softwareupdated"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.08,
+    "latency_ms": 13.413,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.03,
+    "down_mbps": 0.04,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -92,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5100437,
+    "uptime_s": 5101344,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 86,
+    "running_apps": 104,
     "active_claude_sessions": 8,
     "hermes_sessions_count": 188
   },
