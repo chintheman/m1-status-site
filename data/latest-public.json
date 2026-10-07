@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-07T14:54:18+08:00",
+  "ts": "2026-10-07T15:09:25+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2043,
+    "duration_ms": 6094,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 64.0,
+    "free_pct": 68.0,
     "pressure_level": "critical",
     "swap_used_mb": 4750.1,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 834.5,
-    "wired_mb": 1855.3,
+    "compressed_mb": 616.2,
+    "wired_mb": 1777.5,
     "breakdown": {
-      "hermes_mb": 792,
-      "hermes_procs": 14,
-      "claude_mb": 1521,
+      "hermes_mb": 670,
+      "hermes_procs": 11,
+      "claude_mb": 1808,
       "claude_procs": 6,
-      "other_mb": 3675,
-      "other_procs": 570
+      "other_mb": 3184,
+      "other_procs": 576
     }
   },
   "cpu": {
-    "load1": 1.28,
-    "load5": 1.13,
-    "load15": 1.09,
+    "load1": 0.84,
+    "load5": 1.14,
+    "load15": 1.14,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 32.8,
+        "cpu": 28.6,
         "mem": 0.7,
         "name": "chrome-headless-shell"
       },
       {
-        "cpu": 12.0,
+        "cpu": 12.6,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 11.4,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 9.0,
+        "cpu": 9.1,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 7.1,
+        "cpu": 7.9,
         "mem": 1.5,
         "name": "chrome-headless-shell"
+      },
+      {
+        "cpu": 4.8,
+        "mem": 0.1,
+        "name": "osascript"
       }
     ]
   },
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.108,
+    "latency_ms": 15.231,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.09,
+    "down_mbps": 0.03,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -36,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5151745,
+    "uptime_s": 5152656,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 95,
+    "running_apps": 85,
     "active_claude_sessions": 4,
     "hermes_sessions_count": 188
   },
