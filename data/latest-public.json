@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-10T18:14:52+08:00",
+  "ts": "2026-10-10T18:30:01+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3179,
+    "duration_ms": 2890,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 61.0,
+    "free_pct": 63.0,
     "pressure_level": "normal",
     "swap_used_mb": 4593.2,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 1119.8,
-    "wired_mb": 1765.0,
+    "compressed_mb": 1008.4,
+    "wired_mb": 1779.6,
     "breakdown": {
-      "hermes_mb": 919,
-      "hermes_procs": 15,
-      "claude_mb": 2359,
+      "hermes_mb": 903,
+      "hermes_procs": 14,
+      "claude_mb": 2528,
       "claude_procs": 9,
-      "other_mb": 2498,
-      "other_procs": 579
+      "other_mb": 2388,
+      "other_procs": 576
     }
   },
   "cpu": {
-    "load1": 0.42,
-    "load5": 0.77,
-    "load15": 0.87,
+    "load1": 0.76,
+    "load5": 0.78,
+    "load15": 0.81,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
+        "cpu": 23.9,
+        "mem": 0.2,
+        "name": "launchd"
+      },
+      {
+        "cpu": 16.4,
+        "mem": 0.4,
+        "name": "loginwindow"
+      },
+      {
         "cpu": 8.4,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 8.1,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
-      },
-      {
-        "cpu": 7.9,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 4.7,
-        "mem": 0.0,
-        "name": "osascript"
+        "cpu": 8.1,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 3.7,
-        "mem": 2.7,
-        "name": "claude"
+        "cpu": 7.7,
+        "mem": 0.2,
+        "name": "WallpaperAerialsExtension"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.845,
+    "latency_ms": 15.076,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.15,
-    "up_mbps": 0.05,
+    "down_mbps": 0.09,
+    "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5422980,
+    "uptime_s": 5423889,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 102,
-    "active_claude_sessions": 31,
+    "active_claude_sessions": 32,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
