@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-11T12:51:55+08:00",
+  "ts": "2026-10-11T13:07:03+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2380,
+    "duration_ms": 2234,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 78,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.0,
+    "temperature_c": 31.1,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 59.0,
+    "free_pct": 61.0,
     "pressure_level": "normal",
-    "swap_used_mb": 5321.2,
+    "swap_used_mb": 5289.2,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 1339.8,
-    "wired_mb": 1754.2,
+    "compressed_mb": 1155.1,
+    "wired_mb": 1747.6,
     "breakdown": {
-      "hermes_mb": 911,
+      "hermes_mb": 1017,
       "hermes_procs": 15,
-      "claude_mb": 1912,
+      "claude_mb": 1853,
       "claude_procs": 8,
-      "other_mb": 2557,
-      "other_procs": 491
+      "other_mb": 3170,
+      "other_procs": 509
     }
   },
   "cpu": {
-    "load1": 0.77,
-    "load5": 0.92,
-    "load15": 0.89,
+    "load1": 0.82,
+    "load5": 0.94,
+    "load15": 0.94,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.0,
-        "mem": 0.1,
+        "cpu": 27.0,
+        "mem": 0.2,
+        "name": "spotlightknowledged.updater"
+      },
+      {
+        "cpu": 20.9,
+        "mem": 0.2,
+        "name": "dasd"
+      },
+      {
+        "cpu": 13.0,
+        "mem": 0.2,
         "name": "contactsd"
       },
       {
-        "cpu": 17.9,
-        "mem": 0.1,
+        "cpu": 12.8,
+        "mem": 0.2,
         "name": "contactsd"
       },
       {
-        "cpu": 17.5,
-        "mem": 0.1,
-        "name": "contactsd"
-      },
-      {
-        "cpu": 16.7,
-        "mem": 0.1,
-        "name": "contactsd"
-      },
-      {
-        "cpu": 16.5,
-        "mem": 0.1,
-        "name": "contactsd"
+        "cpu": 10.6,
+        "mem": 0.2,
+        "name": "Python"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.65,
+    "latency_ms": 8.797,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.1,
-    "up_mbps": 0.03,
+    "down_mbps": 0.14,
+    "up_mbps": 0.13,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -92,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5490002,
+    "uptime_s": 5490910,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 95,
+    "running_apps": 98,
     "active_claude_sessions": 9,
     "hermes_sessions_count": 188
   },
