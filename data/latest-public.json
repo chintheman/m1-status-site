@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-12T16:28:31+08:00",
+  "ts": "2026-10-12T16:43:43+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2056,
+    "duration_ms": 2769,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 77,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.2,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,70 +20,70 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 70.0,
+    "free_pct": 64.0,
     "pressure_level": "normal",
-    "swap_used_mb": 4984.8,
+    "swap_used_mb": 4920.8,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 477.0,
-    "wired_mb": 1776.6,
+    "compressed_mb": 977.0,
+    "wired_mb": 1745.8,
     "breakdown": {
-      "hermes_mb": 836,
-      "hermes_procs": 14,
-      "claude_mb": 2801,
-      "claude_procs": 9,
-      "other_mb": 2075,
-      "other_procs": 417
+      "hermes_mb": 1129,
+      "hermes_procs": 18,
+      "claude_mb": 2964,
+      "claude_procs": 10,
+      "other_mb": 2076,
+      "other_procs": 427
     }
   },
   "cpu": {
-    "load1": 0.66,
-    "load5": 0.74,
-    "load15": 0.88,
+    "load1": 0.46,
+    "load5": 1.12,
+    "load15": 1.23,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 9.2,
-        "mem": 0.2,
-        "name": "Python"
-      },
-      {
-        "cpu": 7.6,
+        "cpu": 7.9,
         "mem": 0.4,
         "name": "WindowServer"
       },
       {
-        "cpu": 6.2,
+        "cpu": 7.8,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 4.8,
+        "cpu": 5.0,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 4.7,
         "mem": 0.0,
         "name": "osascript"
       },
       {
-        "cpu": 3.4,
-        "mem": 4.8,
-        "name": "claude"
+        "cpu": 2.9,
+        "mem": 0.3,
+        "name": "VTDecoderXPCService"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 137.0,
+    "used_gb": 136.0,
     "free_gb": 50.0,
     "pct_used": 74.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.345,
+    "latency_ms": 10.501,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.02,
-    "up_mbps": 0.02,
+    "down_mbps": 0.36,
+    "up_mbps": 0.35,
     "wifi": {
       "signal_dbm": -36,
-      "noise_dbm": -90,
+      "noise_dbm": -89,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:54+08:00",
-    "uptime_s": 5589399,
+    "uptime_s": 5590311,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 68,
-    "active_claude_sessions": 21,
+    "running_apps": 76,
+    "active_claude_sessions": 24,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
