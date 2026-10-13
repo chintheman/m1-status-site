@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-13T11:06:28+08:00",
+  "ts": "2026-10-13T11:21:35+08:00",
   "host": "kobo",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2177,
+    "duration_ms": 5843,
     "errors": []
   },
   "power": {
@@ -20,40 +20,40 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 61.0,
+    "free_pct": 64.0,
     "pressure_level": "normal",
     "swap_used_mb": 4863.7,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 1196.6,
-    "wired_mb": 1707.8,
+    "compressed_mb": 1008.2,
+    "wired_mb": 1700.0,
     "breakdown": {
-      "hermes_mb": 847,
+      "hermes_mb": 843,
       "hermes_procs": 12,
-      "claude_mb": 1847,
+      "claude_mb": 2136,
       "claude_procs": 9,
-      "other_mb": 2321,
-      "other_procs": 490
+      "other_mb": 2301,
+      "other_procs": 489
     }
   },
   "cpu": {
-    "load1": 1.01,
-    "load5": 0.9,
-    "load15": 0.89,
+    "load1": 0.79,
+    "load5": 0.74,
+    "load15": 0.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 13.1,
+        "cpu": 10.0,
         "mem": 0.2,
         "name": "WallpaperAerialsExtension"
       },
       {
-        "cpu": 7.6,
+        "cpu": 8.1,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 7.3,
+        "cpu": 7.6,
         "mem": 0.4,
         "name": "WindowServer"
       },
@@ -63,9 +63,9 @@
         "name": "osascript"
       },
       {
-        "cpu": 3.1,
-        "mem": 0.3,
-        "name": "VTDecoderXPCService"
+        "cpu": 3.3,
+        "mem": 3.5,
+        "name": "claude"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.696,
+    "latency_ms": 10.682,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.02,
-    "up_mbps": 0.02,
+    "up_mbps": 0.01,
     "wifi": {
       "signal_dbm": -36,
       "noise_dbm": -90,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5656475,
+    "uptime_s": 5657386,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
