@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-13T20:40:02+08:00",
+  "ts": "2026-10-13T22:19:07+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3359,
+    "duration_ms": 7257,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.3,
+    "temperature_c": 31.6,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,69 +20,69 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 36.0,
-    "pressure_level": "warn",
-    "swap_used_mb": 753.0,
-    "swap_total_mb": 1024.0,
-    "compressed_mb": 3656.8,
-    "wired_mb": 1158.0,
+    "free_pct": 61.0,
+    "pressure_level": "normal",
+    "swap_used_mb": 1998.9,
+    "swap_total_mb": 3072.0,
+    "compressed_mb": 1426.0,
+    "wired_mb": 1537.0,
     "breakdown": {
-      "hermes_mb": 670,
-      "hermes_procs": 24,
-      "claude_mb": 1225,
+      "hermes_mb": 1009,
+      "hermes_procs": 15,
+      "claude_mb": 1627,
       "claude_procs": 10,
-      "other_mb": 4183,
-      "other_procs": 530
+      "other_mb": 2835,
+      "other_procs": 335
     }
   },
   "cpu": {
-    "load1": 8.03,
-    "load5": 8.63,
-    "load15": 12.12,
+    "load1": 8.16,
+    "load5": 8.78,
+    "load15": 10.31,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 82.9,
-        "mem": 1.0,
+        "cpu": 101.8,
+        "mem": 5.4,
+        "name": "mediaanalysisd"
+      },
+      {
+        "cpu": 64.7,
+        "mem": 0.3,
         "name": "backupd"
       },
       {
-        "cpu": 74.8,
-        "mem": 1.8,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 61.1,
-        "mem": 0.6,
-        "name": "apfsd"
-      },
-      {
-        "cpu": 38.3,
+        "cpu": 54.0,
         "mem": 0.2,
         "name": "SystemUIServer"
       },
       {
-        "cpu": 16.8,
-        "mem": 0.5,
+        "cpu": 26.2,
+        "mem": 0.4,
         "name": "WindowServer"
+      },
+      {
+        "cpu": 13.9,
+        "mem": 0.2,
+        "name": "Python"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 139.0,
-    "free_gb": 64.0,
-    "pct_used": 69.0,
+    "used_gb": 140.0,
+    "free_gb": 61.0,
+    "pct_used": 70.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.127,
+    "latency_ms": 10.182,
     "packet_loss_pct": 0.0,
-    "down_mbps": 9.92,
-    "up_mbps": 0.31,
+    "down_mbps": 0.2,
+    "up_mbps": 1.65,
     "wifi": {
-      "signal_dbm": -41,
+      "signal_dbm": -26,
       "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:20+08:00",
-    "uptime_s": 1304,
+    "uptime_s": 7253,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 60,
-    "active_claude_sessions": 19,
+    "running_apps": 38,
+    "active_claude_sessions": 26,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
@@ -174,21 +174,21 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 160,
-      "input_tokens_24h": 33436,
-      "output_tokens_24h": 10150639,
-      "cache_read_24h": 3980016515,
-      "cache_creation_24h": 199039737
+      "active_files_24h": 182,
+      "input_tokens_24h": 36662,
+      "output_tokens_24h": 10529270,
+      "cache_read_24h": 4459708817,
+      "cache_creation_24h": 275178859
     }
   },
   "storage": {
-    "caches": "4.7G",
+    "caches": "5.0G",
     "downloads": null,
-    "hermes": "31G",
-    "wiki": "1.4G"
+    "hermes": "26G",
+    "wiki": "1.7G"
   },
   "security": {
-    "ssh_failures_24h": 0
+    "ssh_failures_24h": 3
   },
   "versions": {
     "claude_code": "2.1.296 (Claude Code)",
@@ -201,7 +201,7 @@
     "overall": "red",
     "details": {
       "power": "green",
-      "memory": "yellow",
+      "memory": "green",
       "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
