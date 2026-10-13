@@ -1,110 +1,110 @@
 {
-  "ts": "2026-10-13T20:05:30+08:00",
-  "host": "kobo",
+  "ts": "2026-10-13T20:19:36+08:00",
+  "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2505,
+    "duration_ms": 11129,
     "errors": []
   },
   "power": {
     "source": "AC Power",
-    "charge_pct": 80,
-    "state": "AC",
+    "charge_pct": 81,
+    "state": "charging",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.5,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
-    "is_charging": false,
+    "is_charging": true,
     "drain_pct_per_hr": null
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 61.0,
+    "free_pct": 73.0,
     "pressure_level": "normal",
-    "swap_used_mb": 4584.2,
-    "swap_total_mb": 6144.0,
-    "compressed_mb": 1186.0,
-    "wired_mb": 1709.5,
+    "swap_used_mb": 0.0,
+    "swap_total_mb": null,
+    "compressed_mb": 739.6,
+    "wired_mb": 1260.5,
     "breakdown": {
-      "hermes_mb": 707,
-      "hermes_procs": 13,
-      "claude_mb": 1997,
-      "claude_procs": 9,
-      "other_mb": 2683,
-      "other_procs": 465
+      "hermes_mb": 328,
+      "hermes_procs": 14,
+      "claude_mb": 0,
+      "claude_procs": 0,
+      "other_mb": 8422,
+      "other_procs": 518
     }
   },
   "cpu": {
-    "load1": 0.9,
-    "load5": 0.93,
-    "load15": 0.96,
+    "load1": 220.1,
+    "load5": 52.64,
+    "load15": 19.04,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 60.1,
-        "mem": 6.5,
-        "name": "claude"
+        "cpu": 146.9,
+        "mem": 8.1,
+        "name": "npm ci"
       },
       {
-        "cpu": 11.5,
-        "mem": 3.3,
-        "name": "claude"
-      },
-      {
-        "cpu": 10.5,
+        "cpu": 74.1,
         "mem": 0.2,
-        "name": "Python"
+        "name": "mobileassetd"
       },
       {
-        "cpu": 10.0,
-        "mem": 0.4,
-        "name": "WindowServer"
+        "cpu": 70.3,
+        "mem": 0.3,
+        "name": "siriactionsd"
       },
       {
-        "cpu": 9.2,
-        "mem": 0.2,
-        "name": "WallpaperAerialsExtension"
+        "cpu": 31.9,
+        "mem": 3.9,
+        "name": "NordVPN"
+      },
+      {
+        "cpu": 28.4,
+        "mem": 0.6,
+        "name": "python3"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 145.0,
-    "free_gb": 42.0,
-    "pct_used": 78.0,
+    "used_gb": 139.0,
+    "free_gb": 65.0,
+    "pct_used": 69.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.61,
+    "latency_ms": 28.726,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.08,
-    "up_mbps": 0.1,
+    "down_mbps": 0.0,
+    "up_mbps": 0.0,
     "wifi": {
-      "signal_dbm": -36,
-      "noise_dbm": -89,
+      "signal_dbm": -41,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
   },
   "services": {
     "cloudflared": true,
-    "hermes_dashboard_9119": true,
+    "hermes_dashboard_9119": false,
     "spine_mcp": false,
     "tailscaled": false
   },
   "system": {
     "macos_version": "26.5.1",
-    "boot_time": "2026-08-08T23:51:55+08:00",
-    "uptime_s": 5688817,
-    "unexpected_reboot": false,
+    "boot_time": "2026-10-13T20:18:20+08:00",
+    "uptime_s": 81,
+    "unexpected_reboot": true,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 69,
-    "active_claude_sessions": 12,
+    "running_apps": 62,
+    "active_claude_sessions": 15,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
@@ -196,16 +196,22 @@
     "hermes": "0.21.7",
     "hermes_latest": "0.21.7"
   },
-  "recent_events": [],
+  "recent_events": [
+    {
+      "ts": "2026-10-13T20:19:41+08:00",
+      "type": "reboot",
+      "detail": "boot time changed to 2026-10-13T20:18:20+08:00"
+    }
+  ],
   "status": {
-    "overall": "yellow",
+    "overall": "red",
     "details": {
       "power": "green",
       "memory": "green",
-      "cpu_thermal": "green",
+      "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
-      "services": "green",
+      "services": "red",
       "updates": "yellow"
     }
   }
