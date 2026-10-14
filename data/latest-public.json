@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-14T09:36:38+08:00",
+  "ts": "2026-10-14T09:51:47+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3228,
+    "duration_ms": 2155,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.2,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,67 +20,67 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 72.0,
+    "free_pct": 76.0,
     "pressure_level": "normal",
-    "swap_used_mb": 2492.2,
-    "swap_total_mb": 4096.0,
-    "compressed_mb": 952.0,
-    "wired_mb": 1108.5,
+    "swap_used_mb": 2056.5,
+    "swap_total_mb": 3072.0,
+    "compressed_mb": 734.3,
+    "wired_mb": 1062.3,
     "breakdown": {
-      "hermes_mb": 1344,
-      "hermes_procs": 21,
-      "claude_mb": 1839,
+      "hermes_mb": 1379,
+      "hermes_procs": 17,
+      "claude_mb": 2577,
       "claude_procs": 10,
-      "other_mb": 2177,
-      "other_procs": 365
+      "other_mb": 2312,
+      "other_procs": 368
     }
   },
   "cpu": {
-    "load1": 1.59,
-    "load5": 1.82,
-    "load15": 2.37,
+    "load1": 1.37,
+    "load5": 1.69,
+    "load15": 1.93,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.4,
+        "cpu": 15.8,
+        "mem": 11.4,
+        "name": "python3"
+      },
+      {
+        "cpu": 14.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 3.4,
-        "mem": 2.4,
+        "cpu": 6.8,
+        "mem": 3.7,
         "name": "claude"
       },
       {
-        "cpu": 1.7,
-        "mem": 0.2,
-        "name": "launchd"
+        "cpu": 4.2,
+        "mem": 2.6,
+        "name": "claude"
       },
       {
-        "cpu": 1.0,
+        "cpu": 1.5,
         "mem": 1.1,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 0.9,
-        "mem": 2.2,
-        "name": "claude"
+        "name": "python3"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 146.0,
-    "free_gb": 54.0,
+    "free_gb": 55.0,
     "pct_used": 73.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.578,
+    "latency_ms": 11.408,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.14,
-    "up_mbps": 0.59,
+    "down_mbps": 0.12,
+    "up_mbps": 0.64,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -90,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 47901,
+    "uptime_s": 48810,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 37,
-    "active_claude_sessions": 22,
+    "active_claude_sessions": 18,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
