@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-15T22:16:34+08:00",
+  "ts": "2026-10-15T22:32:42+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3170,
+    "duration_ms": 2718,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 79,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 62.0,
+    "free_pct": 64.0,
     "pressure_level": "normal",
-    "swap_used_mb": 2209.4,
+    "swap_used_mb": 1503.5,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 1670.7,
-    "wired_mb": 1199.5,
+    "compressed_mb": 1696.6,
+    "wired_mb": 1025.5,
     "breakdown": {
-      "hermes_mb": 1657,
-      "hermes_procs": 31,
-      "claude_mb": 1907,
-      "claude_procs": 11,
-      "other_mb": 1807,
-      "other_procs": 351
+      "hermes_mb": 1002,
+      "hermes_procs": 17,
+      "claude_mb": 1734,
+      "claude_procs": 10,
+      "other_mb": 2146,
+      "other_procs": 380
     }
   },
   "cpu": {
-    "load1": 14.8,
-    "load5": 18.32,
-    "load15": 16.03,
+    "load1": 6.38,
+    "load5": 6.49,
+    "load15": 9.49,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 42.0,
-        "mem": 1.1,
-        "name": "python"
+        "cpu": 51.7,
+        "mem": 4.8,
+        "name": "claude"
       },
       {
-        "cpu": 36.1,
-        "mem": 0.5,
-        "name": "python"
+        "cpu": 16.2,
+        "mem": 0.2,
+        "name": "Python"
       },
       {
-        "cpu": 36.1,
-        "mem": 0.4,
-        "name": "python3.14"
+        "cpu": 12.3,
+        "mem": 2.6,
+        "name": "claude"
       },
       {
-        "cpu": 34.5,
-        "mem": 0.7,
-        "name": "python"
+        "cpu": 11.9,
+        "mem": 2.8,
+        "name": "claude"
       },
       {
-        "cpu": 30.8,
-        "mem": 1.1,
-        "name": "python"
+        "cpu": 5.7,
+        "mem": 1.8,
+        "name": "claude"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 7.794,
+    "latency_ms": 7.272,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.22,
-    "up_mbps": 0.39,
+    "down_mbps": 0.19,
+    "up_mbps": 0.28,
     "wifi": {
       "signal_dbm": -26,
-      "noise_dbm": -93,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 179897,
+    "uptime_s": 180865,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 50,
-    "active_claude_sessions": 30,
+    "running_apps": 45,
+    "active_claude_sessions": 35,
     "hermes_sessions_count": 196
   },
   "battery_condition": {
@@ -164,35 +164,35 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 226,
-      "input_tokens_24h": 36442,
-      "output_tokens_24h": 12199920,
-      "cache_read_24h": 3819348296,
-      "cache_creation_24h": 230105637
+      "active_files_24h": 180,
+      "input_tokens_24h": 31356,
+      "output_tokens_24h": 12169206,
+      "cache_read_24h": 3448527784,
+      "cache_creation_24h": 100315938
     }
   },
   "storage": {
     "caches": "5.0G",
     "downloads": null,
-    "hermes": "25G",
+    "hermes": "27G",
     "wiki": "1.6G"
   },
   "security": {
-    "ssh_failures_24h": 3
+    "ssh_failures_24h": 0
   },
   "versions": {
     "claude_code": "2.1.299 (Claude Code)",
-    "claude_code_latest": "2.1.299",
+    "claude_code_latest": "2.1.300",
     "hermes": "0.21.7",
-    "hermes_latest": "0.22.0"
+    "hermes_latest": "0.22.2"
   },
   "recent_events": [],
   "status": {
-    "overall": "red",
+    "overall": "yellow",
     "details": {
       "power": "green",
       "memory": "green",
-      "cpu_thermal": "red",
+      "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
       "services": "green",
