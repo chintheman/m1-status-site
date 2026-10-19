@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-19T14:13:12+08:00",
+  "ts": "2026-10-19T14:28:21+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2781,
+    "duration_ms": 3247,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 30.9,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 73.0,
+    "free_pct": 61.0,
     "pressure_level": "normal",
-    "swap_used_mb": 2373.6,
+    "swap_used_mb": 2317.6,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 820.1,
-    "wired_mb": 1183.0,
+    "compressed_mb": 1682.3,
+    "wired_mb": 1267.8,
     "breakdown": {
-      "hermes_mb": 929,
-      "hermes_procs": 18,
-      "claude_mb": 2975,
+      "hermes_mb": 1176,
+      "hermes_procs": 20,
+      "claude_mb": 1244,
       "claude_procs": 10,
-      "other_mb": 2771,
-      "other_procs": 439
+      "other_mb": 3866,
+      "other_procs": 464
     }
   },
   "cpu": {
-    "load1": 2.31,
-    "load5": 2.42,
-    "load15": 3.16,
+    "load1": 3.88,
+    "load5": 3.97,
+    "load15": 3.5,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 37.6,
-        "mem": 1.1,
+        "cpu": 83.7,
+        "mem": 0.2,
         "name": "python"
       },
       {
-        "cpu": 18.8,
-        "mem": 4.8,
-        "name": "claude"
+        "cpu": 35.6,
+        "mem": 0.1,
+        "name": "fseventsd"
       },
       {
-        "cpu": 14.9,
+        "cpu": 17.6,
+        "mem": 0.0,
+        "name": "sysmond"
+      },
+      {
+        "cpu": 17.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.4,
-        "mem": 6.3,
-        "name": "claude"
-      },
-      {
-        "cpu": 9.9,
-        "mem": 0.0,
-        "name": "sysmond"
+        "cpu": 12.6,
+        "mem": 0.3,
+        "name": "mds_stores"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.941,
+    "latency_ms": 9.563,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.04,
+    "down_mbps": 0.13,
+    "up_mbps": 0.18,
     "wifi": {
       "signal_dbm": -27,
       "noise_dbm": -90,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 496495,
+    "uptime_s": 497404,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 55,
-    "active_claude_sessions": 17,
+    "running_apps": 62,
+    "active_claude_sessions": 22,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
