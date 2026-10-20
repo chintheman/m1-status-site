@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-20T22:58:01+08:00",
+  "ts": "2026-10-20T23:13:14+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2632,
+    "duration_ms": 2816,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.1,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 65.0,
+    "free_pct": 60.0,
     "pressure_level": "normal",
-    "swap_used_mb": 1618.3,
+    "swap_used_mb": 1610.3,
     "swap_total_mb": 3072.0,
-    "compressed_mb": 1397.5,
-    "wired_mb": 1254.8,
+    "compressed_mb": 1854.6,
+    "wired_mb": 1153.7,
     "breakdown": {
-      "hermes_mb": 905,
-      "hermes_procs": 19,
-      "claude_mb": 2722,
-      "claude_procs": 11,
-      "other_mb": 3608,
-      "other_procs": 471
+      "hermes_mb": 859,
+      "hermes_procs": 17,
+      "claude_mb": 1511,
+      "claude_procs": 10,
+      "other_mb": 3828,
+      "other_procs": 478
     }
   },
   "cpu": {
-    "load1": 2.36,
-    "load5": 2.95,
-    "load15": 2.75,
+    "load1": 2.71,
+    "load5": 3.09,
+    "load15": 2.96,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 66.3,
+        "cpu": 96.4,
+        "mem": 2.0,
+        "name": "Google Chrome for Testing"
+      },
+      {
+        "cpu": 45.6,
         "mem": 1.0,
         "name": "python"
       },
       {
-        "cpu": 17.8,
+        "cpu": 17.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.6,
-        "mem": 2.1,
+        "cpu": 2.2,
+        "mem": 3.0,
         "name": "claude"
       },
       {
-        "cpu": 6.2,
-        "mem": 0.2,
-        "name": "runningboardd"
-      },
-      {
-        "cpu": 1.1,
-        "mem": 0.2,
-        "name": "launchd"
+        "cpu": 1.6,
+        "mem": 0.5,
+        "name": "Google Chrome for Testing Helper"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.21,
+    "latency_ms": 13.431,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.32,
-    "up_mbps": 0.19,
+    "down_mbps": 0.09,
+    "up_mbps": 0.09,
     "wifi": {
       "signal_dbm": -25,
-      "noise_dbm": -92,
+      "noise_dbm": -90,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 614385,
+    "uptime_s": 615297,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 72,
-    "active_claude_sessions": 19,
+    "running_apps": 68,
+    "active_claude_sessions": 23,
     "hermes_sessions_count": 188
   },
   "battery_condition": {
