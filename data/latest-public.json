@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-20T12:22:09+08:00",
+  "ts": "2026-10-20T12:37:23+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2889,
+    "duration_ms": 2802,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.2,
+    "temperature_c": 31.3,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 48.0,
+    "free_pct": 64.0,
     "pressure_level": "normal",
-    "swap_used_mb": 1278.8,
+    "swap_used_mb": 1357.3,
     "swap_total_mb": 2048.0,
-    "compressed_mb": 2568.7,
-    "wired_mb": 1315.8,
+    "compressed_mb": 1557.8,
+    "wired_mb": 1154.6,
     "breakdown": {
-      "hermes_mb": 1057,
-      "hermes_procs": 21,
-      "claude_mb": 1138,
+      "hermes_mb": 847,
+      "hermes_procs": 17,
+      "claude_mb": 2107,
       "claude_procs": 10,
-      "other_mb": 3251,
-      "other_procs": 485
+      "other_mb": 3203,
+      "other_procs": 401
     }
   },
   "cpu": {
-    "load1": 4.43,
-    "load5": 5.25,
-    "load15": 4.8,
+    "load1": 5.38,
+    "load5": 6.68,
+    "load15": 6.87,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 79.8,
-        "mem": 1.1,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 78.7,
-        "mem": 1.1,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 76.9,
-        "mem": 0.4,
-        "name": "python"
-      },
-      {
-        "cpu": 18.1,
-        "mem": 0.8,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 17.6,
-        "mem": 7.8,
+        "cpu": 67.4,
+        "mem": 7.0,
         "name": "python3"
+      },
+      {
+        "cpu": 52.7,
+        "mem": 1.2,
+        "name": "chrome-headless-shell"
+      },
+      {
+        "cpu": 48.5,
+        "mem": 1.1,
+        "name": "chrome-headless-shell"
+      },
+      {
+        "cpu": 34.4,
+        "mem": 0.4,
+        "name": "XprotectService"
+      },
+      {
+        "cpu": 15.3,
+        "mem": 0.2,
+        "name": "python"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 7.822,
+    "latency_ms": 9.498,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.21,
-    "up_mbps": 0.61,
+    "down_mbps": 0.08,
+    "up_mbps": 0.18,
     "wifi": {
       "signal_dbm": -26,
-      "noise_dbm": -93,
+      "noise_dbm": -92,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 576233,
+    "uptime_s": 577147,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 69,
+    "running_apps": 58,
     "active_claude_sessions": 13,
     "hermes_sessions_count": 188
   },
