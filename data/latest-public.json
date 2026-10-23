@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-23T20:01:16+08:00",
+  "ts": "2026-10-23T20:16:31+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 4037,
+    "duration_ms": 2851,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 54.0,
+    "free_pct": 71.0,
     "pressure_level": "normal",
-    "swap_used_mb": 2635.3,
+    "swap_used_mb": 3102.2,
     "swap_total_mb": 4096.0,
-    "compressed_mb": 2182.8,
-    "wired_mb": 1293.4,
+    "compressed_mb": 905.0,
+    "wired_mb": 1268.5,
     "breakdown": {
-      "hermes_mb": 1324,
-      "hermes_procs": 23,
-      "claude_mb": 652,
+      "hermes_mb": 1008,
+      "hermes_procs": 19,
+      "claude_mb": 1790,
       "claude_procs": 12,
-      "other_mb": 4155,
+      "other_mb": 3661,
       "other_procs": 516
     }
   },
   "cpu": {
-    "load1": 1.29,
-    "load5": 1.53,
-    "load15": 1.71,
+    "load1": 2.03,
+    "load5": 1.8,
+    "load15": 1.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 14.8,
-        "mem": 5.4,
-        "name": "python3"
-      },
-      {
-        "cpu": 14.7,
-        "mem": 2.1,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 12.2,
-        "mem": 0.5,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 11.5,
+        "cpu": 18.0,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.8,
+        "cpu": 17.1,
+        "mem": 0.5,
+        "name": "chrome-headless-shell"
+      },
+      {
+        "cpu": 12.2,
+        "mem": 2.1,
+        "name": "chrome-headless-shell"
+      },
+      {
+        "cpu": 9.2,
+        "mem": 6.8,
+        "name": "python3"
+      },
+      {
+        "cpu": 6.2,
         "mem": 0.4,
-        "name": "rclone"
+        "name": "claude"
       }
     ]
   },
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.617,
+    "latency_ms": 11.94,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.15,
+    "down_mbps": 0.08,
     "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -25,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 862980,
+    "uptime_s": 863894,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
