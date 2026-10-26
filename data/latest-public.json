@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-26T21:25:38+08:00",
+  "ts": "2026-10-26T21:41:46+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2934,
+    "duration_ms": 3916,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 45.0,
+    "free_pct": 44.0,
     "pressure_level": "normal",
-    "swap_used_mb": 2506.4,
+    "swap_used_mb": 2474.4,
     "swap_total_mb": 4096.0,
-    "compressed_mb": 2908.2,
-    "wired_mb": 1232.5,
+    "compressed_mb": 2958.8,
+    "wired_mb": 1303.1,
     "breakdown": {
-      "hermes_mb": 840,
+      "hermes_mb": 887,
       "hermes_procs": 19,
-      "claude_mb": 421,
+      "claude_mb": 347,
       "claude_procs": 14,
-      "other_mb": 3266,
-      "other_procs": 399
+      "other_mb": 2997,
+      "other_procs": 386
     }
   },
   "cpu": {
-    "load1": 1.07,
-    "load5": 1.51,
-    "load15": 1.7,
+    "load1": 2.66,
+    "load5": 1.99,
+    "load15": 1.87,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 21.9,
+        "cpu": 72.0,
+        "mem": 0.1,
+        "name": "trustd"
+      },
+      {
+        "cpu": 24.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.3,
-        "mem": 7.0,
-        "name": "python3"
+        "cpu": 15.1,
+        "mem": 0.9,
+        "name": "claude"
       },
       {
-        "cpu": 3.3,
-        "mem": 4.1,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 1.5,
-        "mem": 0.8,
-        "name": "chrome-headless-shell"
-      },
-      {
-        "cpu": 1.3,
+        "cpu": 13.0,
         "mem": 0.2,
-        "name": "launchd"
+        "name": "accessoryupdaterd"
+      },
+      {
+        "cpu": 6.8,
+        "mem": 0.8,
+        "name": "claude"
       }
     ]
   },
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.242,
+    "latency_ms": 14.687,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.18,
+    "down_mbps": 0.38,
     "up_mbps": 0.06,
     "wifi": {
       "signal_dbm": -26,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 1127241,
+    "uptime_s": 1128210,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 83,
-    "active_claude_sessions": 11,
+    "running_apps": 84,
+    "active_claude_sessions": 12,
     "hermes_sessions_count": 184
   },
   "battery_condition": {
@@ -144,12 +144,22 @@
       ]
     },
     "macos": {
-      "count": 1,
+      "count": 3,
       "items": [
         {
           "title": "Safari",
           "version": "27.0",
           "size": "249465KiB,"
+        },
+        {
+          "title": "macOS Tahoe 26.7.1",
+          "version": "26.7.1",
+          "size": "3851490KiB,"
+        },
+        {
+          "title": "macOS 27.0.1",
+          "version": "27.0.1",
+          "size": "11853996KiB,"
         }
       ]
     }
