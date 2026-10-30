@@ -1,10 +1,10 @@
 {
-  "ts": "2026-10-30T09:53:41+08:00",
+  "ts": "2026-10-30T10:08:55+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 6734,
+    "duration_ms": 3014,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 49.0,
+    "free_pct": 53.0,
     "pressure_level": "normal",
-    "swap_used_mb": 3949.3,
+    "swap_used_mb": 3782.5,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 2522.1,
-    "wired_mb": 1328.4,
+    "compressed_mb": 2220.6,
+    "wired_mb": 1280.7,
     "breakdown": {
-      "hermes_mb": 1095,
-      "hermes_procs": 18,
-      "claude_mb": 1185,
+      "hermes_mb": 984,
+      "hermes_procs": 17,
+      "claude_mb": 1777,
       "claude_procs": 23,
-      "other_mb": 2732,
-      "other_procs": 393
+      "other_mb": 2065,
+      "other_procs": 377
     }
   },
   "cpu": {
-    "load1": 1.5,
-    "load5": 1.62,
-    "load15": 1.84,
+    "load1": 1.63,
+    "load5": 1.78,
+    "load15": 1.92,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 19.2,
+        "cpu": 17.5,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 18.0,
-        "mem": 1.1,
+        "cpu": 11.7,
+        "mem": 0.9,
         "name": "claude"
       },
       {
-        "cpu": 8.5,
-        "mem": 1.1,
+        "cpu": 7.1,
+        "mem": 0.9,
         "name": "claude"
       },
       {
-        "cpu": 6.2,
-        "mem": 0.6,
+        "cpu": 5.1,
+        "mem": 1.4,
         "name": "claude"
       },
       {
-        "cpu": 4.8,
-        "mem": 0.5,
-        "name": "claude"
+        "cpu": 4.5,
+        "mem": 7.8,
+        "name": "python3"
       }
     ]
   },
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 13.142,
+    "latency_ms": 9.534,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.04,
     "up_mbps": 0.03,
@@ -97,13 +97,13 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 1431326,
+    "uptime_s": 1432239,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 84,
+    "running_apps": 79,
     "active_claude_sessions": 10,
     "hermes_sessions_count": 185
   },
