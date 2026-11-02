@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-03T06:14:06+08:00",
+  "ts": "2026-11-03T06:29:16+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 2977,
+    "duration_ms": 2966,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 30.9,
+    "temperature_c": 30.8,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 65.0,
+    "free_pct": 61.0,
     "pressure_level": "normal",
-    "swap_used_mb": 4176.9,
+    "swap_used_mb": 3976.8,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 1278.4,
-    "wired_mb": 1354.2,
+    "compressed_mb": 1583.7,
+    "wired_mb": 1339.7,
     "breakdown": {
-      "hermes_mb": 784,
+      "hermes_mb": 1001,
       "hermes_procs": 18,
-      "claude_mb": 3367,
+      "claude_mb": 2949,
       "claude_procs": 26,
-      "other_mb": 1904,
-      "other_procs": 412
+      "other_mb": 1930,
+      "other_procs": 411
     }
   },
   "cpu": {
-    "load1": 2.81,
-    "load5": 3.72,
-    "load15": 4.11,
+    "load1": 1.58,
+    "load5": 1.8,
+    "load15": 2.52,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 24.6,
-        "mem": 4.5,
-        "name": "claude"
-      },
-      {
-        "cpu": 20.5,
+        "cpu": 18.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 10.3,
+        "cpu": 14.0,
         "mem": 1.4,
         "name": "claude"
       },
       {
-        "cpu": 9.2,
-        "mem": 5.2,
-        "name": "python3"
+        "cpu": 10.4,
+        "mem": 1.8,
+        "name": "claude"
       },
       {
-        "cpu": 3.5,
-        "mem": 1.5,
+        "cpu": 10.4,
+        "mem": 2.2,
         "name": "claude"
+      },
+      {
+        "cpu": 7.3,
+        "mem": 0.1,
+        "name": "rapportd"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 16.485,
+    "latency_ms": 10.676,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.05,
+    "down_mbps": 0.05,
+    "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -93,
@@ -97,14 +97,14 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 1763749,
+    "uptime_s": 1764659,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
     "running_apps": 119,
-    "active_claude_sessions": 16,
+    "active_claude_sessions": 18,
     "hermes_sessions_count": 142
   },
   "battery_condition": {
