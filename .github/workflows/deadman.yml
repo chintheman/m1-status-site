@@ -13,7 +13,9 @@ jobs:
     steps:
       - name: heartbeat check
         env:
-          DATA_URL: https://chintheman.github.io/m1-status-site/data/latest-public.json
+          DATA_URLS: >-
+            https://chintheman.github.io/m1-status-site/data/latest-public.json
+            https://raw.githubusercontent.com/chintheman/m1-status-site/main/data/latest-public.json
           MAX_AGE_S: "1800"
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
@@ -34,16 +36,29 @@ jobs:
                   print("telegram send failed:", e)
 
           max_age = int(os.environ["MAX_AGE_S"])
-          try:
-              req = urllib.request.Request(os.environ["DATA_URL"], headers={"User-Agent": "m1-deadman"})
-              d = json.load(urllib.request.urlopen(req, timeout=20))
-              ts = datetime.datetime.fromisoformat(d["ts"]).timestamp()
-              age = time.time() - ts
-              print(f"heartbeat age={int(age)}s")
-              if age > max_age:
-                  send(f"🔴 M1 unreachable — heartbeat stale {int(age/60)}m. Check ssh.0xsteamboat.me or ask parents.")
-                  print("ALERTED stale")
-          except Exception as e:
-              # GitHub fetch failure is GitHub's problem, not necessarily M1's — do NOT alert.
-              print(f"fetch failed (no alert): {e}")
+          urls = [u for u in os.environ.get("DATA_URLS", "").split() if u]
+
+          # Read every source and keep the FRESHEST heartbeat seen. The Pages mirror lags
+          # behind the repo by a whole deployment cycle when GitHub Pages is slow, and a
+          # stale mirror must never be mistaken for a dead M1.
+          best_age = None
+          for u in urls:
+              try:
+                  req = urllib.request.Request(u, headers={"User-Agent": "m1-deadman", "Cache-Control": "no-cache"})
+                  d = json.load(urllib.request.urlopen(req, timeout=20))
+                  age = time.time() - datetime.datetime.fromisoformat(d["ts"]).timestamp()
+                  print(f"source {u.split('/')[2]} age={int(age)}s")
+                  if best_age is None or age < best_age:
+                      best_age = age
+              except Exception as e:
+                  # GitHub fetch failure is GitHub's problem, not necessarily M1's — do NOT alert on it alone.
+                  print(f"fetch failed (no alert): {u} -> {e}")
+
+          if best_age is None:
+              print("no source reachable (no alert)")
+          elif best_age > max_age:
+              send(f"🔴 M1 unreachable — heartbeat stale {int(best_age/60)}m. Check ssh.0xsteamboat.me or ask parents.")
+              print(f"ALERTED stale (freshest={int(best_age)}s)")
+          else:
+              print(f"OK (freshest={int(best_age)}s)")
           PYEOF
