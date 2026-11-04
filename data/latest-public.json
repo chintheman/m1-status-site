@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-05T04:39:01+08:00",
+  "ts": "2026-11-05T04:44:21+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 19460,
+    "duration_ms": 3926047,
     "errors": []
   },
   "power": {
@@ -20,67 +20,67 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 50.0,
+    "free_pct": 47.0,
     "pressure_level": "normal",
-    "swap_used_mb": 4386.0,
+    "swap_used_mb": 4274.8,
     "swap_total_mb": 5120.0,
-    "compressed_mb": 2445.8,
-    "wired_mb": 1335.5,
+    "compressed_mb": 2665.1,
+    "wired_mb": 1334.1,
     "breakdown": {
-      "hermes_mb": 979,
+      "hermes_mb": 794,
       "hermes_procs": 22,
-      "claude_mb": 422,
+      "claude_mb": 498,
       "claude_procs": 28,
-      "other_mb": 1428,
-      "other_procs": 395
+      "other_mb": 1257,
+      "other_procs": 396
     }
   },
   "cpu": {
-    "load1": 5.06,
-    "load5": 3.3,
-    "load15": 2.81,
+    "load1": 3.95,
+    "load5": 3.61,
+    "load15": 3.1,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 62.4,
-        "mem": 0.1,
-        "name": "sqlite3"
-      },
-      {
-        "cpu": 47.9,
-        "mem": 8.1,
-        "name": "python3"
-      },
-      {
-        "cpu": 15.1,
+        "cpu": 19.7,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 11.9,
+        "cpu": 16.6,
+        "mem": 0.2,
+        "name": "Python"
+      },
+      {
+        "cpu": 5.6,
         "mem": 0.9,
         "name": "claude"
       },
       {
-        "cpu": 9.3,
-        "mem": 0.7,
-        "name": "claude"
+        "cpu": 4.9,
+        "mem": 0.1,
+        "name": "rapportd"
+      },
+      {
+        "cpu": 3.6,
+        "mem": 7.2,
+        "name": "python3"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 164.0,
-    "free_gb": 35.0,
-    "pct_used": 83.0,
+    "used_gb": 166.0,
+    "free_gb": 33.0,
+    "pct_used": 84.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.261,
+    "latency_ms": 9.389,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
-    "up_mbps": 0.07,
+    "down_mbps": 0.06,
+    "up_mbps": 0.05,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -93,
@@ -97,16 +97,16 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 1930846,
+    "uptime_s": 1931166,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 78,
+    "running_apps": 79,
     "apps_with_windows": null,
-    "registered_apps": 78,
-    "active_claude_sessions": 12,
+    "registered_apps": 79,
+    "active_claude_sessions": 11,
     "hermes_sessions_count": 142
   },
   "battery_condition": {
@@ -176,11 +176,11 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 211,
-      "input_tokens_24h": 86006,
-      "output_tokens_24h": 44947487,
-      "cache_read_24h": 10076275429,
-      "cache_creation_24h": 253028656
+      "active_files_24h": 178,
+      "input_tokens_24h": 77864,
+      "output_tokens_24h": 39400091,
+      "cache_read_24h": 8687186550,
+      "cache_creation_24h": 214562261
     }
   },
   "storage": {
@@ -196,10 +196,10 @@
     }
   },
   "versions": {
-    "claude_code": "2.1.317 (Claude Code)",
-    "claude_code_latest": "2.1.317",
+    "claude_code": "2.1.318 (Claude Code)",
+    "claude_code_latest": "2.1.318",
     "hermes": "0.22.5",
-    "hermes_latest": "0.22.6"
+    "hermes_latest": "0.22.7"
   },
   "recent_events": [],
   "status": {
@@ -207,7 +207,7 @@
     "details": {
       "power": "green",
       "memory": "green",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
