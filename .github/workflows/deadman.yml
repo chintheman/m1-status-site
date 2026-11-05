@@ -35,7 +35,13 @@ jobs:
               except Exception as e:
                   # Never print e itself: some errors quote the URL, which holds the token.
                   code = getattr(e, "code", "")
-                  print(f"telegram send failed: {type(e).__name__} {code}")
+                  why = ""
+                  if hasattr(e, "read"):  # Telegram's reply body names the cause, never the token
+                      try:
+                          why = json.loads(e.read()).get("description", "")
+                      except Exception:
+                          pass
+                  print(f"telegram send failed: {type(e).__name__} {code} {why}")
                   raise SystemExit(1)  # a failed alert must show as a failed run
               print("telegram send ok")
 
