@@ -33,7 +33,14 @@ jobs:
               try:
                   urllib.request.urlopen(req, timeout=20)
               except Exception as e:
-                  print("telegram send failed:", e)
+                  # Never print e itself: some errors quote the URL, which holds the token.
+                  code = getattr(e, "code", "")
+                  print(f"telegram send failed: {type(e).__name__} {code}")
+                  raise SystemExit(1)  # a failed alert must show as a failed run
+              print("telegram send ok")
+
+          if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+              send("Alarm test, ignore. (M1 deadman, started by hand)")
 
           max_age = int(os.environ["MAX_AGE_S"])
           urls = [u for u in os.environ.get("DATA_URLS", "").split() if u]
