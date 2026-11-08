@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-08T21:28:23+08:00",
+  "ts": "2026-11-08T21:44:24+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 22310,
+    "duration_ms": 18115,
     "errors": []
   },
   "power": {
@@ -20,51 +20,51 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 45.0,
+    "free_pct": 36.0,
     "pressure_level": "warn",
-    "swap_used_mb": 4896.6,
+    "swap_used_mb": 4560.9,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 2763.9,
-    "wired_mb": 1397.2,
+    "compressed_mb": 3434.3,
+    "wired_mb": 1393.6,
     "breakdown": {
-      "hermes_mb": 1152,
+      "hermes_mb": 970,
       "hermes_procs": 20,
-      "claude_mb": 780,
+      "claude_mb": 516,
       "claude_procs": 28,
-      "other_mb": 1921,
-      "other_procs": 424
+      "other_mb": 1706,
+      "other_procs": 435
     }
   },
   "cpu": {
-    "load1": 2.26,
-    "load5": 2.45,
-    "load15": 2.52,
+    "load1": 2.48,
+    "load5": 2.58,
+    "load15": 2.78,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 40.1,
+        "cpu": 38.9,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 20.4,
+        "cpu": 21.9,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 14.3,
-        "mem": 1.1,
+        "cpu": 17.4,
+        "mem": 1.2,
         "name": "claude"
       },
       {
-        "cpu": 13.9,
-        "mem": 1.8,
+        "cpu": 7.4,
+        "mem": 0.9,
         "name": "claude"
       },
       {
-        "cpu": 8.5,
-        "mem": 9.6,
+        "cpu": 6.2,
+        "mem": 9.2,
         "name": "python3"
       }
     ]
@@ -77,9 +77,9 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.27,
+    "latency_ms": 20.788,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.03,
+    "down_mbps": 0.05,
     "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -26,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 2250611,
+    "uptime_s": 2251567,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
