@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-09T15:51:55+08:00",
+  "ts": "2026-11-09T16:07:51+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 18445,
+    "duration_ms": 18744,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 42.0,
-    "pressure_level": "normal",
-    "swap_used_mb": 4637.9,
+    "free_pct": 36.0,
+    "pressure_level": "warn",
+    "swap_used_mb": 4464.2,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 2991.2,
-    "wired_mb": 1367.3,
+    "compressed_mb": 3482.4,
+    "wired_mb": 1354.5,
     "breakdown": {
-      "hermes_mb": 1139,
+      "hermes_mb": 883,
       "hermes_procs": 17,
-      "claude_mb": 432,
+      "claude_mb": 345,
       "claude_procs": 28,
-      "other_mb": 1734,
-      "other_procs": 411
+      "other_mb": 1715,
+      "other_procs": 382
     }
   },
   "cpu": {
-    "load1": 2.28,
-    "load5": 2.46,
-    "load15": 2.71,
+    "load1": 6.46,
+    "load5": 3.78,
+    "load15": 3.15,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 39.9,
+        "cpu": 40.3,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 20.3,
-        "mem": 2.5,
-        "name": "python3"
-      },
-      {
-        "cpu": 16.8,
-        "mem": 9.7,
-        "name": "python3"
-      },
-      {
-        "cpu": 16.4,
+        "cpu": 22.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 8.9,
-        "mem": 0.6,
+        "cpu": 9.3,
+        "mem": 8.6,
+        "name": "python3"
+      },
+      {
+        "cpu": 9.0,
+        "mem": 1.0,
         "name": "claude"
+      },
+      {
+        "cpu": 2.5,
+        "mem": 0.1,
+        "name": "osanalyticshelper"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 8.616,
+    "latency_ms": 9.116,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
-    "up_mbps": 0.02,
+    "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -92,
@@ -97,16 +97,16 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 2316819,
+    "uptime_s": 2317775,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 84,
+    "running_apps": 82,
     "apps_with_windows": null,
-    "registered_apps": 84,
-    "active_claude_sessions": 10,
+    "registered_apps": 82,
+    "active_claude_sessions": 11,
     "hermes_sessions_count": 142
   },
   "battery_condition": {
@@ -196,8 +196,8 @@
     "overall": "yellow",
     "details": {
       "power": "green",
-      "memory": "green",
-      "cpu_thermal": "green",
+      "memory": "yellow",
+      "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
       "services": "green",
