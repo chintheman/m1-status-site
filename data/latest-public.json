@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-14T21:39:44+08:00",
+  "ts": "2026-11-14T21:55:44+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 20225,
+    "duration_ms": 21714,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 80,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.4,
+    "temperature_c": 31.3,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,67 +20,67 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 34.0,
-    "pressure_level": "warn",
-    "swap_used_mb": 5967.5,
-    "swap_total_mb": 7168.0,
-    "compressed_mb": 3423.5,
-    "wired_mb": 1525.2,
+    "free_pct": 62.0,
+    "pressure_level": "normal",
+    "swap_used_mb": 6944.9,
+    "swap_total_mb": 8192.0,
+    "compressed_mb": 1343.6,
+    "wired_mb": 1507.3,
     "breakdown": {
-      "hermes_mb": 795,
-      "hermes_procs": 20,
-      "claude_mb": 421,
+      "hermes_mb": 514,
+      "hermes_procs": 18,
+      "claude_mb": 2148,
       "claude_procs": 28,
-      "other_mb": 1872,
-      "other_procs": 414
+      "other_mb": 2835,
+      "other_procs": 427
     }
   },
   "cpu": {
-    "load1": 6.15,
-    "load5": 6.37,
-    "load15": 6.87,
+    "load1": 4.24,
+    "load5": 4.89,
+    "load15": 5.58,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 55.9,
-        "mem": 0.3,
-        "name": "python"
-      },
-      {
-        "cpu": 39.2,
+        "cpu": 38.4,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 38.2,
-        "mem": 0.2,
-        "name": "biomed"
+        "cpu": 37.7,
+        "mem": 2.4,
+        "name": "Google Chrome for Testing"
       },
       {
-        "cpu": 17.2,
+        "cpu": 22.3,
+        "mem": 1.7,
+        "name": "claude"
+      },
+      {
+        "cpu": 21.0,
+        "mem": 1.4,
+        "name": "Google Chrome for Testing Helper (Renderer)"
+      },
+      {
+        "cpu": 19.8,
         "mem": 0.2,
         "name": "Python"
-      },
-      {
-        "cpu": 17.2,
-        "mem": 1.0,
-        "name": "claude"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 155.0,
-    "free_gb": 42.0,
+    "free_gb": 41.0,
     "pct_used": 79.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.573,
+    "latency_ms": 10.113,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.09,
-    "up_mbps": 0.09,
+    "up_mbps": 0.14,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -90,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 2769689,
+    "uptime_s": 2770651,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -106,7 +106,7 @@
     "running_apps": 87,
     "apps_with_windows": null,
     "registered_apps": 87,
-    "active_claude_sessions": 29,
+    "active_claude_sessions": 26,
     "hermes_sessions_count": 134
   },
   "battery_condition": {
@@ -196,7 +196,7 @@
     "overall": "yellow",
     "details": {
       "power": "green",
-      "memory": "yellow",
+      "memory": "green",
       "cpu_thermal": "yellow",
       "disk": "green",
       "network": "green",
