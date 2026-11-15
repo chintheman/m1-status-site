@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-15T10:04:33+08:00",
+  "ts": "2026-11-15T10:20:28+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 18293,
+    "duration_ms": 19425,
     "errors": []
   },
   "power": {
@@ -20,67 +20,67 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 43.0,
+    "free_pct": 38.0,
     "pressure_level": "warn",
-    "swap_used_mb": 5656.4,
-    "swap_total_mb": 7168.0,
-    "compressed_mb": 2876.4,
-    "wired_mb": 1447.5,
+    "swap_used_mb": 5604.9,
+    "swap_total_mb": 6144.0,
+    "compressed_mb": 3224.7,
+    "wired_mb": 1436.5,
     "breakdown": {
-      "hermes_mb": 780,
+      "hermes_mb": 422,
       "hermes_procs": 15,
-      "claude_mb": 1116,
+      "claude_mb": 680,
       "claude_procs": 28,
-      "other_mb": 1483,
-      "other_procs": 396
+      "other_mb": 1844,
+      "other_procs": 370
     }
   },
   "cpu": {
-    "load1": 2.05,
-    "load5": 2.75,
-    "load15": 3.02,
+    "load1": 2.41,
+    "load5": 2.62,
+    "load15": 2.88,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 39.9,
+        "cpu": 40.8,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 16.3,
+        "cpu": 21.4,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 9.9,
+        "cpu": 15.0,
         "mem": 1.1,
         "name": "claude"
       },
       {
-        "cpu": 8.7,
-        "mem": 1.1,
-        "name": "claude"
-      },
-      {
-        "cpu": 3.9,
-        "mem": 7.0,
+        "cpu": 10.6,
+        "mem": 2.8,
         "name": "python3"
+      },
+      {
+        "cpu": 6.6,
+        "mem": 1.1,
+        "name": "claude"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
     "used_gb": 154.0,
-    "free_gb": 42.0,
+    "free_gb": 43.0,
     "pct_used": 79.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 10.662,
+    "latency_ms": 10.05,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.29,
-    "up_mbps": 0.08,
+    "down_mbps": 0.07,
+    "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -26,
       "noise_dbm": -92,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 2814376,
+    "uptime_s": 2815333,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
