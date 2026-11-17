@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-17T14:47:22+08:00",
+  "ts": "2026-11-17T15:03:28+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 19364,
+    "duration_ms": 19587,
     "errors": []
   },
   "power": {
@@ -20,51 +20,51 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 43.0,
+    "free_pct": 42.0,
     "pressure_level": "normal",
-    "swap_used_mb": 4905.2,
+    "swap_used_mb": 4911.5,
     "swap_total_mb": 6144.0,
-    "compressed_mb": 2772.3,
-    "wired_mb": 1491.4,
+    "compressed_mb": 2907.8,
+    "wired_mb": 1489.9,
     "breakdown": {
-      "hermes_mb": 374,
+      "hermes_mb": 422,
       "hermes_procs": 15,
-      "claude_mb": 2129,
+      "claude_mb": 1819,
       "claude_procs": 30,
-      "other_mb": 1395,
-      "other_procs": 419
+      "other_mb": 1527,
+      "other_procs": 430
     }
   },
   "cpu": {
-    "load1": 1.67,
-    "load5": 2.2,
-    "load15": 2.61,
+    "load1": 2.22,
+    "load5": 2.46,
+    "load15": 2.69,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 39.5,
+        "cpu": 40.6,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 17.4,
+        "cpu": 15.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 7.2,
-        "mem": 2.2,
+        "cpu": 10.5,
+        "mem": 2.6,
         "name": "python3"
       },
       {
-        "cpu": 6.2,
-        "mem": 0.9,
+        "cpu": 6.1,
+        "mem": 0.6,
         "name": "claude"
       },
       {
-        "cpu": 4.7,
-        "mem": 1.7,
+        "cpu": 1.9,
+        "mem": 0.6,
         "name": "claude"
       }
     ]
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.528,
+    "latency_ms": 11.488,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.08,
     "up_mbps": 0.03,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:19+08:00",
-    "uptime_s": 3004147,
+    "uptime_s": 3005113,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
@@ -106,7 +106,7 @@
     "running_apps": 80,
     "apps_with_windows": null,
     "registered_apps": 80,
-    "active_claude_sessions": 29,
+    "active_claude_sessions": 28,
     "hermes_sessions_count": 134
   },
   "battery_condition": {
