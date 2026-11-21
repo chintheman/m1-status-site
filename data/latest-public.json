@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-22T05:42:44+08:00",
+  "ts": "2026-11-22T05:58:46+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 19604,
+    "duration_ms": 23411,
     "errors": []
   },
   "power": {
@@ -22,50 +22,50 @@
     "total_gb": 8.0,
     "free_pct": 33.0,
     "pressure_level": "warn",
-    "swap_used_mb": 16214.2,
+    "swap_used_mb": 16284.9,
     "swap_total_mb": 17408.0,
-    "compressed_mb": 3314.9,
-    "wired_mb": 1729.0,
+    "compressed_mb": 3289.0,
+    "wired_mb": 1753.8,
     "breakdown": {
-      "hermes_mb": 764,
+      "hermes_mb": 768,
       "hermes_procs": 16,
-      "claude_mb": 456,
+      "claude_mb": 315,
       "claude_procs": 30,
-      "other_mb": 1275,
-      "other_procs": 420
+      "other_mb": 1513,
+      "other_procs": 430
     }
   },
   "cpu": {
-    "load1": 3.77,
-    "load5": 3.98,
-    "load15": 4.2,
+    "load1": 3.3,
+    "load5": 4.24,
+    "load15": 4.39,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 36.1,
+        "cpu": 37.5,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 18.8,
+        "cpu": 24.3,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 6.7,
-        "mem": 0.2,
-        "name": "Python"
+        "cpu": 4.9,
+        "mem": 7.2,
+        "name": "python3"
       },
       {
-        "cpu": 6.3,
-        "mem": 0.6,
+        "cpu": 4.8,
+        "mem": 0.8,
         "name": "claude"
       },
       {
-        "cpu": 6.0,
-        "mem": 1.1,
-        "name": "claude"
+        "cpu": 4.8,
+        "mem": 0.1,
+        "name": "fseventsd"
       }
     ]
   },
@@ -77,7 +77,7 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.305,
+    "latency_ms": 18.872,
     "packet_loss_pct": 0.0,
     "down_mbps": 0.03,
     "up_mbps": 0.03,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:18+08:00",
-    "uptime_s": 3403470,
+    "uptime_s": 3404432,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
