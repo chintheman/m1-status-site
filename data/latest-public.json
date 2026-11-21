@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-21T18:07:45+08:00",
+  "ts": "2026-11-21T18:24:23+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 27511,
+    "duration_ms": 24204,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 79,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.5,
+    "temperature_c": 31.6,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
-    "pressure_level": "warn",
-    "swap_used_mb": 15610.2,
+    "free_pct": 30.0,
+    "pressure_level": "critical",
+    "swap_used_mb": 15643.9,
     "swap_total_mb": 16384.0,
-    "compressed_mb": 3446.8,
-    "wired_mb": 1747.1,
+    "compressed_mb": 3464.3,
+    "wired_mb": 1810.2,
     "breakdown": {
-      "hermes_mb": 256,
+      "hermes_mb": 114,
       "hermes_procs": 19,
-      "claude_mb": 215,
+      "claude_mb": 160,
       "claude_procs": 30,
-      "other_mb": 1457,
-      "other_procs": 493
+      "other_mb": 1118,
+      "other_procs": 494
     }
   },
   "cpu": {
-    "load1": 85.21,
-    "load5": 98.94,
-    "load15": 112.33,
+    "load1": 77.63,
+    "load5": 88.08,
+    "load15": 96.99,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 39.8,
-        "mem": 0.5,
+        "cpu": 39.9,
+        "mem": 0.4,
         "name": "WindowServer"
       },
       {
         "cpu": 16.6,
-        "mem": 1.8,
+        "mem": 0.8,
         "name": "python3"
       },
       {
-        "cpu": 15.5,
-        "mem": 0.2,
-        "name": "launchd"
-      },
-      {
         "cpu": 11.3,
-        "mem": 0.3,
-        "name": "Keychain Circle Notification"
+        "mem": 0.1,
+        "name": "promotedcontentd"
       },
       {
-        "cpu": 9.3,
-        "mem": 0.2,
-        "name": "linkd"
+        "cpu": 9.7,
+        "mem": 0.1,
+        "name": "airportd"
+      },
+      {
+        "cpu": 6.9,
+        "mem": 0.1,
+        "name": "Tailscale"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 19.298,
+    "latency_ms": 9.255,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.04,
-    "up_mbps": 0.03,
+    "down_mbps": 0.03,
+    "up_mbps": 0.02,
     "wifi": {
       "signal_dbm": -25,
       "noise_dbm": -89,
@@ -97,16 +97,16 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:18+08:00",
-    "uptime_s": 3361779,
+    "uptime_s": 3362772,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 84,
+    "running_apps": 85,
     "apps_with_windows": null,
-    "registered_apps": 84,
-    "active_claude_sessions": 24,
+    "registered_apps": 85,
+    "active_claude_sessions": 26,
     "hermes_sessions_count": 142
   },
   "battery_condition": {
@@ -206,7 +206,7 @@
     "overall": "red",
     "details": {
       "power": "green",
-      "memory": "yellow",
+      "memory": "red",
       "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
