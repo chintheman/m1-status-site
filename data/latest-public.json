@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-21T17:40:39+08:00",
+  "ts": "2026-11-21T17:56:50+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 19971,
+    "duration_ms": 24736,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 79,
     "state": "AC",
     "cycle_count": 1440.0,
-    "temperature_c": 31.4,
+    "temperature_c": 31.5,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 31.0,
-    "pressure_level": "critical",
-    "swap_used_mb": 15560.5,
+    "free_pct": 35.0,
+    "pressure_level": "warn",
+    "swap_used_mb": 15566.1,
     "swap_total_mb": 16384.0,
-    "compressed_mb": 3542.8,
-    "wired_mb": 1681.7,
+    "compressed_mb": 3226.2,
+    "wired_mb": 1681.8,
     "breakdown": {
-      "hermes_mb": 295,
-      "hermes_procs": 16,
-      "claude_mb": 35,
+      "hermes_mb": 768,
+      "hermes_procs": 18,
+      "claude_mb": 149,
       "claude_procs": 30,
-      "other_mb": 2497,
-      "other_procs": 473
+      "other_mb": 2060,
+      "other_procs": 480
     }
   },
   "cpu": {
-    "load1": 103.53,
-    "load5": 122.02,
-    "load15": 128.04,
+    "load1": 128.47,
+    "load5": 127.74,
+    "load15": 128.84,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 40.1,
-        "mem": 0.3,
-        "name": "networkserviceproxy"
-      },
-      {
-        "cpu": 40.0,
+        "cpu": 37.6,
         "mem": 0.5,
         "name": "WindowServer"
       },
       {
-        "cpu": 20.7,
-        "mem": 0.3,
-        "name": "replayd"
+        "cpu": 20.1,
+        "mem": 7.3,
+        "name": "python3"
       },
       {
-        "cpu": 18.4,
+        "cpu": 19.6,
         "mem": 0.2,
-        "name": "launchd"
+        "name": "com.apple.Safari.SafeBrowsing.Service"
       },
       {
-        "cpu": 17.9,
+        "cpu": 16.1,
         "mem": 0.2,
-        "name": "com.apple.geod"
+        "name": "SystemUIServer"
+      },
+      {
+        "cpu": 13.7,
+        "mem": 0.2,
+        "name": "dasd"
       }
     ]
   },
@@ -77,13 +77,13 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 14.421,
+    "latency_ms": 10.82,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.08,
+    "down_mbps": 0.09,
     "up_mbps": 0.03,
     "wifi": {
       "signal_dbm": -25,
-      "noise_dbm": -90,
+      "noise_dbm": -89,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,16 +97,16 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-10-13T20:18:18+08:00",
-    "uptime_s": 3360146,
+    "uptime_s": 3361121,
     "unexpected_reboot": false,
     "panic_count_7d": 0,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 81,
+    "running_apps": 80,
     "apps_with_windows": null,
-    "registered_apps": 81,
-    "active_claude_sessions": 27,
+    "registered_apps": 80,
+    "active_claude_sessions": 23,
     "hermes_sessions_count": 142
   },
   "battery_condition": {
@@ -206,7 +206,7 @@
     "overall": "red",
     "details": {
       "power": "green",
-      "memory": "red",
+      "memory": "yellow",
       "cpu_thermal": "red",
       "disk": "green",
       "network": "green",
