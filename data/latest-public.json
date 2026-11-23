@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-23T12:50:19+08:00",
+  "ts": "2026-11-23T13:05:36+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 5173,
+    "duration_ms": 5893,
     "errors": []
   },
   "power": {
@@ -20,52 +20,52 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
+    "free_pct": 43.0,
     "pressure_level": "warn",
-    "swap_used_mb": 1217.4,
+    "swap_used_mb": 1236.3,
     "swap_total_mb": 2048.0,
-    "compressed_mb": 3521.1,
-    "wired_mb": 1148.5,
+    "compressed_mb": 3229.9,
+    "wired_mb": 1097.3,
     "breakdown": {
-      "hermes_mb": 497,
-      "hermes_procs": 15,
-      "claude_mb": 724,
+      "hermes_mb": 434,
+      "hermes_procs": 14,
+      "claude_mb": 796,
       "claude_procs": 31,
-      "other_mb": 3248,
-      "other_procs": 358
+      "other_mb": 3099,
+      "other_procs": 342
     }
   },
   "cpu": {
-    "load1": 5.99,
-    "load5": 6.77,
-    "load15": 8.46,
+    "load1": 3.93,
+    "load5": 5.49,
+    "load15": 7.14,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 48.4,
-        "mem": 0.4,
-        "name": "postgres: supabase_admin postgres [local] CREATE DATABASE"
+        "cpu": 50.0,
+        "mem": 0.2,
+        "name": "triald"
       },
       {
-        "cpu": 31.3,
-        "mem": 1.9,
-        "name": "claude"
+        "cpu": 42.6,
+        "mem": 0.2,
+        "name": "triald_system"
       },
       {
-        "cpu": 30.8,
+        "cpu": 32.1,
+        "mem": 0.2,
+        "name": "mobileassetd"
+      },
+      {
+        "cpu": 28.9,
+        "mem": 3.5,
+        "name": "python3"
+      },
+      {
+        "cpu": 23.8,
         "mem": 0.2,
         "name": "backupd"
-      },
-      {
-        "cpu": 25.5,
-        "mem": 1.1,
-        "name": "claude"
-      },
-      {
-        "cpu": 19.9,
-        "mem": 0.1,
-        "name": "SystemUIServer"
       }
     ]
   },
@@ -77,10 +77,10 @@
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 9.768,
+    "latency_ms": 7.961,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.37,
-    "up_mbps": 0.25,
+    "down_mbps": 0.34,
+    "up_mbps": 0.31,
     "wifi": {
       "signal_dbm": -39,
       "noise_dbm": -93,
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-11-22T20:36:59+08:00",
-    "uptime_s": 58403,
+    "uptime_s": 59321,
     "unexpected_reboot": false,
     "panic_count_7d": 1,
     "display_asleep": null
@@ -105,8 +105,8 @@
   "activity": {
     "running_apps": 5,
     "apps_with_windows": 5,
-    "registered_apps": 48,
-    "active_claude_sessions": 45,
+    "registered_apps": 30,
+    "active_claude_sessions": 28,
     "hermes_sessions_count": 174
   },
   "battery_condition": {
@@ -207,7 +207,7 @@
     "details": {
       "power": "green",
       "memory": "yellow",
-      "cpu_thermal": "yellow",
+      "cpu_thermal": "green",
       "disk": "green",
       "network": "green",
       "services": "green",
