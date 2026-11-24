@@ -1,18 +1,18 @@
 {
-  "ts": "2026-11-24T20:31:52+08:00",
+  "ts": "2026-11-24T20:42:45+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 5975,
+    "duration_ms": 66418,
     "errors": []
   },
   "power": {
-    "source": "AC Power",
-    "charge_pct": 100,
-    "state": "charged",
+    "source": "Unknown",
+    "charge_pct": null,
+    "state": "unknown",
     "cycle_count": 1441.0,
-    "temperature_c": 31.5,
+    "temperature_c": 31.6,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,70 +20,70 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 38.0,
-    "pressure_level": "warn",
-    "swap_used_mb": 3118.1,
-    "swap_total_mb": 4096.0,
-    "compressed_mb": 3375.1,
-    "wired_mb": 1279.9,
+    "free_pct": 21.0,
+    "pressure_level": "critical",
+    "swap_used_mb": 8302.6,
+    "swap_total_mb": 9216.0,
+    "compressed_mb": 4127.0,
+    "wired_mb": 1954.8,
     "breakdown": {
-      "hermes_mb": 246,
-      "hermes_procs": 17,
-      "claude_mb": 1654,
+      "hermes_mb": 225,
+      "hermes_procs": 38,
+      "claude_mb": 343,
       "claude_procs": 30,
-      "other_mb": 2369,
-      "other_procs": 450
+      "other_mb": 4688,
+      "other_procs": 635
     }
   },
   "cpu": {
-    "load1": 5.05,
-    "load5": 4.35,
-    "load15": 3.34,
+    "load1": 78.24,
+    "load5": 57.21,
+    "load15": 27.36,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 86.3,
-        "mem": 0.3,
+        "cpu": 28.0,
+        "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 57.2,
-        "mem": 2.3,
+        "cpu": 13.0,
+        "mem": 0.1,
+        "name": "Terminal"
+      },
+      {
+        "cpu": 7.1,
+        "mem": 0.9,
         "name": "Google Chrome for Testing"
       },
       {
-        "cpu": 54.7,
-        "mem": 1.5,
-        "name": "Google Chrome for Testing Helper (GPU)"
+        "cpu": 7.0,
+        "mem": 0.9,
+        "name": "Google Chrome for Testing"
       },
       {
-        "cpu": 33.9,
-        "mem": 1.9,
-        "name": "Google Chrome for Testing Helper (Renderer)"
-      },
-      {
-        "cpu": 27.0,
-        "mem": 1.6,
-        "name": "Google Chrome for Testing Helper (Renderer)"
+        "cpu": 6.7,
+        "mem": 0.8,
+        "name": "Google Chrome for Testing"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 167.0,
-    "free_gb": 22.0,
-    "pct_used": 89.0,
-    "smart_status": "Verified"
+    "used_gb": 168.0,
+    "free_gb": 17.0,
+    "pct_used": 92.0,
+    "smart_status": ""
   },
   "network": {
-    "latency_ms": 8.887,
+    "latency_ms": 10.06,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.49,
+    "down_mbps": 0.56,
     "up_mbps": 0.28,
     "wifi": {
       "signal_dbm": -25,
-      "noise_dbm": -95,
+      "noise_dbm": -91,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,7 +97,7 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-11-23T13:20:28+08:00",
-    "uptime_s": 112288,
+    "uptime_s": 112992,
     "unexpected_reboot": false,
     "panic_count_7d": 1,
     "display_asleep": null
@@ -105,8 +105,8 @@
   "activity": {
     "running_apps": 7,
     "apps_with_windows": 7,
-    "registered_apps": 68,
-    "active_claude_sessions": 21,
+    "registered_apps": 65,
+    "active_claude_sessions": 34,
     "hermes_sessions_count": 174
   },
   "battery_condition": {
@@ -203,12 +203,12 @@
   },
   "recent_events": [],
   "status": {
-    "overall": "yellow",
+    "overall": "red",
     "details": {
-      "power": "green",
-      "memory": "yellow",
-      "cpu_thermal": "yellow",
-      "disk": "green",
+      "power": "red",
+      "memory": "red",
+      "cpu_thermal": "red",
+      "disk": "yellow",
       "network": "green",
       "services": "green",
       "updates": "yellow"
