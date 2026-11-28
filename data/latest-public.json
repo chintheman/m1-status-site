@@ -1,10 +1,10 @@
 {
-  "ts": "2026-11-28T11:44:53+08:00",
+  "ts": "2026-11-28T12:02:08+08:00",
   "host": "MacBookAir",
   "collector_version": "0.1.0",
   "meta": {
     "collector_ok": true,
-    "duration_ms": 3138,
+    "duration_ms": 3029,
     "errors": []
   },
   "power": {
@@ -12,7 +12,7 @@
     "charge_pct": 100,
     "state": "charged",
     "cycle_count": 1441.0,
-    "temperature_c": 30.9,
+    "temperature_c": 31.0,
     "design_capacity_mah": 4382.0,
     "current_capacity_pct": 100.0,
     "is_charging": false,
@@ -20,70 +20,70 @@
   },
   "memory": {
     "total_gb": 8.0,
-    "free_pct": 42.0,
-    "pressure_level": "warn",
-    "swap_used_mb": 2175.5,
-    "swap_total_mb": 3072.0,
-    "compressed_mb": 3363.5,
-    "wired_mb": 1002.1,
+    "free_pct": 68.0,
+    "pressure_level": "normal",
+    "swap_used_mb": 3523.9,
+    "swap_total_mb": 4096.0,
+    "compressed_mb": 1319.9,
+    "wired_mb": 1085.9,
     "breakdown": {
-      "hermes_mb": 155,
-      "hermes_procs": 12,
-      "claude_mb": 2856,
+      "hermes_mb": 318,
+      "hermes_procs": 15,
+      "claude_mb": 4263,
       "claude_procs": 33,
-      "other_mb": 595,
-      "other_procs": 179
+      "other_mb": 1188,
+      "other_procs": 222
     }
   },
   "cpu": {
-    "load1": 2.16,
-    "load5": 2.32,
-    "load15": 2.23,
+    "load1": 1.96,
+    "load5": 2.18,
+    "load15": 2.17,
     "thermal_pressure": "nominal",
     "cpu_speed_limit_pct": 100,
     "top_processes": [
       {
-        "cpu": 18.7,
+        "cpu": 18.1,
+        "mem": 2.1,
+        "name": "python3"
+      },
+      {
+        "cpu": 17.6,
         "mem": 0.2,
         "name": "Python"
       },
       {
-        "cpu": 17.4,
-        "mem": 0.2,
+        "cpu": 16.0,
+        "mem": 0.3,
         "name": "WindowServer"
       },
       {
-        "cpu": 5.8,
-        "mem": 0.1,
-        "name": "launchd"
-      },
-      {
-        "cpu": 4.0,
-        "mem": 1.1,
-        "name": "python3"
-      },
-      {
-        "cpu": 3.4,
-        "mem": 2.2,
+        "cpu": 6.3,
+        "mem": 1.9,
         "name": "claude"
+      },
+      {
+        "cpu": 2.4,
+        "mem": 0.1,
+        "name": "opendirectoryd"
       }
     ]
   },
   "disk": {
     "total_gb": 228.0,
-    "used_gb": 174.0,
-    "free_gb": 16.0,
-    "pct_used": 92.0,
+    "used_gb": 170.0,
+    "free_gb": 19.0,
+    "pct_used": 90.0,
     "smart_status": "Verified"
   },
   "network": {
-    "latency_ms": 11.189,
+    "latency_ms": 12.235,
     "packet_loss_pct": 0.0,
-    "down_mbps": 0.08,
-    "up_mbps": 0.05,
+    "down_mbps": 0.19,
+    "up_mbps": 0.04,
     "wifi": {
       "signal_dbm": -27,
-      "noise_dbm": -90,
+      "noise_dbm": -93,
       "phy": "802.11ax",
       "channel": "157 (5GHz, 80MHz)"
     }
@@ -97,16 +97,16 @@
   "system": {
     "macos_version": "26.5.1",
     "boot_time": "2026-11-25T15:03:22+08:00",
-    "uptime_s": 247293,
+    "uptime_s": 248328,
     "unexpected_reboot": false,
     "panic_count_7d": 1,
     "display_asleep": null
   },
   "activity": {
-    "running_apps": 1,
+    "running_apps": 6,
     "apps_with_windows": null,
-    "registered_apps": 1,
-    "active_claude_sessions": 26,
+    "registered_apps": 6,
+    "active_claude_sessions": 7,
     "hermes_sessions_count": 174
   },
   "battery_condition": {
@@ -176,37 +176,37 @@
       "top_model": null
     },
     "claude": {
-      "active_files_24h": 171,
-      "input_tokens_24h": 101500,
-      "output_tokens_24h": 51209728,
-      "cache_read_24h": 10971421254,
-      "cache_creation_24h": 318463832
+      "active_files_24h": 163,
+      "input_tokens_24h": 102764,
+      "output_tokens_24h": 50521225,
+      "cache_read_24h": 11421301714,
+      "cache_creation_24h": 322807339
     }
   },
   "storage": {
-    "caches": "4.2G",
+    "caches": "4.3G",
     "downloads": null,
-    "hermes": "29G",
+    "hermes": "28G",
     "wiki": "2.0G"
   },
   "security": {
     "ssh": {
       "logins_24h": 2,
-      "connections_24h": 2
+      "connections_24h": 5
     }
   },
   "versions": {
     "claude_code": "2.1.332 (Claude Code)",
     "claude_code_latest": "2.1.332",
     "hermes": "0.23.4",
-    "hermes_latest": "0.23.4"
+    "hermes_latest": "0.23.5"
   },
   "recent_events": [],
   "status": {
     "overall": "yellow",
     "details": {
       "power": "green",
-      "memory": "yellow",
+      "memory": "green",
       "cpu_thermal": "green",
       "disk": "yellow",
       "network": "green",
